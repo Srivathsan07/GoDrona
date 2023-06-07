@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</head>
+<body>
+
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Open modal
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal Frame_hd" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <span class="lft_icon"><img src="./images/Frame2062 Left Arw.png" alt="arrow"></span><h4 class="modal-title" id="eighteen"> Matrice 300 RTK</h4>
+          <button type="button" class="f_close_c" data-dismiss="modal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M10.3972 11.9522L3.5625 7.07031V9.84287H0V14.0616H3.5625V16.8342L10.3972 11.9522Z" fill="#fff"/>
+                <path d="M20.4372 9.84287V7.07031L13.6025 11.9522L20.4372 16.8342V14.0616H23.9997V9.84287H20.4372Z" fill="#fff"/>
+                <path d="M7.11816 20.3894H9.89068V23.9988H14.1094V20.3894H16.8819L12.0001 13.5547L7.11816 20.3894Z" fill="#fff"/>
+                <path d="M16.8819 3.51562H14.1094V0H9.89068V3.51562H7.11816L12.0001 10.3503L16.8819 3.51562Z" fill="#fff"/>
+                </svg>
+          </button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body ">
+                <div class="c_status">
+                    <h2 id="fifteen">Current Status</h2>
+                </div>
+                <div class="status_d_hd">
+                            <div class="status_d">
+                                    <div class="status_img"><img src="./images/fast 1.svg" alt="speed"></div>
+                                    <div class="status_cnt">
+                                            <p id="thirteen">Speed</p>
+                                            <h6 id="sixteen">22 Km</h6>
+                                    </div>
+                            </div>
+                            <div class="status_d">
+                                <div class="status_img"><img src="./images/scal.svg" alt="speed"></div>
+                                <div class="status_cnt">
+                                        <p id="thirteen">Height</p>
+                                        <h6 id="sixteen">80 m</h6>
+                                </div>
+                            </div>
+                            <div class="status_d">
+                                <div class="status_img"><img src="./images/flight_time.svg" alt="speed"></div>
+                                <div class="status_cnt">
+                                        <p id="thirteen">Flight Time</p>
+                                        <h6 id="sixteen">00:22</h6>
+                                </div>
+                        </div>
+                </div>
+                <div class="batnmod_hd">
+                        <div class="batnmod">
+                            <h3 id="thirteen">Battery</h3>
+                            <div id="sixteen" class="bt_foot"><span><img src="./images/charge.svg" alt="battery"></span> <span>89%</span></div>
+                        </div>
+                        <div class="batnmod">
+                            <h3 id="thirteen">Mode</h3>
+                            <div id="sixteen" class="bt_foot"><span><img src="./images/swap 1.svg" alt="swap"></span><span>Manual</span></div>
+                        </div>
+                </div>
+                <div class="container"></div>
+                  <div id="accordion" class="accordion accordion_custom">
+                      <div class="card mb-0">
+                          <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
+                              <a class="card-title " id="fifteen">
+                                Drone Details
+                              </a>
+                          </div>
+                          <div id="collapseOne" class="card-body card-bg collapse" data-parent="#accordion" >
+                                <div class="acc_cnt_main">
+                                      <div class="acc_cnt">
+                                            <label id="thirteen">Type</label>
+                                            <h6 id="sixteen">Nano</h6>
+                                      </div>
+                                      <div class="acc_cnt">
+                                        <label id="thirteen">Model</label>
+                                        <h6 id="sixteen">300 RTK</h6>
+                                      </div>
+                                </div>
+                                  <div class="acc_cnt_main">
+                                    <div class="acc_cnt">
+                                          <label id="thirteen">Serial Number</label>
+                                          <h6 id="sixteen">43546sdh464</h6>
+                                    </div>
+                                    <div class="acc_cnt">
+                                      <label id="thirteen">UIN</label>
+                                      <h6 id="sixteen">15461354</h6>
+                                    </div>
+                                </div>
+                          </div>
+                          <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                              <a class="card-title" id="fifteen">
+                                Drone Health
+                              </a>
+                          </div>
+                          <div id="collapseTwo" class="card-body card-bg collapse" data-parent="#accordion" >
+                                <div class="drone_health_hd">
+                                        <div class="drone_health">
+                                          <img src="./images/gps 1.png" alt="gps">
+                                          <span><img src="./images/check 42.png" alt="check"></span>
+                                        </div>
+                                        <div class="drone_health">
+                                          <img src="./images/wifi.png" alt="wifi">
+                                          <span><img src="./images/check 42.png" alt="check"></span>
+                                        </div>
+                                        <div class="drone_health">
+                                          <img src="./images/fan 1.png" alt="fan">
+                                          <span><img src="./images/check 42.png" alt="check"></span>
+                                        </div>
+                                        <div class="drone_health">
+                                          <img src="./images/photo-camera 1.png" alt="photo-camera">
+                                          <span><img src="./images/check 42.png" alt="check"></span>
+                                        </div>
+                                         <div class="drone_health">
+                                          <img src="./images/pilot 2.png" alt="pilot">
+                                          <span class="rd-close"><img src="./images/rd-cls.png" alt="rd-cls"></span>
+                                        </div>
+                                </div>
+                          </div>
+                          <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            <a class="card-title" id="fifteen">
+                              Mission Status
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="card-body card-bg collapse pb-0" data-parent="#accordion" >
+                          <div class="acc_cnt_main ">
+                                <div class="acc_cnt">
+                                      <label id="thirteen">Status</label>
+                                      <h6 id="sixteen" class="track_clr">Tracking on</h6>
+                                </div>
+                                <div class="acc_cnt">
+                                  <label id="thirteen">Distance From Base</label>
+                                  <h6 id="sixteen">8 KM</h6>
+                                </div>                              
+                            </div>
+
+                            <div class="acc_cnt_main">
+                              <div class="acc_cnt">
+                                    <label id="thirteen">Remote Pilot</label>
+                                    <h6 id="sixteen">Robert Downey JR.</h6>
+                              </div>                              
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal-footer btn_danger pt-0">
+                <button id="fourteen" type="button"  data-dismiss="modal">Back to UTM</button>
+              </div>
+        </div>
+        
+        <!-- Modal footer -->
+        
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>

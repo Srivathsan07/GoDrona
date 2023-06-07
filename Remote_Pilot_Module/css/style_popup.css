@@ -1,0 +1,150 @@
+/* rubik-300 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/rubik-v12-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rubik-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v12-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v12-latin-300.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+  /* rubik-500 - latin */
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v12-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rubik-v12-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v12-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v12-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v12-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v12-latin-500.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+  /* rubik-regular - latin */
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rubik-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v12-latin-regular.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+  .filter_popup_head{
+      display: flex;
+      justify-content: space-between;
+      padding:13px 20px;
+    background: #1697B7;
+    border-radius: 5px 5px 0px 0px;
+  }
+.filter_popup_head h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.filter_Popup_main .modal-dialog{
+    max-width: 700px !important;
+}
+.filter_popuo_body{
+    float: left;
+    width: 100%;
+    padding: 30px;
+    background: #031E2C;
+}
+.radio_filter_popup{
+    margin-bottom: 30px;
+}
+.filter_popuo_body .radio_filter_popup label{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 100%;
+}
+.filter_popup_inputs label{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 100%;
+}
+.filter_popup_inputs .filter_popup_text::placeholder{
+    color: #89979F;
+}
+.filter_popup_inputs .filter_popup_text{
+    padding: 10px 20px;
+    background: #062C44;
+    border: 1px solid #1697B7;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    width: 280px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+.filter_popup_inputs select{
+    background: url(../images/select_white.png) 96% no-repeat #062C44;
+    border: 1px solid #1697B7;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    width: 280px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    -webkit-appearance: none;
+}
+.filter_popup_button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.filter_popup_button button.apply{
+    width: 180px;
+    height: 40px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2ECC71;
+    background: #031E2C;
+    border: 1px solid #2ECC71;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.filter_popup_button .cancel{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E74C3C;
+    background: #031E2C;
+    border: 1px solid #E74C3C;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+}
+.lable_radio{
+    display: inline;
+}

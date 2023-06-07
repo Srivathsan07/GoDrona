@@ -1,0 +1,3410 @@
+@media only screen and (min-width:1200px) and (max-width:1600px) {
+    .nav_bell input {
+        font-size: 16px;
+    }
+    .cord_first {
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .page-content {
+        padding-left: 0px;
+    }
+    .main_wrappar {
+        /* padding: 20px 20px 0px; */
+    }
+    .categories li a {
+        font-size: 15px;
+    }
+}
+
+
+/* side menu */
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .login-hd-details {
+        width: 92%;
+    }
+    .dash-right {
+        position: relative;
+    }
+    .menu-ico-g {
+        position: absolute;
+        right: 15px;
+        top: 21px;
+    }
+    #sidebar {
+        position: fixed;
+        z-index: 2;
+    }
+    .page-wrapper.hide #sidebar {
+        transform: translateX(0px);
+    }
+    .login-hd-details {
+        flex-direction: column;
+    }
+    .nav_right {
+        margin: 10px 0px;
+    }
+    .nav_bell {
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .page-content {
+        padding-left: 0px;
+    }
+    .page-wrapper #sidebar {
+        transform: translateX(-320px);
+    }
+    .page-wrapper.hide .page-content {
+        padding-left: 0;
+    }
+    .page-wrapper.hide #sidebar {
+        width: 270px;
+    }
+    .page-wrapper.hide #sidebar strong,
+    .page-wrapper.hide #sidebar .dropdown-menu-sec .prnt-anc:before,
+    .page-wrapper.hide #sidebar .categories label {
+        display: block;
+        opacity: 1;
+        transition: .3s ease;
+    }
+    div.page-wrapper.hide .side_logo_img_desktop {
+        width: 264px!important;
+    }
+    .page-wrapper.hide #sidebar .categories label {
+        display: flex;
+    }
+    .select_hd {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .page-wrapper #sidebar {
+        transform: translateX(-320px);
+    }
+    .page-wrapper.hide .page-content {
+        padding-left: 0;
+    }
+    .page-wrapper.hide #sidebar {
+        width: 320px;
+    }
+    .page-wrapper.hide #sidebar strong,
+    .page-wrapper.hide #sidebar .dropdown-menu-sec .prnt-anc:before,
+    .page-wrapper.hide #sidebar .categories label {
+        display: block;
+        opacity: 1;
+        transition: .3s ease;
+    }
+    .page-wrapper.hide #sidebar .categories label {
+        display: flex;
+    }
+    .page-content {
+        padding-left: 0;
+    }
+    /* Roles permission 04ab 05bb */
+    .filtering_list {
+        padding: 0;
+        margin-top: 12px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .upcome_input {
+        width: 100%;
+        min-width: unset;
+        margin: 0 0 12px 0 !important;
+    }
+    .main_wrappar.b-tabs-section .filter_hd {
+        margin-bottom: 0px;
+    }
+    .main_wrappar.b-tabs-section .list_of_detail_part .filtering_list select {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .line_f {
+        display: none;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .export .btn {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 10px 17px !important;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 17px !important;
+    }
+    .miss-date-col {
+        padding: 0 17px !important;
+    }
+    /* End Roles permission 04ab 05bb */
+    /* filter popup */
+    .filter_hd.dropdown_active .popup_modal_check {
+        right: unset;
+        left: 0;
+        z-index: 9;
+    }
+    .popup_modal_check::after {
+        right: unset;
+        left: 7%;
+    }
+    /*End filter popup */
+    /* 07ab manage OEM list view */
+    .oem-list-grid-parent {
+        width: 100%;
+    }
+    .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 0px !important;
+    }
+    .oem-list-grid-parent:nth-child(even) {
+        padding-left: 0px !important;
+    }
+    /*END 07ab manage OEM list view */
+    .main_wrappar.b-tabs-section .filtering_list {
+        justify-content: unset;
+        padding: 12px 12px;
+    }
+    div.main_wrappar_parent {
+        padding-top: 137px;
+    }
+    .OME-card-section .card-deck-2 .card {
+        width: auto;
+        min-width: 48.9% !important;
+        margin-bottom: 12px;
+    }
+    .OME-card-section .card-deck-2 .card:nth-child(2) {
+        margin-right: 0 !important;
+    }
+	 .rpa_popup_main .modal-body.dept_create_body {padding: 35px;}
+    .rpa_popup_main .modal-dialog {max-width: 700px;}    
+    .create_mission_popup_inner .pad_respnsv {padding: 0px 6px;}
+
+      
+}
+
+@media only screen and (max-width:767px) {
+    .menu-ico-g span:nth-child(1) {
+        transform: rotateZ( 0deg) translate(0px, 0px);
+    }
+    .menu-ico-g span {
+        transition: all linear 0.30s;
+    }
+    .menu-ico-g span:nth-child(2) {
+        display: block;
+    }
+    .menu-ico-g span:nth-child(3) {
+        transform: rotateZ( 0deg);
+    }
+    .menu-ico-g.mb-ic span:nth-child(1) {
+        transform: rotateZ( 45deg) translate(6px, 6px);
+    }
+    .menu-ico-g.mb-ic span:nth-child(2) {
+        display: none;
+    }
+    .menu-ico-g.mb-ic span:nth-child(3) {
+        transform: rotateZ( -45deg);
+    }
+    .page-wrapper.hide #sidebar .db-lit-sc ul li a svg {
+        margin-right: 12px;
+    }
+    /* filter popup */
+    .filter_hd.dropdown_active .popup_modal_check {
+        right: unset;
+        left: 0;
+        z-index: 9;
+        max-width: 300px !important;
+        min-width: 300px !important;
+    }
+    .popup_modal_check::after {
+        right: unset;
+        left: 7%;
+    }
+    /*End filter popup */
+    /* 07ab manage OEM list view */
+    .oem-list-grid-parent {
+        width: 100%;
+    }
+    .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 0px !important;
+    }
+    .oem-list-grid-parent:nth-child(even) {
+        padding-left: 0px !important;
+    }
+    .oem-list-grid-sh {
+        justify-content: flex-start !important;
+        flex-direction: column;
+    }
+    .oem-list-form-sec {
+        margin-bottom: 10px;
+    }
+    .oem-list-form-sec:last-child {
+        margin-bottom: 0px;
+    }
+    /*END 07ab manage OEM list view */
+    div.main_wrappar_parent {
+        padding-top: 300px !important;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs {
+        display: block;
+        width: 100%;
+    }
+	/* Frame 2062 start */
+	.Frame_hd {margin: auto;max-width: 400px;}
+	    .create_mission_popup11ge_inner{padding: 20px;}
+    .create_mission11ge_input input{padding: 10px;width: 80%;}
+    .create_mission11ge_input select{padding: 10px;width: 78%;}
+    .margin_right_20{margin-right: 0px;margin-bottom: 20px;}
+    .create_mission_popup_head h1{font-size: 14px;}
+    .create_mission_popup_head h2{font-size: 13px;}
+    .create_mission11ge_input label{font-size: 14px;}
+    .create_mission11ge_input input{font-size: 14px;}
+    .create_mission11ge_input select{font-size: 14px;}
+    .create_mission11gg_popup_main .create_mission_popup11ge_inner{padding: 30px;}
+	.modal-open .modal {
+    margin-left: 0!important;
+}
+div.page-wrapper.hide .main_border {
+    width: 100%;
+}
+div.mission-sec-cart {
+    padding: 10px 20px 10px 15px;
+}
+.mission-sec-content {
+    margin-left: 10px;
+}
+.mission-sec-cart img {
+    width: 40px;
+}
+.access-btn.btn {
+    width: 130px;
+    padding: 7px;
+}
+
+}/* End */
+
+@media only screen and (max-width:360px) {
+    .login-hd-details {
+        width: 100%;
+    }
+    .menu-ico-g {
+        position: absolute;
+        right: 10px;
+        top: 17px;
+    }
+    .page-wrapper #sidebar {
+        transform: translateX(-280px);
+    }
+    #sidebar {
+        width: 280px;
+    }
+}
+
+
+/* sidemenu */
+
+
+/* Dashboard */
+
+@media only screen and (min-width:1281px) and (max-width:1600px) {
+    .overview-carts-sec:after {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:1281px) and (max-width:1900px) {
+    .mission-sec-content {
+        margin-left: 20px;
+    }
+    .mission-sec-cart {
+        padding: 13px 16px 15px 15px;
+    }
+    .mission-sec-cart img {
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width:1281px) and (max-width:1600px) {
+    #sidebar {
+        width: 265px;
+    }
+    .page-content {
+        padding-left: 265px;
+    }
+    .overview-section-carts {
+        width: 17.3%;
+    }
+    .overview-section.missions-sec .overview-section-carts {
+        width: 23.5%;
+    }
+    .dropdown-menu-sec .prnt-anc:before {
+        right: 11px;
+    }
+}
+
+@media only screen and (max-width:1600px) {
+#sixteen {
+	font-size: 14px;
+}
+#seventeen {
+	font-size: 14px;
+}
+#fourteen {
+	font-size: 12px;
+}
+.Role_table_hd .table th {
+	font-size: 13px;
+}
+.Role_table_hd .table td {
+	font-size: 13px;
+}
+.l_btn button {
+	font-size: 14px;
+}
+.overview-carts-sec span {
+	margin-bottom: 12px;
+}
+.overview-carts-sec img {
+	width: 62px;
+}
+.access-btn.btn {
+	font-size: 12px;
+	width: 136px;
+}
+.page-content .dash-right {
+	padding-left: 20px;
+}
+#twenty-four {
+	font-size: 21px;
+}
+#twenty {
+	font-size: 16px;
+}
+.chs-select select {
+	font-size: 15px;
+}
+#thirteen {
+	font-size: 11px;
+}
+#thirty {
+	font-size: 24px;
+}
+#eighteen {
+	font-size: 14px;
+}
+.main_border {
+	width: calc(100% - 265px);
+	transition: ease-in-out 0.5s;
+}
+.side_logo_img_desktop {
+	width: 258px;
+}
+.side_logo_img_desktop img {
+	width: 80px;
+}
+.my_account_logout_main {
+	padding-top: 6px;
+}
+.my_account_pass_main {
+	padding: 15px;
+}
+.sub-check .c_input {
+	margin-left: 20px;
+}
+.categories li a {
+	font-size: 13px;
+}
+.select_hd select {
+	padding: 8px 20px 8px 7px;
+	font-size: 14px;
+}
+.f_reset {
+	width: 24px;
+	height: 24px;
+	padding: 3px;
+}
+span.f_reset img {
+	width: 15px;
+}
+.f_reset {
+	margin-left: 15px;
+}
+button.btn_1 {
+	padding: 6px 18px;
+	font-size: 12px;
+}
+button.btn_2 {
+	padding: 7px 18px;
+	font-size: 12px;
+}
+p.c_select {
+	font-size: 12px;
+}
+.Fil_Num {
+	font-size: 12px;
+}
+.filter_hd {
+	padding: 3px 3px 3px 13px;
+}
+.t_foot_hd,
+.t_foot_hd span,
+.t_foot_hd label {
+	font-size: 13px;
+}
+.table_footer_hd {
+	padding: 7px 20px;
+}
+.select_hd label {
+	margin-right: 11px;
+}
+.c_select {
+	padding-right: 25px;
+}
+.profile-dopdown-section {
+	margin-left: 35px;
+}
+.db-lit-sc ul {
+	padding: 0px 13px;
+}
+ul.categories label {
+	font-size: 14px;
+}
+.categories li a.prnt-anc {
+	padding: 12px 20px 12px 10px;
+}
+ul.categories label {
+	padding: 22px 0px 12px 4px;
+}
+.overview-carts-sec {
+	padding: 16px 0px 14px 0px;
+}
+.profile-name h5,
+.profile-name span {
+	font-size: 12px;
+}
+.notification_popup_head h1,
+.notification_popup_head h2,
+.myaccount_text h1,
+.my_account_pass_main h1,
+.my_account_logout_main h1 {
+	font-size: 16px;
+}
+.notification_popup_text h1 {
+	font-size: 13px;
+}
+.notification_popup_text h2,
+.notification_popup_text p,
+.myaccount_text h2 {
+	font-size: 12px;
+}
+.myaccount_popup_head .my_account_first {
+	padding: 12px 15px;
+}
+.filter_hd.fil_hd2 {
+	margin-right: 50px;
+}
+.filter_hd.fil_hd2:after {
+	right: -27px;
+}
+.filter_hd.fil_hd2:after {
+	height: 30px;
+	top: 1px;
+}
+.notify-msg-section img {
+	width: 17px;
+}
+.notify-msg-section ul li {
+	width: 40px;
+	height: 40px;
+}
+.notify-number {
+	width: 19px;
+	height: 19px;
+	font-size: 11px;
+}
+.notify-msg-section span.notify-number {
+	top: -4px;
+	right: -8px;
+}
+.notification_popup_main .modal-dialog {
+	width: 420px;
+}
+.notification_close img {
+	width: 50px;
+}
+.notification_close {
+	left: -46px;
+	top: 53px;
+}
+.notification_img img {
+	width: 35px;
+}
+td.tab_icons img {
+	width: 16px;
+	height: auto;
+}
+.tab_icons span {
+	margin: 0px 5px;
+}
+.Role_table_hd .table td {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.nav_bell img {
+	width: 17px;
+}
+.db-lit-sc ul li a svg {
+	margin-right: 12px;
+}
+ul.categories svg {
+	width: 18px !important;
+	min-width: 18px!important;
+}
+ul.categories .dropdown-menu.default-menu svg {
+	width: 14px;
+}
+.overview-section {
+	margin-top: 25px;
+}
+/* 07fc flight log */
+.flight-log-sidebar {
+	padding-right: 55px;
+}
+.flight-log-logo img {
+	width: 45px;
+}
+.fligh-log-parent {
+	padding: 20px 20px 10px 20px;
+}
+.fligh-log-caption {
+	padding-bottom: 12px;
+}
+.fll-section li {
+	margin-bottom: 20px;
+}
+.fligh-log-list {
+	margin-top: 20px;
+}
+.fll-section {
+	background-position: 7.6px 7.6px!important;
+}
+.fll-section li p {
+	width: 250px;
+	min-width: 250px;
+}
+/*End 07fc flight log */
+.filter_popup_inputs .filter_popup_text {
+	padding: 10px 20px 10px 12px;
+}
+.font-normal.phone::placeholder {
+	font-size: 13px!important;
+}
+.main_wrappar.b-tabs-section .filtering_list select {
+	background-size: 11px!important;
+}
+.main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs li a.active {
+	min-height: 36px;
+}
+.main-wrapper-top img {
+	width: 18px;
+	margin-right: 18px;
+}
+.main-wrapper-top.mwt-sec {
+	margin-bottom: 16px;
+}
+.modal-open .modal {
+	/* margin-left: 260px; */
+}
+/* 07ab manage OEM list view */
+.oem-list-grid-sh {
+	padding-right: 0;
+	padding-top: 7px;
+}
+.olc-toggle_icon,
+.oem-list-cont-toggle_icon span img:first-child {
+	margin-right: 22px;
+}
+.oem-list-grid-fh {
+	padding-bottom: 10px;
+}
+.oem-list-grid-parent:nth-child(even) {
+	padding-left: 15px;
+}
+.oem-list-grid-parent:nth-child(odd) {
+	padding-right: 15px;
+}
+.oem-list-form-sec label {
+	margin-bottom: 7px;
+}
+.oem-list-form-sec img {
+	width: 13px;
+}
+.oem-list-grid-parent {
+	margin-bottom: 20px;
+}
+/* End 07ab manage OEM list view */
+/* 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+.tab-content.OME-card-section.fa07_Mission .mission_part .mission_text-area p#fourteen {
+	font-size: 10px;
+}
+form.main_wrappar.main-role-content .generate_uuid button {
+	min-height: 40px;
+	height: unset;
+	max-height: 100%;
+}
+form.main_wrappar.main-role-content .generate_uuid_section button {
+	min-height: 44px;
+}
+form.main_wrappar.main-role-content .generate_uuid_section {
+	min-height: 103px;
+}
+form.main_wrappar.main-role-content .OEM-header .OEM-right {
+	min-height: 78px;
+}
+.main_wrappar_parent {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*End 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+/* 09Ba_Remote_pilot_Basic-detail */
+.OME-card-section .card-deck-2.flight-record .flight-records .card .card-body {
+	padding: 15px 11px;
+}
+.OME-card-section .card-deck-2.flight-record .flight-records .card {
+	width: 22.8%;
+	height: 80px;
+	min-height: 80px;
+}
+.OME-card-section .card-deck-2.flight-record .flight-records .card img {
+	height: 50px;
+	width: 50px;
+}
+.OME-card-section .card-deck-2.flight-record .card.green-card {
+	min-height: 187px;
+	height: 187px;
+}
+/*end 09Ba_Remote_pilot_Basic-detail */
+/* 11Aa_Global_missions  */
+.main_wrappar.b-tabs-section .shr_btn .btn {
+	min-width: 121px;
+	width: auto;
+	max-width: 100%;
+	min-height: 19px;
+	height: 19px;
+	max-height: 100%;
+}
+.main_wrappar.b-tabs-section .filtering_list .create-mission .btn {
+	min-width: 170px;
+	width: auto;
+	min-height: 34px;
+	height: auto;
+}
+/* end 11Aa_Global_missions */
+/* 11Ba_Uploaded_missions */
+.main_wrappar.b-tabs-section .filter_list_5 .filtering_list .upcome_input {
+	min-width: 163px;
+	width: 163px;
+}
+.main_wrappar.b-tabs-section .filter_list_5 .filtering_list .export .btn {
+	min-width: 108px;
+}
+.main_wrappar.b-tabs-section .filter_list_5 .filtering_list .import-mission .btn {
+	min-width: 108px;
+}
+.main_wrappar.b-tabs-section .filter_list_5 .filtering_list .create-mission .btn {
+	/* min-width: 145px !important; */
+}
+.flight_log .btn {
+	width: 78px;
+	height: 20px;
+}
+form.main_wrappar.main-role-content .filter_popup_inputs textarea {
+	min-height: 136px;
+	height: auto;
+}
+.OME-card-section .card-deck-2 .card .card-body {
+	padding: 0 12px 0 12px !important;
+	/* padding: 14px 12px 14px 12px !important; */
+}
+.OME-card-section .card-deck-2 .card img {
+	height: 55px;
+	width: 55px;
+	margin-top: 0;
+}
+.fa07_Mission.OME-card-section .card-deck-2 .card .fa-card {
+	width: 55px;
+	height: 55px;
+}
+.Missions_Media input#fourteen {
+	min-width: 97px;
+	height: 34px;
+	width: 138px;
+	max-width: 100%;
+}
+.Missions_Media {
+	margin: 0 15px 15px 0px;
+}
+.mission_filter {
+	flex-wrap: wrap;
+}
+.flight_log .synchronize-btn {
+	width: 90px;
+}
+/* end 11Ba_Uploaded_missions */
+/* 17-09 */
+.date_picker .input-group .input-group-addon {
+	width: 280px;
+}
+.date_picker .input-group .input-group-addon::after {
+	top: -46px;
+	right: 14px !important;
+}
+.date_picker .input-group input {
+	font-size: 13px;
+}
+span.eye img {
+    width: 16px;
+}
+
+  /* 17-09 */
+  
+/* 15Ca_Remote_pilot-plan */
+.Remote_pilot_oem .oem-list-grid {
+	padding: 10px 10px 10px 10px;
+}
+/* end 15Ca_Remote_pilot-plan */
+ .gf-field select {
+        padding: 6px 9px;
+        width: 100%;
+        background: #062C44;
+        border: 1px solid #1697B7;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgb(0 0 0 / 5%);
+        border-radius: 5px;
+        color: #FFFFFF !important;
+        background: url(../images/down_arw.png);
+        background-repeat: no-repeat;
+        -webkit-appearance: none;
+        background-position: center right 15px;
+    }
+    .gf-field-img input {
+        padding: 7px 9px 10px 15px;
+        width: 100%;
+        background: #062C44;
+        border: 1px solid #1697B7;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgb(0 0 0 / 5%);
+        border-radius: 5px;
+        color: #FFFFFF !important;
+        background: url(../images/location.png);
+        background-position: 85% 50%;
+        background-repeat: no-repeat;
+    }
+    .gf-field input {
+        padding: 8px 17px;
+        width: 100%;
+        background: #062C44;
+        border: 1px solid #1697B7;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgb(0 0 0 / 5%);
+        border-radius: 5px;
+        color: #FFFFFF !important;
+    }
+	.flight-log-divson label {
+    margin-bottom: 2px;
+}
+  
+}/* End Max 1600 */
+
+@media only screen and (max-width:1800px) {
+    /* 07ab manage OEM list view */
+    .oem-list-grid-sh {
+        padding-right: 0;
+        padding-top: 7px;
+    }
+    /*END 07ab manage OEM list view */
+}
+
+@media only screen and (min-width:992px) and (max-width:1300px) {
+    /* 07ab manage OEM list view */
+    .oem-list-grid-parent {
+        width: 75%;
+    }
+    .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 0px;
+    }
+    .oem-list-grid-parent:nth-child(even) {
+        padding-left: 0px;
+    }
+    /*END 07ab manage OEM list view */
+}
+
+@media only screen and (min-width:992px) and (max-width:1330px) {
+    #sidebar {
+        width: 275px;
+    }
+    .page-content {
+        padding-left: 275px;
+    }
+    .db-lit-sc ul {
+        padding: 0px 10px;
+    }
+    .db-lit-sc ul li a svg {
+        margin-right: 12px;
+    }
+    .overview-section-carts {
+        width: 23%;
+        margin-bottom: 15px;
+    }
+    .overview-section-carts-parent {
+        flex-wrap: wrap;
+    }
+    .overview-section-carts-parent {
+        padding-bottom: 15px;
+    }
+    .overview-section.missions-sec .overview-section-carts {
+        width: 32%;
+    }
+    .mission-sec-content {
+        margin-left: 18px;
+    }
+    .mission-sec-cart {
+        padding: 13px 16px 15px 15px;
+    }
+    .overview-section.missions-sec .overview-section-carts {
+        width: 44%;
+    }
+    .dropdown-menu-sec .prnt-anc:before {
+        right: 11px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .overview-section-carts-parent {
+        flex-wrap: wrap;
+    }
+    .overview-section-carts {
+        width: 29%;
+        margin-bottom: 20px;
+    }
+    .overview-section-carts-parent {
+        padding-bottom: 10px;
+    }
+    .overview-section.missions-sec .overview-section-carts {
+        width: 41%;
+    }
+    .menu-ico-g {
+        order: 2;
+    }
+    .login-hd-left h2 {
+        order: 1;
+        margin-right: 10px;
+    }
+    .login-hd-details {
+        justify-content: flex-end;
+    }
+    /* Roles Permission */
+    .main-role-content .Role_select {
+        padding-left: 0;
+        margin: 12px;
+    }
+    .main-role-content .collapse_section {
+        margin: 12px;
+    }
+    /* End Roles Permission */
+    /* 07c flight logs */
+    .fll-section li p {
+        width: 170px;
+        min-width: 170px;
+    }
+    /*End 07c flight logs */
+}
+
+@media only screen and (max-width:767px) {
+    .overview-section-carts-parent {
+        flex-wrap: wrap;
+    }
+    .overview-section-carts {
+        width: 46%;
+        margin-bottom: 20px;
+    }
+    .overview-section-carts-parent {
+        padding-bottom: 10px;
+    }
+    .overview-section.missions-sec .overview-section-carts {
+        width: 100%;
+    }
+    .menu-ico-g {
+        order: 2;
+    }
+    .login-hd-left h2 {
+        order: 1;
+        margin-right: 10px;
+    }
+    .login-hd-details {
+        justify-content: flex-end;
+    }
+    .header-sec-right-end {
+        flex-direction: column;
+        width: 100%;
+    }
+    .page-content .dash-right {
+        padding: 20px 0 20px 10px;
+    }
+    .profile-dopdown-section {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .nav_right {
+        width: 100%;
+    }
+    .nav_right {
+        flex-direction: column;
+    }
+    .header-sec-right-end {
+        margin-top: 20px;
+    }
+    .myaccount_popup_body {
+        max-width: 100%;
+    }
+    .table_footer_hd {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .page-link {
+        padding: .5rem .75rem .5rem .02rem !important;
+    }
+    .login-hd-left h2 {
+        margin-left: 0px;
+    }
+    .d_title_hd .t_title2 {
+        margin-top: 10px;
+    }
+    /* Login and table */
+    .select_hd label {
+        margin-bottom: 10px;
+    }
+    .form_main label {
+        font-size: 14px;
+    }
+    .L_form {
+        padding: 0px 30px;
+    }
+    .L_email {
+        padding-bottom: 20px;
+    }
+    .form_main input[type="text"] {
+        font-size: 16px;
+    }
+    .form_main input {
+        padding: 11px 32px;
+    }
+    .lock,
+    .email_msg {
+        position: absolute;
+        top: 42px;
+        left: 10px;
+    }
+    .focus {
+        position: absolute;
+        top: 42px;
+        right: 20px;
+    }
+    .email_msg,
+    .lock,
+    .focus img {
+        width: 20px;
+    }
+    .form_main input {
+        padding: 9px 5px 9px 30px !important;
+        font-size: 12px;
+    }
+    .form_main {
+        padding: 20px;
+        min-width: 300px;
+        max-width: 460px;
+        margin-bottom: 30px;
+    }
+    .admin_profie {
+        height: auto;
+        margin: 10px auto;
+        padding: 20px 0px;
+    }
+    .logout_hd {
+        max-width: 260px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .logout_hd h2 {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .logout_hd h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .log_yRn {
+        margin-top: 20px;
+    }
+    .log_yRn button {
+        padding: 5px 30px;
+    }
+    .filter_hd:after {
+        display: none;
+    }
+    .hd_icon2 {
+        margin-bottom: 10px;
+        margin-top: 13px;
+    }
+    span.box_icon:after {
+        height: 29px;
+        top: -2px;
+    }
+    .wid_50 {
+        width: 100% !important;
+    }
+    /* End Login and table */
+    /* Roles Permission */
+    .main-role-content {
+        margin: 0;
+    }
+    .main-role-content .Role_dealis {
+        margin: 0;
+    }
+    .main-role-content .Role_select {
+        padding: 0;
+    }
+    .main-role-content .collapse_section {
+        margin: 20px 0px;
+    }
+    form.main_wrappar.main-role-content #accordionExample .card .card-body {
+        padding: 0;
+    }
+    .manage_org {
+        padding: 0;
+    }
+    .manage_agent {
+        padding: 0;
+    }
+    .button_sec button {
+        /* width: 47%; */
+        min-width: unset;
+    }
+    /* End Roles Permission */
+    /* 05Bb */
+    .main_wrappar.main-role-content .UID-part {
+        margin: 0 4px;
+    }
+    .main-wrapper-top {
+        margin: 24px 18px 21px 19px;
+    }
+    .p-0-mob {
+        padding: 0 !important;
+    }
+    .main_wrappar.main-role-content .Remote_main_content .Remote_main_row h2 {
+        margin: 0;
+    }
+    /* 06Ca */
+    .filtering_list {
+        padding: 0;
+        margin-top: 12px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .upcome_input {
+        width: 100%;
+        min-width: unset;
+        margin: 0 0 12px 0 !important;
+    }
+    .main_wrappar.b-tabs-section .filter_hd {
+        margin-bottom: 0px;
+    }
+    .main_wrappar.b-tabs-section .list_of_detail_part .filtering_list select {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .line_f {
+        display: none;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .export .btn {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs {
+        padding: 2px 12px;
+    }
+    .main-wrapper-top img {
+        margin-right: 11px;
+    }
+    .main_wrappar.b-tabs-section {
+        padding: 0px 20px 0px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+    .map-drone {
+        width: 96%;
+        margin: 0px auto;
+    }
+    .map-drone .map-drop-width select#sixteen {
+        width: 98%;
+    }
+    /* 07c flight logs */
+    .fll-section li p {
+        width: auto;
+        min-width: unset;
+    }
+    .fll-section li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btp-with-btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn.export-log {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    /*End 07c flight logs */
+    form.main_wrappar.main-role-content .OEM-header .OEM-right .validity {
+        text-align: unset;
+        margin-left: 17px;
+        margin-top: 6px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list {
+        justify-content: unset;
+        padding: 12px 12px;
+    }
+	/* 6BC Satellite */
+	 .caption1 #eighteen{
+        font-size: 12px;
+    }
+    .date_sec1 #thirteen{
+        font-size: 9px;
+    }
+    .date_sec1  #sixteen{
+        font-size: 10px;
+    } 
+    .geo_fence_form .gf-field.gf-field-img:first-child {
+        padding-right: unset!important;
+        margin-bottom: 20px !important;
+    }
+    .geo_fence_form .gf-field.gf-field-img.gf-field-img-second{
+        padding-left: unset!important;
+    }
+	/*End 6BC Satellite */
+	 /* 15Ca_Remote_pilot-plan */
+    .hr_remote-pilot {
+        display: none;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent {
+        width: 100%;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent {
+        padding-right: 0;
+        padding-left: 0 !important;
+    }
+    /* 15Ca_Remote_pilot-plan */
+	.login-hd-left.d-flex.align-items-center {
+    padding-top: 0px!important;
+}
+}/* End 767 */
+
+@media only screen and (max-width: 425px) {
+    .wid-10 {
+        width: 100% !important;
+    }
+    span.L_arrow {
+        right: 57px;
+        top: 7px;
+    }
+    .l_btn button {
+        font-size: 14px;
+    }
+    span.f_pswd {
+        padding-top: 15px;
+        text-align: right;
+    }
+    .L_password svg {
+        vertical-align: unset;
+    }
+    .eye-icon svg {
+        position: relative;
+        top: -2px;
+        left: unset;
+        cursor: pointer;
+        width: 15px;
+    }
+    .login_hd {
+        height: auto !important;
+    }
+    .godrona_logo img {
+        max-width: 80px;
+    }
+    .admin_profile_hd {
+        margin-top: 18px !important;
+        max-width: 120px;
+        margin: auto;
+    }
+    .form_main h6 {
+        margin-top: 5px;
+    }
+    .form_main h1 {
+        font-size: 18px;
+    }
+    .form_main .L_text {
+        font-size: 10px !important;
+    }
+    .email_msg {
+        position: absolute;
+        top: 43px;
+        left: 8px;
+    }
+    .L_form {
+        padding: 0px 15px;
+    }
+    .L_email {
+        padding-bottom: 10px !important;
+    }
+    .lock,
+    .email_msg {
+        top: 34px !important;
+        left: 10px !important;
+    }
+    .email_msg img {
+        width: 15px;
+    }
+    .form_main input[type="text"] {
+        font-size: 12px !important;
+        padding: 9px 5px 9px 30px !important;
+    }
+    .form_main input {
+        padding: 11px 32px;
+    }
+    .lock {
+        top: 38px;
+        left: 10px;
+    }
+    .lock img {
+        width: 15px;
+    }
+    .d_title_hd {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .t_title {
+        margin-right: unset;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .t_title h4 {
+        font-size: 14px;
+    }
+    .t_title_s {
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .filter_hd {
+        margin-bottom: 10px;
+    }
+    button.btn_1 {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .wid-80 {
+        width: 100% !important;
+    }
+	
+	/* 14AB */
+	 #fifteen {
+        font-size: 10px;
+    }
+    .butt {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+    }
+    .apprv_btn{
+        margin-bottom: 20px;
+    }
+    .upt_btn {
+        margin-right: 18px;
+        margin-left: 14px;
+    }
+    .main_wrappar.b-tabs-section {
+        padding: 0px 0px 0px;
+    }
+    .gf-field1 .langtitude_icon {
+        position: absolute;
+        right: -101px;
+        bottom: 20px;
+    }
+    svg {
+        width: 50px;
+    }
+    .gf-field-img input {
+        background-position: 80% 50%;
+        padding: 12px 1px 10px 7px;
+        width: unset !important;
+    }
+	/*End 14AB */
+	canvas#chart-line {
+    width: 400px!important;
+    height: 201px!important;
+}
+.bar-chart-section .card-body {
+    overflow: auto;
+}
+}
+
+@media only screen and (max-width: 991px) {
+    .admin_profile_hd {
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    .form_main {
+        width: 100%;
+        padding: 25px;
+        min-width: 300px;
+        max-width: 600px;
+        margin-bottom: 30px;
+    }
+    .login_hd {
+        padding: 10px;
+        flex-direction: column;
+        display: inherit;
+    }
+    .admin_profile_hd img {
+        width: 100px;
+    }
+    .form_main h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .form_main .L_text {
+        color: #F25822;
+        margin-left: 10px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .L_email {
+        padding-bottom: 30px;
+    }
+    .l_btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .side_logo_img_desktop {
+        left: -999px;
+    }
+    .main_border {
+        width: 100%;
+    }
+    .login-hd-left.d-flex.align-items-center {
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+    .page-wrapper.hide .side_logo_img_desktop {
+        display: block;
+    }
+    .page-wrapper.hide .side_logo_img_desktop {
+        width: 314px!important;
+        left: 0;
+    }
+    .page-wrapper.hide #sidebar {
+        z-index: 12345;
+    }
+    .side_logo_img_desktop {
+        z-index: 123456;
+    }
+    .img_upload {
+        position: relative;
+        margin-left: 13px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .godrona_logo img {
+        max-width: 150px;
+        top: 0px;
+        width: 100%;
+    }
+    .login_form_hd {
+        flex-basis: 65%;
+    }
+    .admin_profile_hd img {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .login_form_hd {
+        flex-basis: 70%;
+    }
+    .admin_profile_hd img {
+        width: 100%;
+    }
+    .admin_profile_hd img {
+        width: 230px;
+    }
+    .form_main {
+        width: 570px;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    button.btn_1 {
+        margin: 0px 10px 0px 0px;
+    }
+    .login_form_hd {
+        flex-basis: 75%;
+    }
+    .admin_profile_hd img {
+        width: 100%;
+    }
+    .admin_profile_hd img {
+        width: 280px;
+    }
+    .form_main {
+        width: 660px;
+    }
+    .form_main h1 {
+        font-size: 35px;
+        margin-bottom: 12px;
+    }
+    .form_main .L_text {
+        font-size: 18px;
+    }
+    .form_main hr {
+        margin: 35px 0px;
+    }
+    .admin_profile_hd {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .logout_hd {
+        max-width: 380px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .OME-card-section .card-deck-2 .card {
+        width: auto;
+        min-width: 48.9% !important;
+        margin-bottom: 12px;
+    }
+    .OME-card-section .card-deck-2 .card:nth-child(2) {
+        margin-right: 0 !important;
+    }
+	/* 15Ca_Remote_pilot-plan */
+    .Remote_pilot_oem .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 12px !important;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent:nth-child(even) {
+        padding-right: 0 !important;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent {
+        width: 50%;
+    }
+    .hr_remote-pilot {
+        visibility: hidden;
+    }
+    
+    /* end 15Ca_Remote_pilot-plan */
+}
+
+
+/* OFFER PROMOCODE/NEWS & UPDATES START */
+
+@media only screen and (min-width:320px) and (max-width:375px) {
+    .off_modal {
+        max-width: 300px !important;
+    }
+    .Offer_hd {
+        padding: 14px 14px !important;
+    }
+    .mod_subject input {
+        width: 100%;
+        padding: 10px 14px;
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
+    .cvs_hd input {
+        margin-bottom: 15px;
+    }
+    .discription_hd h2 {
+        font-size: 16px;
+    }
+    .discription_hd p {
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .off_sub,
+    .off_btn {
+        background: #031E2C;
+        padding: 10px 14px !important;
+    }
+    .clr_btn {
+        padding: 5px 15px;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .send_btn {
+        padding: 5px 15px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+}
+
+
+/* Roles and Permission */
+
+@media only screen and (max-width:1600px) {
+#twenty {
+	font-size: 17px;
+}
+#eighteen {
+	font-size: 15px;
+}
+#thirty {
+	font-size: 27px;
+}
+#twenty-four {
+	font-size: 20px;
+}
+#fourteen {
+	font-size: 11px;
+}
+#fifteen {
+	font-size: 12px;
+}
+#sixteen {
+	font-size: 13px;
+}
+#twel {
+	font-size: 10px;
+}
+#thirteen {
+	font-size: 11px;
+}
+form.main_wrappar.main-role-content #accordionExample .card .card-header {
+	margin: 0 21px;
+}
+/* Roles permission 04ab 05bb */
+form.main_wrappar.main-role-content #accordionExample .card .card-header {
+	margin: 0 21px;
+}
+.popup_modal_check .filter_popuo_body .radio_filter_popup label {
+	font-size: 13px;
+}
+.main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs li a.active {
+	min-width: 126px;
+}
+.main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs li {
+	min-width: 128px;
+}
+.main_wrappar.b-tabs-section .nano-img {
+	margin: 10px 5px;
+}
+.main_wrappar.b-tabs-section .UID {
+	padding: 0 5px;
+}
+.main_wrappar.b-tabs-section .UID div#thirteen {
+	margin-right: 7px !important;
+}
+.main_wrappar.b-tabs-section .Date_of_mapped {
+	padding-right: 0;
+}
+.UID-part .Date_of_mapped div#thirteen {
+	margin-right: 7px !important;
+}
+.main_wrappar.b-tabs-section .hr_li {
+	margin: 5px;
+}
+.miss-date-col {
+	padding: 0 5px;
+}
+.main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+	width: 31.8%;
+	margin-right: 22.2px;
+	margin-bottom: 12px;
+}
+.main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(3) {
+	margin-right: 0;
+}
+.main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(6) {
+	margin-right: 0;
+}
+.main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(9) {
+	margin-right: 0;
+}
+.main_wrappar.b-tabs-section .filtering_list .upcome_input {
+	margin: 0 16px;
+}
+.main_wrappar.b-tabs-section .line_f {
+	margin: 0 16px;
+}
+.main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs {
+	min-height: 42px;
+}
+.main-role-content .Role_dealis {
+	min-height: 36px;
+	margin: 5px 10px;
+}
+.main_wrappar.main-role-content .Remote_main_content .Remote_main_row .RPD_text h5 span button {
+	min-height: 20px;
+}
+.main_wrappar.b-tabs-section .b-tabs-part ul li a.active {
+	min-height: 36px;
+}
+.upcome_input select {
+	height: 34px;
+}
+.main_wrappar.b-tabs-section .filtering_list .upcome_input {
+	height: 34px;
+}
+.main_wrappar.b-tabs-section .filter_hd {
+	min-height: 34px;
+	height: 34px;
+}
+span.f_reset img {
+	display: flex;
+}
+.main_wrappar.b-tabs-section .f_reset {
+	height: 28px;
+}
+.main_wrappar.b-tabs-section .line_f {
+	min-height: 34px;
+	height: 34px;
+	max-height: 100%;
+}
+.main_wrappar.b-tabs-section .filtering_list .export .btn {
+	min-height: 34px;
+}
+.main_wrappar.b-tabs-section .viw {
+	width: 20px;
+}
+.nano-nano {
+	width: 45px;
+}
+.img-thumbnail {
+	width: 70px;
+	height: 70px;
+}
+input#file {
+	font-size: 13px;
+}
+.input-group-append button.browse.btn {
+	min-height: 31px;
+	min-width: 125px;
+}
+.intl-tel-input.allow-dropdown.separate-dial-code input.phone::placeholder {
+	font-size: 16px;
+}
+.iti-arrow:before {
+	font-size: 13px !important;
+}
+.main-role-content .Role_select .form-group input,
+select {
+	min-height: 35px !important;
+}
+form.main_wrappar.main-role-content .filter_popup_inputs select {
+	padding: 6px 20px;
+	margin-bottom: 20px;
+}
+.intl-tel-input.allow-dropdown.separate-dial-code .flag-container {
+	height: 34px !important;
+}
+.iti-arrow:before {
+	top: -1px !important;
+}
+.intl-tel-input .selected-flag .iti-arrow {
+	top: 7px !important;
+}
+.intl-tel-input.allow-dropdown.separate-dial-code {
+	height: 36px !important;
+}
+.intl-tel-input.allow-dropdown.separate-dial-code input.phone:focus-visible {
+	height: 34px !important;
+	outline: none !important;
+}
+.intl-tel-input.allow-dropdown.separate-dial-code input.phone {
+	height: 34px !important;
+}
+form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+	margin-bottom: 20px;
+	height: 34px;
+}
+.filter_popup_button.Staff-btn button.btn {
+	min-height: 33px;
+}
+/*End Roles permission 04ab 05bb */
+/* Flight Logs */
+.btn.export-log {
+	font-size: 12px;
+	width: 140px;
+	height: 37px;
+	margin-left: auto;
+}
+/*End Flight Logs */
+/* 30-08 */
+.input-group-append button.removebtn.btn {
+	min-height: 31px;
+	min-width: 125px;
+}
+form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text.sixteen {
+	font-size: 13px;
+}
+.OME-card-section .card-deck-2 .card {
+	width: auto;
+	min-width: 23%;
+}
+.OME-card-section .card-deck-2 .card:nth-child(4) {
+	margin-right: 0;
+}
+/* 31-08 */
+form.main_wrappar.b-tabs-section .filter-of-rpa .list_of_detail_part {
+	min-height: 50px;
+}
+/* 01-09 */
+form.main_wrappar.b-tabs-section .filter-of-rpa .filter_of_rpa_table .filter-table-res tbody tr {
+	min-height: 55px;
+	height: 55px;
+}
+form.main_wrappar.b-tabs-section .filter-of-rpa .filter_of_rpa_table .filter-table-res tbody tr td .nano-img {
+	height: 42px;
+}
+form.main_wrappar.b-tabs-section .filter-of-rpa .filter_of_rpa_table .filter-table-res thead tr th {
+	min-height: 55px;
+	height: 55px;
+}
+form.main_wrappar.b-tabs-section .filter-of-rpa .filter_of_rpa_table .filter-table-res tbody tr td .viewer-img {
+	width: 21px;
+}
+/* 02-09 */
+.dymic_input_area .dymic_input .checkbox {
+	width: 24.6%;
+}
+/* 06-09 */
+.tab-content.OME-card-section.fa07_Mission .mission_part .mission_text-area p#fourteen {
+	font-size: 10px;
+}
+.page-wrapper #sidebar {
+	padding-top: 120px;
+}
+.OME-card-section .card-deck-2 .card {
+	min-height: 104px;
+	height: 104px;
+}
+form.main_wrappar.main-role-content .filter_popup_inputs .RPA_input_label input {
+	width: 91px;
+}
+.remote-select{padding: 3px 25px 3px 13px !important;}
+.oem-list-form-sec img {width: 12px !important;}
+	
+}
+.back_trans
+{
+    background-size: 13px;
+}
+
+/* End max-width 1600 */
+
+
+/* TABLE HEAD */
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+    .big_tab:after {
+        display: none;
+    }
+    .d_title_hd {
+        padding: 0px 10px;
+    }
+    .filter_hd {
+        margin-bottom: 10px;
+    }
+    .modal-dialog.off_modal {
+        max-width: 730px !important;
+    }
+    .t_title_s {
+        width: 100%;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        flex-direction: column;
+    }
+    .t_title {
+        width: 100% !important;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    button.btn_1 {
+        margin: 10px 10px 10px 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .hd_icon2 {
+        margin-bottom: 10px;
+    }
+    .d_title_hd {
+        padding: 0px 10px;
+    }
+    .select_hd {
+        margin-bottom: 10px;
+    }
+    .filter_hd {
+        margin-bottom: 10px;
+    }
+    .t_title_s {
+        width: 100%;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+    .t_title {
+        width: 100% !important;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    button.btn_1 {
+        margin: 10px 10px 0px 0px;
+    }
+    .filter_hd:after {
+        display: none;
+    }
+    button.btn_1 {
+        margin: 0px 10px 0px 0px;
+    }
+    .hd_btn {
+        margin: 0px 0px;
+    }
+    button.btn_2 {
+        padding: 9px 40px;
+    }
+    button.btn_1 {
+        padding: 9px 40px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1440px) {
+    .d_title_hd {
+        padding: 0px 0px;
+    }
+    .select_hd label {
+        margin-bottom: 10px !important;
+    }
+    .t_title_s {
+        justify-content: flex-start;
+    }
+    .bg-dv1 {
+        padding-bottom: 10px;
+    }
+    .filter_hd:after {
+        display: none;
+    }
+    button.btn_1 {
+        margin: 0px 10px 0px 0px;
+    }
+    .t_title h4 {
+        font-size: 15px;
+        white-space: nowrap;
+    }
+    .t_title_s.bg_div {
+        width: 100% !important;
+        justify-content: flex-start !important;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width:1920px) {
+    /* .fil_hd_2 {
+        right: -70px !important;
+    } */
+    .d_title_hd {
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width:1341px) {
+    .t_title_s {
+        margin-right: unset!important;
+    }
+    .table {
+        table-layout: auto!important;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1700px) {
+    span.box_icon {
+        padding-right: 25px;
+    }
+    span.box_icon:after {
+        right: 7px;
+    }
+    .select_hd {
+        margin-right: 0px;
+    }
+    span.list_icon {
+        margin-right: 27px;
+    }
+    span.list_icon:after {
+        right: -13px;
+    }
+    .hd_icon2 {
+        margin: 0px 10px 0 20px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1365px) {
+    .d_title_hd {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .t_title_s {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    /* filter popup */
+    .filter_hd.dropdown_active .popup_modal_check {
+        right: unset;
+        left: 0;
+        z-index: 9;
+    }
+    .popup_modal_check::after {
+        right: unset;
+        left: 7%;
+    }
+    /*End filter popup */
+	 /* 15Ca_Remote_pilot-plan */
+    .Remote_pilot_oem .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 12px !important;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent:nth-child(even) {
+        padding-right: 0 !important;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent {
+        width: 50%;
+    }
+    .hr_remote-pilot {
+        visibility: hidden;
+    }
+    /* end 15Ca_Remote_pilot-plan */
+}
+
+@media only screen and (min-width:992px) and (max-width:1050px) {
+    /*filter popup */
+    .filter_hd.dropdown_active .popup_modal_check {
+        max-width: 600px !important;
+        min-width: 600px !important;
+    }
+    /*End filter popup */
+}
+
+@media only screen and (min-width:992px) {
+    .filter_Popup_main .modal {
+        top: 18%;
+        right: 17%;
+        left: unset;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1177px) {
+    .manage_operator_button_top .select_hd,
+    .manage_operator_button_top .big_tab,
+    .manage_operator_button_top .hd_icon2 {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Roles permission 04ab 05bb */
+
+@media only screen and (min-width:1601px) {
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 10px 13px;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 13px;
+    }
+    .main_wrappar.b-tabs-section .hr_li {
+        margin: 13px;
+    }
+    .miss-date-col {
+        padding: 0 13px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31.9%;
+        margin-right: 26px;
+        margin-bottom: 24px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(3) {
+        margin-right: 0;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(6) {
+        margin-right: 0;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(9) {
+        margin-right: 0;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+        width: 320px;
+        height: 44px;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+        padding: 6px 20px;
+    }
+    form.main_wrappar.main-role-content select.select_popup {
+        width: 320px;
+        height: 44px;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs select {
+        width: 320px;
+        height: 44px;
+        margin-bottom: 25px;
+    }
+    form.main_wrappar.main-role-content .intl-tel-input.allow-dropdown.separate-dial-code {
+        width: 320px;
+        height: 44px;
+    }
+    .intl-tel-input .flag-container {
+        top: 1;
+    }
+    .intl-tel-input.allow-dropdown.separate-dial-code .flag-container {
+        height: 41px;
+    }
+    .intl-tel-input.allow-dropdown.separate-dial-code input.phone:focus-visible {
+        width: 320px;
+        height: 44px;
+        outline: none;
+    }
+    .file {
+        visibility: hidden;
+        width: 147px;
+    }
+    /* 02-09 */
+    .dymic_input_area .check_Boxx {
+        /*  justify-content: space-evenly; */
+        margin-left: 70px;
+    }
+    .dymic_input_area .dynamic-text {
+        width: 220px;
+        height: 46px;
+    }
+    .dymic_input_area .dymic_input .checkbox {
+        width: 13.6%;
+    }
+    .dymic_input_area .dymic_input .check_Boxx {
+        margin-left: 97px;
+    }
+    .dymic_input_area .dymic_input .plus_btn {
+        margin-left: 14px;
+    }
+    .dymic_input_area .dymic_input .minus-btn-2 {
+        margin-left: 30px;
+    }
+    /* 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    .tab-content.OME-card-section.fa07_Mission .mission_part .mission_text-area {
+        min-height: 62px;
+        height: auto;
+    }
+    .tab-content.OME-card-section.fa07_Mission .mission_part .mission_text-area {
+        margin: 0 13px;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs textarea {
+        width: 320px;
+        margin-bottom: 25px;
+        min-height: 145px;
+        height: auto;
+    }
+    .filter_popup_inputs .RPA_input_label input {
+        width: 103px !important;
+    }
+    /*End 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    /* 09Ba_Remote_pilot_Basic-detail */
+    .OME-card-section .card-deck-2.flight-record .flight-records .card .card-body {
+        padding: 18px 19px;
+    }
+    /*end 09Ba_Remote_pilot_Basic-detail */
+    /* 08-09 */
+    .filter_popup_inputs .pass_section {
+        width: 320px;
+    }
+    .filter_popup_inputs .pass_section input {
+        width: 100% !important;
+    }
+    .filter_popup_inputs .eye img {
+        top: 12px !important;
+    }
+    .Missions_Media input#fourteen {
+        min-width: 212px;
+        height: 40px;
+        width: 212px;
+        max-width: 100%;
+    }
+    /* 17-09 */
+    .date_picker .input-group .input-group-addon {
+        width: 320px;
+    }
+    .date_picker .input-group .input-group-addon::after {
+        top: -56px !important;
+        right: 17px !important;
+    }
+    .date_picker .input-group input {
+        font-size: 16px;
+    }
+    /* 17-09 */
+}
+
+@media (min-width: 951px) and (max-width: 1350px) {
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+        width: 93%;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs select {
+        width: 93%;
+    }
+    form.main_wrappar.main-role-content .intl-tel-input.allow-dropdown.separate-dial-code input.phone {
+        width: 93%;
+    }
+    form.main_wrappar.main-role-content .intl-tel-input.allow-dropdown.separate-dial-code {
+        width: 93%;
+    }
+    /*07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    form.main_wrappar.main-role-content .filter_popup_inputs .RPA_input_label input {
+        width: 30%;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs textarea {
+        width: 93%;
+    }
+    /*End 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    /* 08-09 */
+    /* profile_setting */
+    .filter_popup_inputs .pass_section {
+        width: 93%;
+    }
+    .filter_popup_inputs .pass_section input {
+        width: 100% !important;
+    }
+    /*end profile_setting */
+    /* 11Aa_Global_missions */
+    .main_wrappar.b-tabs-section .filtering_list {
+        justify-content: flex-start;
+    }
+    .main_wrappar.b-tabs-section .Filter_hd_line {
+        margin: 0 16px 0 0;
+    }
+    /* end 11Aa_Global_missions */
+    /* 17-09 */
+    .date_picker .input-group .input-group-addon {
+        width: 93%;
+    }
+    .date_picker .input-group .input-group-addon::after {
+        right: 11px;
+    }
+    /* 17-09 */
+}
+
+@media only screen and (max-width:950px) {
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+        width: 100%;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs select {
+        width: 100%;
+    }
+    form.main_wrappar.main-role-content .intl-tel-input.allow-dropdown.separate-dial-code input.phone {
+        width: 100%;
+    }
+    form.main_wrappar.main-role-content .intl-tel-input.allow-dropdown.separate-dial-code {
+        width: 100%;
+    }
+    /*07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    form.main_wrappar.main-role-content .filter_popup_inputs textarea {
+        width: 100%;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs .RPA_input_label input {
+        width: 32%;
+    }
+    /*End 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    /* 17-09 */
+    .date_picker .input-group .input-group-addon {
+        width: 100%;
+    }
+    .date_picker .input-group .input-group-addon::after {
+        right: 11px;
+    }
+    /* 11/01/21 */
+    .d-sm-flex 
+    {
+        flex-direction: column;
+      }
+    /* 07-09 end */
+}
+
+@media (max-width: 500px) {
+    .intl-tel-input .country-list {
+        white-space: normal;
+    }
+	.notify_main_col {
+        width: 100%;     
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .notify_Main_hd .margin_left_100{margin-left: 0px;white-space: normal;}
+    .notify_Main_hd .margin_left_45{margin-left: 0px;}
+    .notify_Main_hd .tab_icons{flex-direction: row;align-items: center;margin-bottom: 0px;}
+    .notify_Main_hd .btn_share button{margin: 0px;padding: 4px 20px;}
+    .notify_Main_hd{margin-bottom: 15px;}
+    .notify_width_20{flex-direction: row;justify-content: space-between;}
+    .flight-log-sidebar {
+        display: block;
+    }
+    p.radio-section {
+        width: 36%;
+        display: block;
+        float: left;
+    }
+    .d-flex.align-items-center.check_Boxx {
+        display: unset !important;
+        padding-top: 10px;
+    }
+    
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-role-content .collapse_section {
+        margin: 12px;
+    }
+    .filtering_list {
+        padding: 0;
+        margin-top: 12px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .upcome_input {
+        width: 100%;
+        min-width: unset;
+        margin: 0 0 12px 0 !important;
+    }
+    .main_wrappar.b-tabs-section .filter_hd {
+        margin-bottom: 0px;
+    }
+    .main_wrappar.b-tabs-section .list_of_detail_part .filtering_list select {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .line_f {
+        display: none;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .export .btn {
+        width: 100%;
+    }
+    .main-role-content .Role_select {
+        padding-left: 0;
+        margin: 12px;
+    }
+    .main-role-content .collapse_section {
+        margin: 12px;
+    }
+    .filtering_list {
+        padding: 0;
+        margin-top: 12px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .upcome_input {
+        width: 100%;
+        min-width: unset;
+        margin: 0 0 12px 0 !important;
+    }
+    .main_wrappar.b-tabs-section .filter_hd {
+        margin-bottom: 0px;
+    }
+    .main_wrappar.b-tabs-section .list_of_detail_part .filtering_list select {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .line_f {
+        display: none;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .export .btn {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 10px 17px !important;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 17px !important;
+    }
+    .miss-date-col {
+        padding: 0 17px !important;
+    }
+    form.main_wrappar.b-tabs-section .filter-of-rpa .list_of_detail_part .filtering_list {
+        justify-content: unset;
+        padding: 12px 12px;
+    }
+    .row.dymic_input_area.d-block.d-sm-flex {
+        display: unset !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 10px 17px !important;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 17px !important;
+    }
+    .miss-date-col {
+        padding: 0 17px !important;
+    }
+    .mapdrone .map-drone .filter_popup_button.Staff-btn {
+        display: block;
+        margin: 0 auto;
+        width: 93%;
+    }
+    /* 31-08 */
+    .OME-card-section .card-deck-2 .card {
+        width: 48.7% !important;
+        min-width: 231px;
+        margin-bottom: 14px;
+    }
+    .OME-card-section .card-deck-2 .card:nth-child(2) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 567px) and (max-width: 568px) {
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 10px 17px !important;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 17px !important;
+    }
+    .miss-date-col {
+        padding: 0 17px !important;
+    }
+}
+
+@media (min-width: 374.8px) and (max-width: 375px) {
+    .main_wrappar.b-tabs-section .dot_circle {
+        bottom: 59px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .main_wrappar.b-tabs-section .b-tabs-part ul {
+        /* display: block; */
+        width: 100%;
+    }
+    .mapdrone .map-drone .filter_popup_button.Staff-btn {
+        display: block;
+        margin: 0 auto;
+        width: 86%;
+    }
+    .mapdrone .map-drone .filter_popup_button.Staff-btn button.btn.cancel {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .mapdrone .map-drone .filter_popup_button.Staff-btn button.btn.update {
+        width: 100%;
+    }
+    /* 30-08 */
+    .filter_popup_button.Staff-btn {
+        margin: 14px 12px 3px 12px;
+    }
+    .filter_popup_button.Staff-btn button.btn {
+        width: 100% !important;
+    }
+    .filter_popup_button.Staff-btn button.btn.cancel {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    /* 31-08 */
+    .OME-card-section .card-deck-2 .card {
+        width: 100% !important;
+        margin-bottom: 12px;
+        margin-right: 0;
+    }
+    form.main_wrappar.main-role-content .OEM-header .OEM-right {
+        width: 91% !important;
+        margin: 17px 15px 0 15px;
+        padding-bottom: 12px;
+    }
+    form.main_wrappar.main-role-content .certificate-file .Preview-btn {
+        margin-left: 0 !important;
+        margin-top: 8px;
+    }
+    form.main_wrappar.main-role-content .certificate-file .Update-File-btn {
+        margin-top: 8px;
+    }
+    /* 01-09 */
+    .main_wrappar.b-tabs-section .filter_hd {
+        width: 100%;
+        margin-bottom: 12px !important;
+    }
+    form.main_wrappar.b-tabs-section .filter-of-rpa .list_of_detail_part .filtering_list .export {
+        width: 69%;
+    }
+    form.main_wrappar.b-tabs-section .filter-of-rpa .list_of_detail_part .filtering_list {
+        flex-wrap: wrap;
+    }
+    /* 02-09 */
+    .dymic_input_area .dymic_input .input-plan {
+        display: none;
+    }
+    /*  .dymic_input_area .dymic_input .check_Boxx {
+        justify-content: space-around;
+    } */
+    .dymic_input_area .dymic_input .checkbox label:before {
+        margin-left: -49px;
+    }
+    /* 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    form.main_wrappar.main-role-content .generate_uuid_section button {
+        min-width: 69%;
+    }
+    form.main_wrappar.main-role-content .generate_uuid_section {
+        margin-right: 0;
+    }
+    form.main_wrappar.main-role-content .OEM-header .OEM-right .current-active-plan button {
+        min-width: 102px;
+    }
+    form.main_wrappar.main-role-content .hr-ref .hr-line {
+        width: 86%;
+    }
+    /*End 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+}
+
+
+/* 5ca remote pilot detail */
+
+@media (min-width: 1285px) and (max-width: 1345px) {
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31.5%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1285px) {
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31%;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        display: block !important;
+    }
+}
+
+
+/* End 5ca remote pilot detail */
+
+@media (max-width: 500px) {
+    .intl-tel-input .country-list {
+        white-space: normal;
+        width: 313%;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        display: block !important;
+    }
+}
+
+@media (min-width: 1285px) and (max-width: 1345px) {
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31.5%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1285px) {
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31%;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 320px) {
+    .filter-of-rpa .list_of_detail_part .filtering_list .export {
+        width: 66%;
+    }
+}
+
+@media only screen and (max-width:501px) {
+    .hel-sec {
+        padding: 18px 18px;
+    }
+    span.syb-svg {
+        margin-right: 10px;
+    }
+    h3.cn-txt {
+        font-size: 15px;
+    }
+    h3.cn-txt span {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .wel-sec {
+        padding: 18px 18px;
+    }
+    .hel-txt-sec {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    button.up-dt {
+        margin-left: unset;
+    }
+    button.suc-dt,
+    button.dis-dt {
+        margin-left: unset;
+    }
+}
+
+@media only screen and (max-width:1310px) {
+    /* 17Aa_Manage-Notifications Start */
+    .tab_icons {
+        justify-content: flex-start;
+    }
+    .tab_icons {
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    .tab_cnt_hd .tab_date {
+        justify-content: flex-start;
+    }
+    .row.tab_cnt_hd h6 {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .tab_dis h6 {
+        margin-bottom: 5px;
+    }
+    .btn_share button {
+        margin-left: 0px;
+        margin: 7px 0px;
+    }
+    .tab_cnt_hd {
+        padding-bottom: 10px;
+    }
+    .tab_dis p {
+        font-size: 11px;
+    }
+    .tab_cnt {
+        flex-direction: column;
+    }
+    .tab_dis {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .btn_share {
+        justify-content: flex-start;
+    }
+    /* 17Aa_Manage-Notifications End */
+}
+
+@media only screen and (min-width:1311px) and (max-width:1400px) {
+    .btn_share button {
+        margin-left: 20px;
+        margin-right: unset !important;
+    }
+}
+
+/* 6BC Satellite */
+@media only screen and (min-width:320px) and (max-width:375px){
+    .sav-butt{
+        margin: 12px 0px 0px 0px;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:425px){
+    .sav-butt{
+        margin: 12px 40px 0px 40px;
+    }
+}
+@media only screen and (min-width:425px) and (max-width:1920px){
+    .sav-butt{
+        margin: 12px 80px 0px 80px;
+    }
+}
+/* End 6BC Satellite */
+
+/* Frame 2062 start */
+ @media screen and (max-width:400px) {
+        .Frame_hd {max-width: 320px;margin: auto;}
+        .Frame_hd .f_close_c {
+            right: -29px !important;
+            padding: 2px !important;
+        }
+        .Frame_hd .modal-content {            
+            width: 260px;         
+        }
+         .Frame_hd .status_cnt p {
+            margin-left: 5px;            
+            white-space: nowrap;
+        }
+        .Frame_hd .status_cnt h6 {            
+            font-size: 12px;            
+            margin-left: 5px;            
+        }
+        .Frame_hd .modal-title {  font-size: 16px;}  
+  .Frame_hd .lft_icon img {
+        width: 20px;
+    }
+    .Frame_hd .lft_icon {
+        margin: 0px 15px;                
+    }
+    .accordion_custom .card-header a {
+        font-size: 12px;
+    }.accordion .card-header.collapsed:after {      
+        width: 16px;        
+        background-size: contain;
+    }		
+    }
+/*End Frame 2062 start */
+@media screen and (min-width:501px) and (max-width:625px){ .drone_log_title .dt_btn{margin-bottom: 10px;}}
+@media screen and (min-width:320px) and (max-width:500px){
+    .main_drone_log .drone_log_title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .drone_log_title .c_input.form-group label {     
+        vertical-align: unset;
+        margin-bottom: 10px;
+    }
+    .drone_log_title .dt_btn{margin-bottom: 10px;}
+    .drone_log_title .check_div3 span{vertical-align: unset;}
+    .drone_cap_main {
+        display: flex;
+        align-items: unset;
+        justify-content: unset;
+        flex-direction: column;
+    }
+    .main_drone_log .drone_cap_main .drone_cap {
+        width: 100%;        
+    }
+    .drone_cap button.addbtn img {        
+        max-width: 25px;
+        right: 50px;
+    }
+    .drone_cap .dwnbtn img {        
+        max-width: 25px;
+    }
+    .drone_icon_2 .dlt_btn img {max-width: 25px;}
+    .drone_icon_2 .drone_cap .addbtn img {    
+        right: 75px;        
+    }
+    .drone_icon_2 .drone_cap .dwnbtn img {    
+        right: 43px;
+    }
+}
+@media screen and (min-width:501px) and (max-width:992px){
+    .drone_icon_2 .drone_cap .addbtn img {    
+        right: 90px;        
+    }
+    .drone_icon_2 .drone_cap .dwnbtn img {    
+        right: 50px;
+    }
+    .main_drone_log .drone_cap_main .drone_cap {
+        width: 47%;     
+    }
+    .drone_cap button.addbtn img {        
+        max-width: 30px;
+        right: 55px;
+    }
+    .drone_cap .dwnbtn img {        
+        max-width: 30px;        
+    }
+    .drone_icon_2 .dlt_btn img {max-width: 30px;}
+}
+@media screen and (min-width:993px) and (max-width:1200px){
+    .drone_icon_2 .btn_drone img{max-width: 25px !important;}
+
+    .drone_icon_2 .drone_cap .addbtn img {    
+        right: 70px;        
+    }
+    .drone_icon_2 .drone_cap .dwnbtn img {    
+        right: 40px;
+    }
+    .main_drone_log .drone_cap_main .drone_cap {
+        width: 23%;     
+    }
+    .drone_cap button.addbtn img {        
+        max-width: 30px;
+    }
+    .drone_cap .dwnbtn img {        
+        max-width: 30px;
+    }
+    .drone_icon_2 .dlt_btn img {max-width: 30px;}
+    .drone_cap .form-group {        
+        left: 10px;
+    }
+    .drone_cap button.addbtn img {        
+        right: 50px;
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1440px){
+    .drone_cap .dlt_btn img {max-width: 30px;}
+    .drone_cap button.addbtn img {        
+        max-width: 30px;
+    }
+    .drone_cap .dwnbtn img {        
+        max-width: 30px;
+    }
+    .drone_cap .form-group {        
+        left: 10px;
+    }
+    .drone_cap button.addbtn img {        
+        right: 50px;
+    }
+    .drone_icon_2 .drone_cap .addbtn img {
+        right: 90px !important;
+    }
+    .drone_icon_2 .drone_cap .dwnbtn img {
+        right: 50px !important;
+    }
+    .drone_cap_hd .drone_cap .addbtn img {    
+        right: 60px;        
+    }
+    .drone_cap_hd .drone_cap .dwnbtn img {    
+        right: 20px;
+    }
+}
+@media screen and (min-width:1441px) and (max-width:1920px){
+    .drone_icon_2 button.addbtn img{right: 110px !important;}
+    .drone_icon_2 button.dwnbtn img{right: 60px !important;}
+    .drone_cap button.addbtn img {        
+        max-width: 42px;
+        right: 70px;
+    }
+    .drone_cap .dwnbtn img {        
+        max-width: 42px;
+    }    
+    .main_drone_log {        
+        padding: 30px;
+    }        
+}
+/* 19/09/2021 */
+/* 17Aa_Manage-Notifications_3 Start */
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .mng_noty_main .main_wrappar {   padding: 20px ;}
+.mng_notify_hd .mng_notify input{padding: 10px;}
+.mng_notify_hd .mng_notify { flex-direction: column; width: 100%;padding: 10px;}       
+.mng_notify_hd{padding: 0px;}
+.mng_noty_main .main-role-content .Role_dealis {margin-bottom: 10px !important;}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){ 
+    .mng_notify_hd .mng_notify{padding: 10px;}
+}
+@media only screen and (min-width: 993px) and (max-width: 1300px){ 
+    .mng_notify_hd .mng_notify{padding: 10px;}
+}
+@media only screen and (min-width: 1301px) and (max-width: 1500px){ 
+    .mng_notify_hd .mng_notify input{padding: 10px 20px;}
+    .mng_notify_hd .mng_notify {padding: 10px 20px 10px 20px;}
+}
+
+/* 11Bb_Mission-Detail */
+@media only screen and (min-width:1601px) and (max-width:1870px) {
+    .drone_web_cntl_main {margin-right: 40px; }       
+    .drone_mission_main .wheather_r_main { margin-right: 0px;}   
+    .drone_mission_main .drone_msn:first-child {padding: 14px 17px;}            
+}
+
+@media only screen and (min-width:1701px) and (max-width:1751px){
+    .drone_web_cntl_main {   margin-right: 0px;}     
+    .wheather_r_main .wheather_r {margin-right: 10px;}
+    .wheather_r_main .wheather_r_2 {margin-right: 10px;}
+}   
+@media only screen and (min-width:1601px) and (max-width:1700px){
+    .drone_web_cntl_main {   margin-right: 0px;}     
+    .wheather_r_main .wheather_r {margin-right: 10px;}
+    .wheather_r_main .wheather_r_2 {margin-right: 10px;}
+    .drone_mission_main .drone_mission_hd {padding: 20px 0px;}
+    .wheather_r button {padding: 10px 15px;}
+    .wheather_r_2 {padding: 5px 17px;}        
+}   
+@media only screen and (min-width:1441px) and (max-width:1600px){
+    .drone_web_cntl_main {   margin-right: 0px;}     
+    .wheather_r_main .wheather_r {margin-right: 10px;}
+    .wheather_r_main .wheather_r_2 {margin-right: 10px;}
+    .drone_mission_main .drone_mission_hd {padding: 20px 0px;}
+    .wheather_r button {padding: 10px 15px;}
+    .wheather_r_2 {padding: 5px 10px;}        
+    .drone_mission_main .wheather_r_main {margin-right: 4px;}
+    .drone_web_cntl_main .drone_web {
+        padding-right: 4px;
+    }
+}   
+@media only screen and (min-width:1361px) and (max-width:1440px){
+    .drone_msn .check_i {top: 20px;}
+    .drone_web_cntl_main {margin-right: 0px;}        
+    .drone_mission_main .drone_mission_hd {padding: 12px 0px;}     
+    .drone_mission_main .wheather_r_main {margin-right: 0px;}
+    .wheather_r button {padding: 15px 20px;}        
+    .wheather_r_main .wheather_r {margin-right: 10px;}
+    .wheather_r_2 {padding: 5px 9px;margin-right: 10px;}
+    .drone_mission_main .drone_msn:first-child {padding: 6px 10px;}
+    .drone_msn_2 {padding: 10px 15px;}        
+    .drone_web .drone_web_c {   padding-right: 10px;}
+    .drone_mission_wraper {  padding-top: 110px !important;} 
+    .drone_zones_main {padding: 11px 5px;bottom: 85px;}
+}
+@media screen and (min-width:1201px) and (max-width:1360px){
+    .drone_zones_main {padding: 11px 5px;bottom: 85px;}
+    .drone_mission_wraper {padding-top: 120px !important;}
+    .drone_web_cntl_main {
+        margin-right: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .drone_web .drone_web_c {padding-right: 8px;}
+    .drone_mission_main .drone_mission_hd {padding: 10px 15px; }
+    .drone_web_c:first-child .switch{margin-left: 30px;}
+    .drone_mission_main .drone_msn:first-child {padding: 8px 10px;}
+    .drone_mission_main .wheather_r_main {margin-right: 0px;}
+    .drone_msn_2 {padding: 10px 14px;}
+    .drone_web .drone_web_c .pad_cnge {margin-left: 45px !important;}
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px){
+    .drone_zones_main {padding: 11px 5px;bottom: 85px;}
+    .drone_mission_wraper {padding-top: 220px !important;}
+    .drone_web_cntl_main {
+        margin-right: 50px;
+    }
+    .drone_web_cntl_main {    
+        align-items: flex-start;
+        margin-right: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .drone_web .drone_web_c .pad_cnge {margin-left: 45px !important;}
+    .drone_mission_main .drone_msn:first-child {padding: 10px 20px;}
+    .wheather_r_2 {padding: 7px 14px;}
+    .wheather_r button {padding: 10px 20px;}
+}
+@media screen and (max-width:1023px){
+    .drone_zones_main {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px !important;        
+    }
+    .drone_zones_main {padding: 11px 5px;bottom: 85px;}
+    .drone_web_cntl_main {    
+        align-items: flex-start;
+        margin-right: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .drone_web .drone_web_c .pad_cnge {margin-left: 45px !important;}
+    .drone_mission_main .wheather_r_main {margin-right: 0px;}
+    .drone_mission_main .drone_mission_hd {padding: 10px;}
+    .drone_mission_main .drone_msn:first-child {padding: 14px 20px;}
+}
+
+@media screen and (min-width:320px) and (max-width:768px){    
+    .drone_zones_main {padding: 11px 5px;bottom: 85px;}
+    .drone_mission_main .wheather_r_main {        
+        align-items:center;
+        margin-right: 0px;
+        flex-direction: row;
+    }
+    .wheather_r_main .wheather_r{margin-bottom: 10px;}
+    .wheather_r_main .wheather_r_2{margin-bottom: 10px;padding: 5px 10px;}    
+    .wheather_r button {padding: 8px 18px;}
+    .drone_msn_2 {padding: 15px 12px;}
+    .drone_mission_main .drone_msn:first-child {padding: 10px 10px !important;padding-top: 15px !important;}
+    .drone_msn .check_i {left: 55%;width: 12px;}
+    .drone_msn h6 {display: flex;align-items: center;width: 100%;}    
+    .drone_mission_main .drone_msn:first-child h6{padding-top: 5px;}
+    .drone_mission_wraper {
+        padding-top: unset ;
+    }
+    .dept_create_brn .cancel_btn 
+    {
+        width: 90% !important; 
+    }
+    .dept_create_brn .save_btn 
+    {
+        width: 90% !important;
+    }
+}
+@media screen and (min-width:425px) and (max-width:768px){
+    .drone_web_cntl_main {
+        justify-content: unset !important;
+    }    
+    .drone_mission_main .wheather_r_main {align-items: center !important;flex-direction: row !important; }
+}
+@media screen and (min-width:320px) and (max-width:375px){    
+        .drone_web_cntl_main {margin-bottom: 5px;}
+        .drone_msn #twel{font-size: 7px !important;}    
+        .drone_msn_2 #twel{font-size: 7px !important;}  
+        .drone_msn span svg  {margin-right: 5px;}
+        .drone_msn_2 {padding: 15px 10px !important;}
+        .drone_msn {padding: 15px 10px !important;}
+        .drone_msn h6 {align-items: center !important;padding-right: 5px;}   
+        .drone_msn_2 .check_i {left: 64%;top: 24px;}
+        .drone_msn_2 span.check_i img {width: 10px;}
+        .wheather_r_main .wheather_r_2{ width: 100% !important;}    
+}
+
+/* 03Ab_Department-Create */
+@media screen  and (max-width:768px){   
+    .logout_pop .modal-content {max-width: 280px;}
+    .logout_pop .b_footer button {width: 80px;}
+ }
+
+ @media only screen and (max-width:767px){
+    .dept_create_brn{flex-direction:column;align-items: center;}
+    .dept_create_brn .cancel_btn{margin-bottom: 10px;width: 60%;}
+    .dept_create_brn .save_btn{width: 60%;}
+    .dept_create_main .modal-dialog{margin: 40px 10px;}
+    .dept_create_text input{min-width: 100%;}
+    .dept_create_text select{min-width: 100%;}
+  }
+  @media only screen and (min-width:768px) and (max-width:991px){
+    .dept_create_main .modal-dialog{max-width: 700px;}
+  
+  }
+/* 03Ab_Department-Create End */
+/* 11Ge_Create-Missions_New */
+@media only screen and (min-width:320px) and (max-width:425px){
+    .create_mission11ge_popup_main .modal-content {max-width: 300px !important;}        
+    .create_mission11gg_popup_main .modal-content {max-width: 300px;}
+    .create_mission_popup_main .modal-content {max-width: 300px;}
+    .npnt_1_main .modal-content {max-width: 300px;}
+        
+    .create_mission_inner1{padding: 10px 0px;width: 75%;}  
+    .modal_dept_show { left: 20px;}  
+    }
+    
+@media only screen and (min-width:426px) and (max-width:768px){
+.create_mission11ge_popup_main .modal-content {max-width: 420px !important;}    
+.create_mission11gg_popup_main .modal-content {max-width: 420px;}
+.create_mission_popup_main .modal-content {max-width: 300px;}
+.create_mission_popup_main .modal-content {max-width: 420px;}
+.npnt_1_main .modal-content {max-width: 420px;}
+.dept_create_brn .cancel_btn{width: 70%;}
+.dept_create_brn .save_btn{width: 70%;}
+}
+ @media only screen and (min-width:768px) and (max-width:991px){
+    .create_mission11gg_popup_main .modal-dialog{max-width: 700px;}
+    .create_mission11gg_popup_main .create_mission_popup11ge_inner{padding: 30px 50px;}
+  }
+/* 11Ge_Create-Missions_New End */
+
+/* 11Gi_NPNT-Submission1 End */
+@media only screen and (max-width:767px){
+    .npnt_1_first.border_none {margin-top: 20px;}
+    .hd_icon2.div_border {display: none;}
+  }
+  
+@media only screen and (min-width:320px) and (max-width:767px){
+    .rpa_popup_main .modal-body.dept_create_body {padding: 35px;}
+    div#rpa_popup {padding-left: 0px !important;}
+    .dept_create_brn .clear_btn{margin-right: 0px; margin-bottom: 20px;}
+    .main_wrappar.b-tabs-section .filtering_list {
+        justify-content: unset;
+        padding: 12px 12px;
+        flex-direction: column;        
+    }
+    .create_mission_inner1 img {
+        max-width: 40px;
+        width: 100%;     
+    }
+    .dropdown_custom{margin-bottom: 10px;}
+    .main_wrappar.b-tabs-section .filtering_list .import-mission{margin: 0px ;margin: bottom 10px; }    
+  }
+  @media only screen and (min-width:991px) and (max-width:1024px){
+    .rpa_popup_main .modal-body.dept_create_body {padding: 35px 100px;}
+    .rpa_popup_main .modal-dialog {max-width: 900px;}
+    
+  }
+
+@media only screen and (max-width:1440px){
+    .select .selectBtn{padding: 7px 16px;}
+    .dropdown_custom {margin-right: 10px;}
+    .dropdown_custom .select{width: 100%;}
+    .dropdown_custom .select{background-size: 10px;background-position:center right 10px;}
+}
+@media only screen and (min-width:425px) and (max-width:440px){
+    .butt {
+        display: flex;
+        margin-top: 12px;
+    }
+    .apprv_btn{
+       margin-right: 16px !important;
+       margin-left: 8px!important;
+    }
+    
+}
+
+
+/* 17Aa_Manage-Botification Start*/
+@media only screen and (min-width:1441px) and (max-width:1730px){
+    .manage_notify_main .pad_custom_n_1 {margin-left: 60px;}
+    .manage_notify_main .pad_custom_n_2 {margin-left: 37px;}
+    .manage_notify_main .pad_custom_n_3 {margin-left: 30px;}
+}
+
+@media only screen and (min-width:1301px) and (max-width:1440px){
+    .manage_notify_main .pad_custom_n_1 {margin-left: 40px;}
+    .manage_notify_main .pad_custom_n_2 {margin-left: 17px;}
+    .manage_notify_main .pad_custom_n_3 {margin-left: 10px;}
+}
+@media only screen and (max-width:1300px){
+    .manage_notify_main .pad_custom_n_1 {margin-left: 0px;}
+    .manage_notify_main .pad_custom_n_2 {margin-left: 0px;}
+    .manage_notify_main .pad_custom_n_3 {margin-left: 0px;}
+    .offer_name {        
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .tab_icons{flex-direction: row;align-items: center;justify-content: flex-end;}
+    .manage_notify_row {padding: 10px 15px;}
+    .manage_notify_row_2 {padding: 10px 15px;}
+	    .notify_Main_hd .margin_left_100 {margin-left: 76px;}
+    .notify_Main_hd .margin_left_45 {margin-left: 47px;}    
+    .notify_Main_hd .margin_left_77 {margin-left: 0px;white-space: normal;}      
+    .notify_main_row_3 {        
+        align-items: flex-start;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .notify_Main_hd .btn_share {justify-content: flex-start;}    
+    .nofity_main_row {
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tab_icons {justify-content: flex-start;}
+    .notify_main_col_2 {align-items: flex-start;flex-direction: column;}
+}
+@media screen and (max-width:1440px) {
+    .manage_notify_row {padding: 10px 15px;}
+    .manage_notify_row_2 {padding: 10px 15px;}    
+}
+
+@media screen and (max-width:630px) {
+    .offer_name {
+        align-items: flex-start;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .manage_notify_row{flex-direction: column;padding: 10px !important;}
+    .manage_notify_row_2{flex-direction: column;padding: 10px !important;}
+    .manage_notify_main .tab_icons{justify-content: flex-start;}
+    .offer_name_btn.btn_share {
+        justify-content: center;
+    }
+    .manage_notify_main #sixteen{font-size: 12px;}
+}
+@media screen and (min-width:1301px) and (max-width:1700px) {
+    .notify_Main_hd .margin_left_100 {margin-left: 60px;}
+    .notify_Main_hd .margin_left_45 {margin-left: 47px;}    
+    .notify_Main_hd .margin_left_77 {margin-left: 30px;}      
+}
+
+/* / jana 29/10 / */
+
+
+
+@media only screen and (min-width:1150px) and (max-width:1225px) {
+.nav_bell {
+padding-right: 15px;
+}
+.header-sec-right-end {
+padding: 15px 30px 15px 0px;
+}
+
+}
+@media only screen and (min-width:992px) and (max-width:1071px) {
+.role_select_form1
+{
+padding-right: 0px !important;
+margin-right: 10px !important;
+}
+
+}
+@media only screen and (min-width:320px) and (max-width:400px) {
+.main-role-content .form-group input,.main-role-content .form-group select
+{
+min-width: unset !important;
+}
+}
+@media only screen and (min-width:320px) and (max-width:374px) {
+.filter_popup_inputs .pass_section {
+width: 100% !important;
+}
+button#twel {
+margin-top: 7px;
+}
+.intl-tel-input.allow-dropdown.separate-dial-code {
+width: 234px !important;
+}
+.flight-log-sidebar {
+flex-wrap: wrap;
+}
+#thirteen {
+font-size: 10px;
+}
+#fourteen {
+font-size: 10px;
+}
+#eighteen {
+font-size: 12px;
+}
+.intl-tel-input.allow-dropdown.separate-dial-code {
+width: 100% !important;
+}
+input#file {
+font-size: 12px;
+}
+form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+width: 200px !important;
+}
+.iti-mobile .intl-tel-input.allow-dropdown.separate-dial-code {
+width: 200px !important;
+}
+form.main_wrappar.main-role-content .filter_popup_inputs select {
+width: 200px !important;
+}
+button#twel {
+margin-left: 0px !important;
+}
+}
+@media only screen and (max-width: 950px)
+{
+.filter_popup_inputs .pass_section {
+width: 100% !important;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1199px) {
+.filtering_list {
+display: flex !important;
+}
+.filter_hd {
+margin-right: 10px !important;
+margin-left: 10px !important;
+}
+.upcome_input {
+width: 35% !important;
+margin-right: 10px !important;
+}
+}
+@media only screen and (min-width:576px) and (max-width:767px) {
+/* .main_wrappar.b-tabs-section .filtering_list {
+flex-direction: row !important;
+} */
+.main_wrappar.b-tabs-section .filtering_list {
+display: flex;
+}
+.upcome_input {
+width: 190px !important;
+}
+.filtering_list .filter_hd {
+width: 190px !important;
+
+}
+.export {
+width: 190px;
+margin-top: 12px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px)
+{
+.main_wrappar.b-tabs-section .nano-img {
+margin: 15px 17px 0px 17px !important;
+}
+}
+@media only screen and (min-width:320px) and (max-width:575px) {
+.upcome_input {
+width: 190px !important;
+}
+.filter_hd {
+width: 190px !important;
+}
+.export {
+width: 190px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:826px) {
+.drone_right_toggle {
+top: 106px;
+}
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+.drone_toggle_section_parent {
+max-width: 249px;
+}
+.drone_right_toggle {
+position: fixed;
+right: -240px;
+top: 252px;
+}
+.main_wrappar {
+padding: 20px 20px 0px !important;
+margin-top: 15px;
+}
+.export {
+margin-left: 0px !important;
+width: 190px !important;
+
+margin-top: 10px !important;
+
+}
+.ml-lg-4.ml-sm-4.ml-3 {
+margin-left: 0px !important;
+}
+.filter_hd {
+margin-bottom: 12px !important;
+}
+.menu-filter
+{
+margin-bottom: 12px !important;
+margin-left: 0px !important;
+}
+.upt_btn {
+padding: 12px 43px 11px 41px;
+}
+.butt {
+margin-top: 12px;
+margin-bottom: 80%;
+display: block;
+}
+button.apprv_btn {
+margin-left: 0px;
+margin-bottom: 10px;
+}
+button.upt_btn {
+margin-left: 0px !important;
+}
+.geo_fence_section1 {
+display: none;
+}
+.tab-content>.active {
+/* margin-bottom: 100%; */
+}
+.sav-butt {
+margin: 0px;
+}
+}
+@media only screen and (min-width:320px) and (max-width:991px) {
+.main_wrappar.b-tabs-section .nano-img {
+margin: 15px 17px 0px 17px !important;
+}
+}
+@media only screen and (min-width:375px) and (max-width:767px) {
+.flight-log-sidebar {
+flex-direction: column;
+}
+}
+@media only screen and (max-width: 425px)
+{
+.main_wrappar.b-tabs-section {
+padding: 20px 20px 0px !important;
+}
+
+}
+@media only screen and (max-width: 482px)
+{
+.oem-list-cont-itm {
+display: flex;
+flex-direction: column;
+}
+.oem-list-cont-toggle_icon {
+flex-direction: column;
+}
+.olc-toggle_icon, .oem-list-cont-toggle_icon span img:first-child {
+margin-bottom: 10px;
+}
+}
+@media only screen and (max-width: 1600px)
+{
+.main-role-content .Role_dealis {
+margin: 18px 10px;
+}
+
+}
+@media only screen and (min-width: 1601px)
+{
+form.main_wrappar.main-role-content .filter_popup_inputs select {
+width: 250px !important;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+.filter-of-rpa {
+padding-bottom: 0px !important;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+button.btn_1 {
+padding: 7px 40px !important;
+}
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+.geo_fence_form .gf-field.gf-field-img.gf-field-img-second {
+padding-left: 0px !important;
+margin-top: 20px !important;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 826px)
+{
+.butt {
+margin-top: 12px;
+margin-bottom: 26px !important;
+}
+}
+@media (min-width: 1200px) and (max-width: 1350px)
+{
+form.main_wrappar.main-role-content .filter_popup_inputs select {
+width: 93%;
+}
+}
+
+/* sri start */
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    .filter_hd:after {display: none !important;}
+    .filter_hd.fil_hd2{margin-bottom: 0px !important; margin-right: 10px;}
+    .filter_hd {width: 175px !important;}
+    .t_title_s{margin-left: 0px;}
+    .page-content .dash-right {padding: 20px 0 0px 10px;}
+    div.main_wrappar_parent {padding-top: 190px !important;}
+    /* .main_wrappar {padding: 20px 0px !important;} */
+    .t_foot_hd{justify-content: center;}
+    .page-content .dash-right{padding-left: 0px !important;}
+    .profile-dopdown-section{margin-top: 0px;}
+    .header-sec-right-end{flex-direction: row;}
+    .d_title_hd{margin-bottom: 10px;}
+    .main_wrappar.b-tabs-section{padding: 0px !important;}
+    .main_wrappar.b-tabs-section .nano-img {flex-direction: column;}
+    .filter_sm{width: 190px !important;}
+    .main_wrappar.b-tabs-section .filtering_list{padding: 10px 0px !important;}
+    .main_wrappar.b-tabs-section .filtering_list .create-mission .btn{min-width: 190px !important;}
+    .Missions_Media input#fourteen{min-width: 190px !important;}
+    .main_wrappar.b-tabs-section .dot_circle{right: 64px !important;}
+    .oem-list-grid-sh{flex-direction: unset;}
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text{width: 100% !important;}
+    .iti-mobile .intl-tel-input.allow-dropdown.separate-dial-code{width: 100% !important;}
+    form.main_wrappar.main-role-content .filter_popup_inputs select{width: 100% !important;}
+    .main_wrappar.main-role-content .filter_popup_inputs select{width: 100% !important;}
+} 
+@media only screen and (min-width:768px) and (max-width:991px){
+    .filter_hd.fil_hd2{margin-right: 50px !important;}
+    .page-wrapper.hide .main_border { width: calc(100% - 0px);}
+    /* .t_title_s{flex-wrap: nowrap !important;}     */
+    span.box_icon{padding-right: 10px;}
+    .hd_icon2{margin-top: 6px;}
+    .main_wrappar.b-tabs-section .filtering_list .create-mission .btn {min-width: 135px !important;}
+    .main_wrappar.b-tabs-section .filter_list_5 .filtering_list .upcome_input{min-width: 130px;}
+    .filter_popup_inputs .eye img{right: 75px;}
+}
+@media only screen and (min-width:991px) and (max-width:1024px){
+    .login-hd-details{flex-direction: column;margin-top: 10px;align-items: flex-start;}
+    .d_title_hd {margin-top: 25px;}
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>GoDrona_Logout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>                
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>    
+    <div class="container">
+        <h2>LOGOUT POPUP</h2>
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+          Open modal
+        </button>
+      
+        <!-- The Modal -->
+        <div class="modal " id="myModal">
+          <div class="modal-dialog logout_pop b_none">
+            <div class="modal-content">            
+              <!-- Modal Header -->
+              <div class="modal-header l_header b_none">                
+                <!-- <button type="button" class="close close_custom" data-dismiss="modal">&times;</button> -->
+				<img class="close close_custom" data-dismiss="modal" src="images/popup-close.png">
+              </div>              
+              <!-- Modal body -->
+              <div class="modal-body b_circle b_none">
+                <div class="logout_circle">
+                    <img src="./images/circle_logout.png" alt="Circle">
+                    
+                </div>
+              </div>
+              <div class="modal-body b_text b_none">                                    
+                    <h2 id="twenty-four">Oh Crap !</h2>
+                <h3 id="eighteen">Are you sure want to <strong>Logout?</strong></h3>                                
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer b_footer b_none">                                    
+                <button id="fourteen" type="button">Yes</button>
+                <button id="fourteen" type="button" data-dismiss="modal">No</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GoDrona</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Css link -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- responsive link -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+  <!--bootstrap js  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+
+
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dept_create_mains">
+    Open modal
+  </button>
+
+  <!-- The Modal -->
+  <div class="dept_create_main">
+    <div class="modal" id="dept_create_mains">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body dept_create_body">
+           <div class="dept_create_text">
+            <h1 id="sixteen">Create / Edit Department</h1>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <label id="sixteen" class="pl-3">Department Name</label>
+                <input id="sixteen" type="text" value="Technical Management" placeholder="Enter Department Name" class="ml-3">
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <label id="sixteen">Status</label>
+               <select id="sixteen">
+                 <option>Active</option>
+                 <option>In Active</option>
+               </select>
+              </div>
+            </div>
+
+            <div class="dept_create_brn">
+              <a href="03Aa_Department.html"><button id="fourteen" class="btn cancel_btn">Cancel Changes</button></a>
+             <a href=""></a>
+              <button id="fourteen" class="btn save_btn">Save & Update</button>
+            </div>
+
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+</body>
+</html>

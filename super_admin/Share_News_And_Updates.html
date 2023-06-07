@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>GoDrona_Logout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>                
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Share News and Updates </h2>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal_pop">
+    Open modal
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal_pop">
+    <div class="modal-dialog off_modal ">
+      <div class="modal-content b_none">
+      
+        <!-- Modal Header -->
+        <div class="modal-header Offer_hd b_none">
+          <h4>Share News and Updates</h4>
+          <button type="button" class="close offer_close" data-dismiss="modal"> Close</button>         
+        </div>        
+        
+        <!-- Modal body -->
+        <div class="modal-body off_sub b_none">
+            <div class="mod_subject">
+                        <label for="subject">Subject</label>
+                        <input type="text" placeholder="(Subject)">
+            </div>
+            <div class="import_cvs">
+                <label for="Import">Import Emails</label>                  
+                    <div class="cvs_hd">
+                        <input type="text" placeholder="Report Name 0123.csv" class="csv_input"> 
+                        <input type="button" value="Import as CSV" class="csv_btn">
+                    </div>
+            </div>
+            <br>
+            <label for="for">Descriptions</label>
+            <div class="discription_hd">
+                    
+                    <textarea name="texteditor" id="" cols="30" rows="2"></textarea>
+                    <h2>Lorem Ipsum is a dummy text content in a paragraph</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            </div>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer off_btn b_none">
+          <button type="button" class="send_btn" >Send</button>
+          <button type="button" class="clr_btn" >Clear Changes</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>

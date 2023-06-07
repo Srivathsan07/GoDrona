@@ -1,0 +1,4943 @@
+@media only screen and (min-width:1200px) and (max-width:1600px) {
+    .nav_bell input {
+        font-size: 16px;
+    }
+    .cord_first {
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .page-content {
+        padding-left: 0px;
+    }
+    .main_wrappar {
+        padding: 20px 20px 0px;
+    }
+    .categories li a {
+        font-size: 15px;
+    }}
+
+
+/* side menu */
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .login-hd-details {
+        width: 92%;
+    }
+    .dash-right {
+        position: relative;
+    }
+    .menu-ico-g {
+        position: absolute;
+        right: 15px;
+        top: 21px;
+    }
+    #sidebar {
+        position: fixed;
+        z-index: 2;
+    }
+    .page-wrapper.hide #sidebar {
+        transform: translateX(0px);
+    }
+    .login-hd-details {
+        flex-direction: column;
+    }
+    .nav_right {
+        margin: 10px 0px;
+    }
+    .nav_bell {
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .page-content {
+        padding-left: 0px;
+    }
+    .page-wrapper #sidebar {
+        transform: translateX(-320px);
+    }
+    .page-wrapper.hide .page-content {
+        padding-left: 0;
+    }
+    .page-wrapper.hide #sidebar {
+        width: 270px;
+    }
+    .page-wrapper.hide #sidebar strong,
+    .page-wrapper.hide #sidebar .dropdown-menu-sec .prnt-anc:before,
+    .page-wrapper.hide #sidebar .categories label {
+        display: block;
+        opacity: 1;
+        transition: .3s ease;
+    }
+    div.page-wrapper.hide .side_logo_img_desktop {
+        width: 264px!important;
+    }
+    .page-wrapper.hide #sidebar .categories label {
+        display: flex;
+    }
+    .select_hd {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .page-wrapper #sidebar {
+        transform: translateX(-320px);
+    }
+    .page-wrapper.hide .page-content {
+        padding-left: 0;
+    }
+    .page-wrapper.hide #sidebar {
+        width: 320px;
+    }
+    .page-wrapper.hide #sidebar strong,
+    .page-wrapper.hide #sidebar .dropdown-menu-sec .prnt-anc:before,
+    .page-wrapper.hide #sidebar .categories label {
+        display: block;
+        opacity: 1;
+        transition: .3s ease;
+    }
+    .page-wrapper.hide #sidebar .categories label {
+        display: flex;
+    }
+    .page-content {
+        padding-left: 0;
+    }
+    /* Roles permission 04ab 05bb */
+    .filtering_list {
+        padding: 0;
+        margin-top: 12px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .upcome_input {
+        width: 100%;
+        min-width: unset;
+        margin: 0 0 12px 0 !important;
+    }
+    .main_wrappar.b-tabs-section .filter_hd {
+        margin-bottom: 0px;
+    }
+    .main_wrappar.b-tabs-section .list_of_detail_part .filtering_list select {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .line_f {
+        display: none;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .export .btn {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 0 17px !important;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 17px !important;
+    }
+    .miss-date-col {
+        padding: 0 17px !important;
+    }
+    /* End Roles permission 04ab 05bb */
+    /* filter popup */
+    .filter_hd.dropdown_active .popup_modal_check {
+        right: unset;
+        left: 0;
+        z-index: 9;
+    }
+    .popup_modal_check::after {
+        right: unset;
+        left: 7%;
+    }
+    /*End filter popup */
+    /* 07ab manage OEM list view */
+    .oem-list-grid-parent {
+        width: 100%;
+    }
+    .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 0px !important;
+    }
+    .oem-list-grid-parent:nth-child(even) {
+        padding-left: 0px !important;
+    }
+    /*END 07ab manage OEM list view */
+    .main_wrappar.b-tabs-section .filtering_list {
+        justify-content: unset;
+        padding: 12px 12px;
+    }
+    div.main_wrappar_parent {
+        padding-top: 137px;
+    }
+    .OME-card-section .card-deck-2 .card {
+        width: auto;
+        min-width: 48.9% !important;
+        margin-bottom: 12px;
+    }
+    .OME-card-section .card-deck-2 .card:nth-child(2) {
+        margin-right: 0 !important;
+    }
+    .rpa_popup_main .modal-body.dept_create_body {
+        padding: 35px;
+    }
+    .rpa_popup_main .modal-dialog {
+        max-width: 700px;
+    }
+    .create_mission_popup_inner .pad_respnsv {
+        padding: 0px 6px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .menu-ico-g span:nth-child(1) {
+        transform: rotateZ( 0deg) translate(0px, 0px);
+    }
+    .menu-ico-g span {
+        transition: all linear 0.30s;
+    }
+    .menu-ico-g span:nth-child(2) {
+        display: block;
+    }
+    .menu-ico-g span:nth-child(3) {
+        transform: rotateZ( 0deg);
+    }
+    .menu-ico-g.mb-ic span:nth-child(1) {
+        transform: rotateZ( 45deg) translate(6px, 6px);
+    }
+    .menu-ico-g.mb-ic span:nth-child(2) {
+        display: none;
+    }
+    .menu-ico-g.mb-ic span:nth-child(3) {
+        transform: rotateZ( -45deg);
+    }
+    .page-wrapper.hide #sidebar .db-lit-sc ul li a svg {
+        margin-right: 12px;
+    }
+    /* filter popup */
+    .filter_hd.dropdown_active .popup_modal_check {
+        right: unset;
+        left: 0;
+        z-index: 9;
+        max-width: 300px !important;
+        min-width: 300px !important;
+    }
+    .popup_modal_check::after {
+        right: unset;
+        left: 7%;
+    }
+    /*End filter popup */
+    /* 07ab manage OEM list view */
+    .oem-list-grid-parent {
+        width: 100%;
+    }
+    .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 0px !important;
+    }
+    .oem-list-grid-parent:nth-child(even) {
+        padding-left: 0px !important;
+    }
+    .oem-list-grid-sh {
+        justify-content: flex-start !important;
+        flex-direction: column;
+    }
+    .oem-list-form-sec {
+        margin-bottom: 10px;
+    }
+    .oem-list-form-sec:last-child {
+        margin-bottom: 0px;
+    }
+    /*END 07ab manage OEM list view */
+    div.main_wrappar_parent {
+        padding-top: 300px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs {
+        display: block;
+        width: 100%;
+    }
+    /* Frame 2062 start */
+    .Frame_hd {
+        margin: auto;
+        max-width: 400px;
+    }
+    .create_mission_popup11ge_inner {
+        padding: 20px;
+    }
+    .create_mission11ge_input input {
+        padding: 10px;
+        width: 80%;
+    }
+    .create_mission11ge_input select {
+        padding: 10px;
+        width: 78%;
+    }
+    .margin_right_20 {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .create_mission_popup_head h1 {
+        font-size: 14px;
+    }
+    .create_mission_popup_head h2 {
+        font-size: 13px;
+    }
+    .create_mission11ge_input label {
+        font-size: 14px;
+    }
+    .create_mission11ge_input input {
+        font-size: 14px;
+    }
+    .create_mission11ge_input select {
+        font-size: 14px;
+    }
+    .create_mission11gg_popup_main .create_mission_popup11ge_inner {
+        padding: 30px;
+    }
+    .modal-open .modal {
+        margin-left: 0!important;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .login-hd-details {
+        width: 100%;
+    }
+    .menu-ico-g {
+        position: absolute;
+        right: 10px;
+        top: 17px;
+    }
+    .page-wrapper #sidebar {
+        transform: translateX(-280px);
+    }
+    #sidebar {
+        width: 280px;
+    }
+}
+
+
+/* sidemenu */
+
+
+/* Dashboard */
+
+@media only screen and (min-width:1281px) and (max-width:1600px) {
+    .overview-carts-sec:after {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:1281px) and (max-width:1900px) {
+    .mission-sec-content {
+        margin-left: 20px;
+    }
+    .mission-sec-cart {
+        padding: 13px 16px 15px 15px;
+    }
+    .mission-sec-cart img {
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width:1281px) and (max-width:1600px) {
+    #sidebar {
+        width: 265px;
+    }
+    .page-content {
+        padding-left: 265px;
+    }
+    .overview-section-carts {
+        width: 17.3%;
+    }
+    .overview-section.missions-sec .overview-section-carts {
+        width: 23.5%;
+    }
+    .dropdown-menu-sec .prnt-anc:before {
+        right: 11px;
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1600px) {
+    #sixteen,
+    .sixteen {
+        font-size: 14px;
+    }
+    #seventeen,
+    .seventeen {
+        font-size: 14px;
+    }
+    #fourteen,
+    .fourteen {
+        font-size: 12px;
+    }
+    .Role_table_hd .table th {
+        font-size: 13px;
+    }
+    .Role_table_hd .table td {
+        font-size: 13px;
+    }
+    .l_btn button {
+        font-size: 14px;
+    }
+    .overview-carts-sec span {
+        margin-bottom: 12px;
+    }
+    .overview-carts-sec img {
+        width: 62px;
+    }
+    .access-btn.btn {
+        font-size: 12px;
+        width: 136px;
+        padding: 8px 22px;
+    }
+    .page-content .dash-right {
+        padding-left: 20px;
+    }
+    #twenty-four,
+    .twenty-four {
+        font-size: 21px;
+    }
+    #twenty,
+    .twenty {
+        font-size: 16px;
+    }
+    .chs-select select {
+        font-size: 15px;
+    }
+    #thirteen,
+    .thirteen {
+        font-size: 11px;
+    }
+    #thirty,
+    .thirty {
+        font-size: 24px;
+    }
+    #eighteen,
+    .eighteen {
+        font-size: 14px;
+    }
+    .main_border {
+        width: calc(100% - 265px);
+        transition: ease-in-out 0.5s;
+    }
+    .side_logo_img_desktop {
+        width: 258px;
+    }
+    .side_logo_img_desktop img {
+        width: 80px;
+    }
+    .my_account_logout_main {
+        padding-top: 6px;
+    }
+    .my_account_pass_main {
+        padding: 15px;
+    }
+    .sub-check .c_input {
+        margin-left: 20px;
+    }
+    .categories li a {
+        font-size: 13px;
+    }
+    .select_hd select {
+        padding: 8px 20px 8px 7px;
+        font-size: 14px;
+    }
+    .f_reset {
+        width: 24px;
+        height: 24px;
+        padding: 3px;
+    }
+    span.f_reset img {
+        width: 15px;
+    }
+    .f_reset {
+        margin-left: 15px;
+    }
+    button.btn_1 {
+        padding: 6px 18px;
+        font-size: 12px;
+    }
+    button.btn_2 {
+        padding: 7px 18px;
+        font-size: 12px;
+    }
+    p.c_select {
+        font-size: 12px;
+    }
+    .Fil_Num {
+        font-size: 12px;
+    }
+    .filter_hd {
+        padding: 3px 3px 3px 13px;
+    }
+    .t_foot_hd,
+    .t_foot_hd span,
+    .t_foot_hd label {
+        font-size: 13px;
+    }
+    .table_footer_hd {
+        padding: 7px 20px;
+    }
+    .select_hd label {
+        margin-right: 11px;
+    }
+    .c_select {
+        padding-right: 25px;
+    }
+    .profile-dopdown-section {
+        margin-left: 35px;
+    }
+    .db-lit-sc ul {
+        padding: 0px 13px;
+    }
+    ul.categories label {
+        font-size: 14px;
+    }
+    .categories li a.prnt-anc {
+        padding: 12px 20px 12px 10px;
+    }
+    ul.categories label {
+        padding: 22px 0px 12px 4px;
+    }
+    .overview-carts-sec {
+        padding: 16px 0px 14px 0px;
+    }
+    .profile-name h5,
+    .profile-name span {
+        font-size: 12px;
+    }
+    .notification_popup_head h1,
+    .notification_popup_head h2,
+    .myaccount_text h1,
+    .my_account_pass_main h1,
+    .my_account_logout_main h1 {
+        font-size: 16px;
+    }
+    .notification_popup_text h1 {
+        font-size: 13px;
+    }
+    .notification_popup_text h2,
+    .notification_popup_text p,
+    .myaccount_text h2 {
+        font-size: 12px;
+    }
+    .myaccount_popup_head .my_account_first {
+        padding: 12px 15px;
+    }
+    .filter_hd.fil_hd2 {
+        margin-right: 50px;
+    }
+    .filter_hd.fil_hd2:after {
+        right: -27px;
+    }
+    .filter_hd.fil_hd2:after {
+        height: 30px;
+        top: 1px;
+    }
+    .notify-msg-section img {
+        width: 17px;
+    }
+    .notify-msg-section ul li {
+        width: 40px;
+        height: 40px;
+    }
+    .notify-number {
+        width: 19px;
+        height: 19px;
+        font-size: 11px;
+    }
+    .notify-msg-section span.notify-number {
+        top: -4px;
+        right: -8px;
+    }
+    .notification_popup_main .modal-dialog {
+        width: 420px;
+    }
+    .notification_close img {
+        width: 50px;
+    }
+    .notification_close {
+        left: -46px;
+        top: 53px;
+    }
+    .notification_img img {
+        width: 35px;
+    }
+    td.tab_icons img {
+        width: 16px;
+        height: auto;
+    }
+    .tab_icons span {
+        margin: 0px 5px;
+    }
+    .Role_table_hd .table td {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .nav_bell img {
+        width: 17px;
+    }
+    .db-lit-sc ul li a svg {
+        margin-right: 12px;
+    }
+    ul.categories svg {
+        width: 18px !important;
+        min-width: 18px!important;
+    }
+    ul.categories .dropdown-menu.default-menu svg {
+        width: 14px;
+    }
+    .overview-section {
+        margin-top: 25px;
+    }
+    /* 07fc flight log */
+    .flight-log-sidebar {
+        padding-right: 55px;
+    }
+    .flight-log-logo img {
+        width: 45px;
+    }
+    .fligh-log-parent {
+        padding: 20px 20px 10px 20px;
+    }
+    .fligh-log-caption {
+        padding-bottom: 12px;
+    }
+    .fll-section li {
+        margin-bottom: 20px;
+    }
+    .fligh-log-list {
+        margin-top: 20px;
+    }
+    .fll-section {
+        background-position: 7.6px 7.6px!important;
+    }
+    .fll-section li p {
+        width: 250px;
+        min-width: 250px;
+    }
+    /*End 07fc flight log */
+    .filter_popup_inputs .filter_popup_text {
+        padding: 10px 20px 10px 12px;
+    }
+    .font-normal.phone::placeholder {
+        font-size: 13px!important;
+    }
+    .main_wrappar.b-tabs-section .filtering_list select {
+        background-size: 11px!important;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs li a.active {
+        min-height: 36px;
+    }
+    .main-wrapper-top img {
+        width: 18px;
+        margin-right: 18px;
+    }
+    .main-wrapper-top.mwt-sec {
+        margin-bottom: 16px;
+    }
+    .modal-open .modal {
+        margin-left: 260px;
+    }
+    /* 07ab manage OEM list view */
+    .oem-list-grid-sh {
+        padding-right: 0;
+        padding-top: 7px;
+    }
+    .olc-toggle_icon,
+    .oem-list-cont-toggle_icon span img:first-child {
+        margin-right: 22px;
+    }
+    .oem-list-grid-fh {
+        padding-bottom: 10px;
+    }
+    .oem-list-grid-parent:nth-child(even) {
+        padding-left: 15px;
+    }
+    .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 15px;
+    }
+    .oem-list-form-sec label {
+        margin-bottom: 7px;
+    }
+    .oem-list-form-sec img {
+        width: 13px;
+    }
+    .oem-list-grid-parent {
+        margin-bottom: 20px;
+    }
+    /* End 07ab manage OEM list view */
+    /* 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    .tab-content.OME-card-section.fa07_Mission .mission_part .mission_text-area p#fourteen {
+        font-size: 10px;
+    }
+    form.main_wrappar.main-role-content .generate_uuid button {
+        min-height: 40px;
+        height: unset;
+        max-height: 100%;
+    }
+    form.main_wrappar.main-role-content .generate_uuid_section button {
+        min-height: 44px;
+    }
+    form.main_wrappar.main-role-content .generate_uuid_section {
+        min-height: 103px;
+    }
+    form.main_wrappar.main-role-content .OEM-header .OEM-right {
+        min-height: 78px;
+    }
+    .main_wrappar_parent {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /*End 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    /* 09Ba_Remote_pilot_Basic-detail */
+    .OME-card-section .card-deck-2.flight-record .flight-records .card .card-body {
+        padding: 15px 11px;
+    }
+    .OME-card-section .card-deck-2.flight-record .flight-records .card {
+        width: 22.8%;
+        height: 80px;
+        min-height: 80px;
+    }
+    .OME-card-section .card-deck-2.flight-record .flight-records .card img {
+        height: 50px;
+        width: 50px;
+    }
+    .OME-card-section .card-deck-2.flight-record .card.green-card {
+        min-height: 187px;
+        height: 187px;
+    }
+    /*end 09Ba_Remote_pilot_Basic-detail */
+    /* 11Aa_Global_missions  */
+    .main_wrappar.b-tabs-section .shr_btn .btn {
+        min-width: 121px;
+        width: auto;
+        max-width: 100%;
+        min-height: 19px;
+        height: 19px;
+        max-height: 100%;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .create-mission .btn {
+        min-width: 170px;
+        width: auto;
+        min-height: 34px;
+        height: auto;
+    }
+    /* end 11Aa_Global_missions */
+    /* 11Ba_Uploaded_missions */
+    .main_wrappar.b-tabs-section .filter_list_5 .filtering_list .upcome_input {
+        min-width: 163px;
+        width: 163px;
+    }
+    .main_wrappar.b-tabs-section .filter_list_5 .filtering_list .export .btn {
+        min-width: 108px;
+    }
+    .main_wrappar.b-tabs-section .filter_list_5 .filtering_list .import-mission .btn {
+        min-width: 108px;
+    }
+    .main_wrappar.b-tabs-section .filter_list_5 .filtering_list .create-mission .btn {
+        min-width: 145px !important;
+    }
+    .flight_log .btn {
+        width: 78px;
+        height: 20px;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs textarea {
+        min-height: 136px;
+        height: auto;
+    }
+    .OME-card-section .card-deck-2 .card .card-body {
+        padding: 0 12px 0 12px !important;
+        /* padding: 14px 12px 14px 12px !important; */
+    }
+    .OME-card-section .card-deck-2 .card img {
+        height: 55px;
+        width: 55px;
+        margin-top: 0;
+    }
+    .fa07_Mission.OME-card-section .card-deck-2 .card .fa-card {
+        width: 55px;
+        height: 55px;
+    }
+    .Missions_Media input#fourteen {
+        min-width: 97px;
+        height: 34px;
+        width: 138px;
+        max-width: 100%;
+    }
+    .Missions_Media {
+        margin: 0 15px 15px 0px;
+    }
+    .mission_filter {
+        flex-wrap: wrap;
+    }
+    .flight_log .synchronize-btn {
+        width: 90px;
+    }
+    /* end 11Ba_Uploaded_missions */
+    /* 17-09 */
+    .date_picker .input-group .input-group-addon {
+        width: 280px;
+    }
+    .date_picker .input-group .input-group-addon::after {
+        top: -46px;
+        right: 14px !important;
+    }
+    .date_picker .input-group input {
+        font-size: 13px;
+    }
+    span.eye img {
+        width: 16px;
+    }
+    /* 17-09 */
+    /* 15Ca_Remote_pilot-plan */
+    .Remote_pilot_oem .oem-list-grid {
+        padding: 10px 10px 10px 10px;
+    }
+    /* end 15Ca_Remote_pilot-plan */
+    .gf-field select {
+        padding: 6px 9px;
+        width: 100%;
+        background: #062C44;
+        border: 1px solid #1697B7;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgb(0 0 0 / 5%);
+        border-radius: 5px;
+        color: #FFFFFF !important;
+        background: url(../images/down_arw.png);
+        background-repeat: no-repeat;
+        -webkit-appearance: none;
+        background-position: center right 15px;
+    }
+    .gf-field-img input {
+        padding: 7px 9px 10px 15px;
+        width: 100%;
+        background: #062C44;
+        border: 1px solid #1697B7;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgb(0 0 0 / 5%);
+        border-radius: 5px;
+        color: #FFFFFF !important;
+        background: url(../images/location.png);
+        background-position: 85% 50%;
+        background-repeat: no-repeat;
+    }
+    .gf-field input {
+        padding: 8px 17px;
+        width: 100%;
+        background: #062C44;
+        border: 1px solid #1697B7;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgb(0 0 0 / 5%);
+        border-radius: 5px;
+        color: #FFFFFF !important;
+    }
+    .flight-log-divson label {
+        margin-bottom: 2px;
+    }
+    /* 05Ba_Add-new_RPA */
+    .customer_upgrade button {
+        min-width: 175px;
+        width: auto;
+        height: auto;
+        min-height: 35px;
+    }
+    /* end 05Ba_Add-new_RPA */
+}
+
+
+/* End Max 1600 */
+
+@media only screen and (max-width:1800px) {
+    /* 07ab manage OEM list view */
+    .oem-list-grid-sh {
+        padding-right: 0;
+        padding-top: 7px;
+    }
+    /*END 07ab manage OEM list view */
+}
+
+@media only screen and (min-width:992px) and (max-width:1300px) {
+    /* 07ab manage OEM list view */
+    .oem-list-grid-parent {
+        width: 75%;
+    }
+    .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 0px;
+    }
+    .oem-list-grid-parent:nth-child(even) {
+        padding-left: 0px;
+    }
+    /*END 07ab manage OEM list view */
+}
+
+@media only screen and (min-width:992px) and (max-width:1330px) {
+    #sidebar {
+        width: 275px;
+    }
+    .page-content {
+        padding-left: 275px;
+    }
+    .db-lit-sc ul {
+        padding: 0px 10px;
+    }
+    .db-lit-sc ul li a svg {
+        margin-right: 12px;
+    }
+    .overview-section-carts {
+        width: 23%;
+        margin-bottom: 15px;
+    }
+    .overview-section-carts-parent {
+        flex-wrap: wrap;
+    }
+    .overview-section-carts-parent {
+        padding-bottom: 15px;
+    }
+    .overview-section.missions-sec .overview-section-carts {
+        width: 32%;
+    }
+    .mission-sec-content {
+        margin-left: 18px;
+    }
+    .mission-sec-cart {
+        padding: 13px 16px 15px 15px;
+    }
+    .overview-section.missions-sec .overview-section-carts {
+        width: 44%;
+    }
+    .dropdown-menu-sec .prnt-anc:before {
+        right: 11px;
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .overview-section-carts-parent {
+        flex-wrap: wrap;
+    }
+    .overview-section-carts {
+        width: 29%;
+        margin-bottom: 20px;
+    }
+    .overview-section-carts-parent {
+        padding-bottom: 10px;
+    }
+    .overview-section.missions-sec .overview-section-carts {
+        width: 41%;
+    }
+    .menu-ico-g {
+        order: 2;
+    }
+    .login-hd-left h2 {
+        order: 1;
+        margin-right: 10px;
+    }
+    .login-hd-details {
+        justify-content: flex-end;
+    }
+    /* Roles Permission */
+    .main-role-content .Role_select {
+        padding-left: 0;
+        margin: 12px;
+    }
+    .main-role-content .collapse_section {
+        margin: 12px;
+    }
+    /* End Roles Permission */
+    /* 07c flight logs */
+    .fll-section li p {
+        width: 170px;
+        min-width: 170px;
+    }
+    /*End 07c flight logs */
+}
+
+@media only screen and (max-width:767px) {
+    .overview-section-carts-parent {
+        flex-wrap: wrap;
+    }
+    .overview-section-carts {
+        width: 46%;
+        margin-bottom: 20px;
+    }
+    .overview-section-carts-parent {
+        padding-bottom: 10px;
+    }
+    .overview-section.missions-sec .overview-section-carts {
+        width: 100%;
+    }
+    .menu-ico-g {
+        order: 2;
+    }
+    .login-hd-left h2 {
+        order: 1;
+        margin-right: 10px;
+    }
+    .login-hd-details {
+        justify-content: flex-end;
+    }
+    .header-sec-right-end {
+        flex-direction: column;
+        width: 100%;
+    }
+    .page-content .dash-right {
+        padding: 20px 0 20px 10px;
+    }
+    .profile-dopdown-section {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .nav_right {
+        width: 100%;
+    }
+    .nav_right {
+        flex-direction: column;
+    }
+    .header-sec-right-end {
+        margin-top: 20px;
+    }
+    .myaccount_popup_body {
+        max-width: 100%;
+    }
+    .table_footer_hd {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .page-link {
+        padding: .5rem .75rem .5rem .02rem !important;
+    }
+    .login-hd-left h2 {
+        margin-left: 0px;
+    }
+    .d_title_hd .t_title2 {
+        margin-top: 10px;
+    }
+    /* Login and table */
+    .select_hd label {
+        margin-bottom: 10px;
+    }
+    .form_main label {
+        font-size: 14px;
+    }
+    .L_form {
+        padding: 0px 30px;
+    }
+    .L_email {
+        padding-bottom: 20px;
+    }
+    .form_main input[type="text"] {
+        font-size: 16px;
+    }
+    .form_main input {
+        padding: 11px 32px;
+    }
+    .lock,
+    .email_msg {
+        position: absolute;
+        top: 42px;
+        left: 10px;
+    }
+    .focus {
+        position: absolute;
+        top: 42px;
+        right: 20px;
+    }
+    .email_msg,
+    .lock,
+    .focus img {
+        width: 20px;
+    }
+    .form_main input {
+        padding: 9px 5px 9px 30px !important;
+        font-size: 12px;
+    }
+    .form_main {
+        padding: 20px;
+        min-width: 300px;
+        max-width: 460px;
+        margin-bottom: 30px;
+    }
+    .admin_profie {
+        height: auto;
+        margin: 10px auto;
+        padding: 20px 0px;
+    }
+    .logout_hd {
+        max-width: 260px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .logout_hd h2 {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .logout_hd h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .log_yRn {
+        margin-top: 20px;
+    }
+    .log_yRn button {
+        padding: 5px 30px;
+    }
+    .filter_hd:after {
+        display: none;
+    }
+    .hd_icon2 {
+        margin-bottom: 10px;
+        margin-top: 13px;
+    }
+    span.box_icon:after {
+        height: 29px;
+        top: -2px;
+    }
+    .wid_50 {
+        width: 100% !important;
+    }
+    /* End Login and table */
+    /* Roles Permission */
+    .main-role-content {
+        margin: 0;
+    }
+    .main-role-content .Role_dealis {
+        margin: 0;
+    }
+    .main-role-content .Role_select {
+        padding: 0;
+    }
+    .main-role-content .collapse_section {
+        margin: 20px 0px;
+    }
+    form.main_wrappar.main-role-content #accordionExample .card .card-body {
+        padding: 0;
+    }
+    .manage_org {
+        padding: 0;
+    }
+    .manage_agent {
+        padding: 0;
+    }
+    .button_sec button {
+        width: 47%;
+        min-width: unset;
+    }
+    /* End Roles Permission */
+    /* 05Bb */
+    .main_wrappar.main-role-content .UID-part {
+        margin: 0 4px;
+    }
+    .main-wrapper-top {
+        margin: 24px 18px 21px 19px;
+    }
+    .p-0-mob {
+        padding: 0 !important;
+    }
+    .main_wrappar.main-role-content .Remote_main_content .Remote_main_row h2 {
+        margin: 0;
+    }
+    /* 06Ca */
+    .filtering_list {
+        padding: 0;
+        margin-top: 12px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .upcome_input {
+        width: 100%;
+        min-width: unset;
+        margin: 0 0 12px 0 !important;
+    }
+    .main_wrappar.b-tabs-section .filter_hd {
+        margin-bottom: 0px;
+    }
+    .main_wrappar.b-tabs-section .list_of_detail_part .filtering_list select {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .line_f {
+        display: none;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .export .btn {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs {
+        padding: 2px 12px;
+    }
+    .main-wrapper-top img {
+        margin-right: 11px;
+    }
+    .main_wrappar.b-tabs-section {
+        padding: 0px 20px 0px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+    .map-drone {
+        width: 96%;
+        margin: 0px auto;
+    }
+    .map-drone .map-drop-width select#sixteen {
+        width: 98%;
+    }
+    /* 07c flight logs */
+    .fll-section li p {
+        width: auto;
+        min-width: unset;
+    }
+    .fll-section li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btp-with-btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn.export-log {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    /*End 07c flight logs */
+    form.main_wrappar.main-role-content .OEM-header .OEM-right .validity {
+        text-align: unset;
+        margin-left: 17px;
+        margin-top: 6px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list {
+        justify-content: unset;
+        padding: 12px 12px;
+    }
+    /* 6BC Satellite */
+    .caption1 #eighteen {
+        font-size: 12px;
+    }
+    .date_sec1 #thirteen {
+        font-size: 9px;
+    }
+    .date_sec1 #sixteen {
+        font-size: 10px;
+    }
+    .geo_fence_form .gf-field.gf-field-img:first-child {
+        padding-right: unset!important;
+        margin-bottom: 20px !important;
+    }
+    .geo_fence_form .gf-field.gf-field-img.gf-field-img-second {
+        padding-left: unset!important;
+    }
+    /*End 6BC Satellite */
+    /* 15Ca_Remote_pilot-plan */
+    .hr_remote-pilot {
+        display: none;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent {
+        width: 100%;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent {
+        padding-right: 0;
+        padding-left: 0 !important;
+    }
+    /* 15Ca_Remote_pilot-plan */
+    .login-hd-left.d-flex.align-items-center {
+        padding-top: 0px!important;
+    }
+}
+
+
+/* End 767 */
+
+@media only screen and (max-width: 425px) {
+    .wid-10 {
+        width: 100% !important;
+    }
+    span.L_arrow {
+        right: 57px;
+        top: 7px;
+    }
+    .l_btn button {
+        font-size: 14px;
+    }
+    span.f_pswd {
+        padding-top: 15px;
+        text-align: right;
+    }
+    .L_password svg {
+        vertical-align: unset;
+    }
+    .eye-icon svg {
+        position: relative;
+        top: -2px;
+        left: unset;
+        cursor: pointer;
+        width: 15px;
+    }
+    .login_hd {
+        height: auto !important;
+    }
+    .godrona_logo img {
+        max-width: 80px;
+    }
+    .admin_profile_hd {
+        margin-top: 18px !important;
+        max-width: 120px;
+        margin: auto;
+    }
+    .form_main h6 {
+        margin-top: 5px;
+    }
+    .form_main h1 {
+        font-size: 18px;
+    }
+    .form_main .L_text {
+        font-size: 10px !important;
+    }
+    .email_msg {
+        position: absolute;
+        top: 43px;
+        left: 8px;
+    }
+    .L_form {
+        padding: 0px 15px;
+    }
+    .L_email {
+        padding-bottom: 10px !important;
+    }
+    .lock,
+    .email_msg {
+        top: 34px !important;
+        left: 10px !important;
+    }
+    .email_msg img {
+        width: 15px;
+    }
+    .form_main input[type="text"] {
+        font-size: 12px !important;
+        padding: 9px 5px 9px 30px !important;
+    }
+    .form_main input {
+        padding: 11px 32px;
+    }
+    .lock {
+        top: 38px;
+        left: 10px;
+    }
+    .lock img {
+        width: 15px;
+    }
+    .d_title_hd {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .t_title {
+        margin-right: unset;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .t_title h4 {
+        font-size: 14px;
+    }
+    .t_title_s {
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .filter_hd {
+        margin-bottom: 10px;
+    }
+    button.btn_1 {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .wid-80 {
+        width: 100% !important;
+    }
+    /* 14AB */
+    #fifteen {
+        font-size: 10px;
+    }
+    .butt {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+    }
+    .apprv_btn {
+        margin-bottom: 20px;
+    }
+    .upt_btn {
+        margin-right: 18px;
+        margin-left: 14px;
+    }
+    .main_wrappar.b-tabs-section {
+        padding: 0px 0px 0px;
+    }
+    .gf-field1 .langtitude_icon {
+        position: absolute;
+        right: -101px;
+        bottom: 20px;
+    }
+    svg {
+        width: 50px;
+    }
+    .gf-field-img input {
+        background-position: 80% 50%;
+        padding: 12px 1px 10px 7px;
+        width: unset !important;
+    }
+    /*End 14AB */
+}
+
+@media only screen and (max-width: 991px) {
+    /* 07Da_Missions-List_Remote-Pilot */
+    .main_wrappar.b-tabs-section .filter_hd {
+        width: fit-content;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .export .btn {
+        width: fit-content;
+    }
+    /* end 07Da_Missions-List_Remote-Pilot */
+    .admin_profile_hd {
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    .form_main {
+        width: 100%;
+        padding: 25px;
+        min-width: 300px;
+        max-width: 600px;
+        margin-bottom: 30px;
+    }
+    .login_hd {
+        padding: 10px;
+        flex-direction: column;
+        display: inherit;
+    }
+    .admin_profile_hd img {
+        width: 100px;
+    }
+    .form_main h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .form_main .L_text {
+        color: #F25822;
+        margin-left: 10px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .L_email {
+        padding-bottom: 30px;
+    }
+    .l_btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .side_logo_img_desktop {
+        left: -999px;
+    }
+    .main_border {
+        width: 100%;
+    }
+    .login-hd-left.d-flex.align-items-center {
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+    .page-wrapper.hide .side_logo_img_desktop {
+        display: block;
+    }
+    .page-wrapper.hide .side_logo_img_desktop {
+        width: 314px!important;
+        left: 0;
+    }
+    .page-wrapper.hide #sidebar {
+        z-index: 12345;
+    }
+    .side_logo_img_desktop {
+        z-index: 123456;
+    }
+    .img_upload {
+        position: relative;
+        margin-left: 13px;
+    }
+    /* 05Ba_Add-new_RPA */
+    .customer_upgrade button {
+        margin-left: 0;
+    }
+    /* end 05Ba_Add-new_RPA */
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .godrona_logo img {
+        max-width: 150px;
+        top: 0px;
+        width: 100%;
+    }
+    .login_form_hd {
+        flex-basis: 65%;
+    }
+    .admin_profile_hd img {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .login_form_hd {
+        flex-basis: 70%;
+    }
+    .admin_profile_hd img {
+        width: 100%;
+    }
+    .admin_profile_hd img {
+        width: 230px;
+    }
+    .form_main {
+        width: 570px;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    button.btn_1 {
+        margin: 0px 10px 0px 0px;
+    }
+    .login_form_hd {
+        flex-basis: 75%;
+    }
+    .admin_profile_hd img {
+        width: 100%;
+    }
+    .admin_profile_hd img {
+        width: 280px;
+    }
+    .form_main {
+        width: 660px;
+    }
+    .form_main h1 {
+        font-size: 35px;
+        margin-bottom: 12px;
+    }
+    .form_main .L_text {
+        font-size: 18px;
+    }
+    .form_main hr {
+        margin: 35px 0px;
+    }
+    .admin_profile_hd {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .logout_hd {
+        max-width: 380px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .OME-card-section .card-deck-2 .card {
+        width: auto;
+        min-width: 48.9% !important;
+        margin-bottom: 12px;
+    }
+    .OME-card-section .card-deck-2 .card:nth-child(2) {
+        margin-right: 0 !important;
+    }
+    /* 15Ca_Remote_pilot-plan */
+    .Remote_pilot_oem .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 12px !important;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent:nth-child(even) {
+        padding-right: 0 !important;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent {
+        width: 50%;
+    }
+    .hr_remote-pilot {
+        visibility: hidden;
+    }
+    /* end 15Ca_Remote_pilot-plan */
+}
+
+
+/* OFFER PROMOCODE/NEWS & UPDATES START */
+
+@media only screen and (min-width:320px) and (max-width:375px) {
+    .off_modal {
+        max-width: 300px !important;
+    }
+    .Offer_hd {
+        padding: 14px 14px !important;
+    }
+    .mod_subject input {
+        width: 100%;
+        padding: 10px 14px;
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
+    .cvs_hd input {
+        margin-bottom: 15px;
+    }
+    .discription_hd h2 {
+        font-size: 16px;
+    }
+    .discription_hd p {
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .off_sub,
+    .off_btn {
+        background: #031E2C;
+        padding: 10px 14px !important;
+    }
+    .clr_btn {
+        padding: 5px 15px;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .send_btn {
+        padding: 5px 15px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+}
+
+
+/* Roles and Permission */
+
+@media only screen and (max-width:1600px) {
+    #twenty,
+    .twenty {
+        font-size: 17px;
+    }
+    #eighteen,
+    .eighteen {
+        font-size: 15px;
+    }
+    #thirty,
+    .thirty {
+        font-size: 27px;
+    }
+    #twenty-four,
+    .twenty-four {
+        font-size: 20px;
+    }
+    #fourteen,
+    .fourteen {
+        font-size: 11px;
+    }
+    #fifteen,
+    .fifteen {
+        font-size: 12px;
+    }
+    #sixteen,
+    .sixteen {
+        font-size: 13px;
+    }
+    #twel,
+    .twel {
+        font-size: 10px;
+    }
+    #thirteen,
+    .thirteen {
+        font-size: 11px;
+    }
+    form.main_wrappar.main-role-content #accordionExample .card .card-header {
+        margin: 0 21px;
+    }
+    /* Roles permission 04ab 05bb */
+    form.main_wrappar.main-role-content #accordionExample .card .card-header {
+        margin: 0 21px;
+    }
+    .popup_modal_check .filter_popuo_body .radio_filter_popup label {
+        font-size: 13px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs li a.active {
+        min-width: 126px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs li {
+        min-width: 128px;
+    }
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 0 5px;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 5px;
+    }
+    .main_wrappar.b-tabs-section .UID div#thirteen {
+        margin-right: 7px !important;
+    }
+    .main_wrappar.b-tabs-section .Date_of_mapped {
+        padding-right: 0;
+    }
+    .UID-part .Date_of_mapped div#thirteen {
+        margin-right: 7px !important;
+    }
+    .main_wrappar.b-tabs-section .hr_li {
+        margin: 5px;
+    }
+    .miss-date-col {
+        padding: 0 5px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card.create_pilot {
+        width: 47.8%;    
+    }
+    
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31.8%;
+        margin-right: 22.2px;
+        margin-bottom: 12px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(3) {
+        margin-right: 0;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(6) {
+        margin-right: 0;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(9) {
+        margin-right: 0;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .upcome_input {
+        margin: 0 16px;
+    }
+    .main_wrappar.b-tabs-section .line_f {
+        margin: 0 16px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part ul.nav-tabs {
+        min-height: 42px;
+    }
+    .main-role-content .Role_dealis {
+        min-height: 36px;
+        margin: 5px 10px;
+    }
+    .main_wrappar.main-role-content .Remote_main_content .Remote_main_row .RPD_text h5 span button {
+        min-height: 20px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part ul li a.active {
+        min-height: 36px;
+    }
+    .upcome_input select {
+        height: 34px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .upcome_input {
+        height: 34px;
+    }
+    .main_wrappar.b-tabs-section .filter_hd {
+        min-height: 34px;
+        height: 34px;
+    }
+    span.f_reset img {
+        display: flex;
+    }
+    .main_wrappar.b-tabs-section .f_reset {
+        height: 28px;
+    }
+    .main_wrappar.b-tabs-section .line_f {
+        min-height: 34px;
+        height: 34px;
+        max-height: 100%;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .export .btn {
+        min-height: 34px;
+    }
+    .main_wrappar.b-tabs-section .viw {
+        width: 20px;
+    }
+    .nano-nano {
+        width: 45px;
+    }
+    .img-thumbnail {
+        width: 70px;
+        height: 70px;
+    }
+    input#file {
+        font-size: 13px;
+    }
+    .input-group-append button.browse.btn {
+        min-height: 31px;
+        min-width: 125px;
+    }
+    .intl-tel-input.allow-dropdown.separate-dial-code input.phone::placeholder {
+        font-size: 16px;
+    }
+    .iti-arrow:before {
+        font-size: 13px !important;
+    }
+    .main-role-content .Role_select .form-group input,
+    select {
+        min-height: 35px !important;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs select {
+        padding: 6px 20px;
+        margin-bottom: 20px;
+    }
+    .intl-tel-input.allow-dropdown.separate-dial-code .flag-container {
+        height: 34px !important;
+    }
+    .iti-arrow:before {
+        top: -1px !important;
+    }
+    .intl-tel-input .selected-flag .iti-arrow {
+        top: 7px !important;
+    }
+    .intl-tel-input.allow-dropdown.separate-dial-code {
+        height: 36px !important;
+    }
+    .intl-tel-input.allow-dropdown.separate-dial-code input.phone:focus-visible {
+        height: 34px !important;
+        outline: none !important;
+    }
+    .intl-tel-input.allow-dropdown.separate-dial-code input.phone {
+        height: 34px !important;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+        margin-bottom: 20px;
+        height: 34px;
+    }
+    .filter_popup_button.Staff-btn button.btn {
+        min-height: 33px;
+    }
+    /*End Roles permission 04ab 05bb */
+    /* Flight Logs */
+    .btn.export-log {
+        font-size: 12px;
+        width: 140px;
+        height: 37px;
+        margin-left: auto;
+    }
+    /*End Flight Logs */
+    /* 30-08 */
+    .input-group-append button.removebtn.btn {
+        min-height: 31px;
+        min-width: 125px;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text.sixteen {
+        font-size: 13px;
+    }
+    .OME-card-section .card-deck-2 .card {
+        width: auto;
+        min-width: 23%;
+    }
+    .OME-card-section .card-deck-2 .card:nth-child(4) {
+        margin-right: 0;
+    }
+    /* 31-08 */
+    form.main_wrappar.b-tabs-section .filter-of-rpa .list_of_detail_part {
+        min-height: 50px;
+    }
+    /* 01-09 */
+    form.main_wrappar.b-tabs-section .filter-of-rpa .filter_of_rpa_table .filter-table-res tbody tr {
+        min-height: 55px;
+        height: 55px;
+    }
+    form.main_wrappar.b-tabs-section .filter-of-rpa .filter_of_rpa_table .filter-table-res tbody tr td .nano-img {
+        height: 42px;
+    }
+    form.main_wrappar.b-tabs-section .filter-of-rpa .filter_of_rpa_table .filter-table-res thead tr th {
+        min-height: 55px;
+        height: 55px;
+    }
+    form.main_wrappar.b-tabs-section .filter-of-rpa .filter_of_rpa_table .filter-table-res tbody tr td .viewer-img {
+        width: 21px;
+    }
+    /* 02-09 */
+    .dymic_input_area .dymic_input .checkbox {
+        width: 24.6%;
+    }
+    /* 06-09 */
+    .tab-content.OME-card-section.fa07_Mission .mission_part .mission_text-area p#fourteen {
+        font-size: 10px;
+    }
+    .page-wrapper #sidebar {
+        padding-top: 120px;
+    }
+    .OME-card-section .card-deck-2 .card {
+        min-height: 104px;
+        height: 104px;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs .RPA_input_label input {
+        width: 91px;
+    }
+    .remote-select {
+        padding: 3px 25px 3px 13px !important;
+    }
+    .oem-list-form-sec img {
+        width: 12px !important;
+    }
+}
+
+
+/* End max-width 1600 */
+
+
+/* TABLE HEAD */
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+    .big_tab:after {
+        display: none;
+    }
+    .d_title_hd {
+        padding: 0px 10px;
+    }
+    .filter_hd {
+        margin-bottom: 10px;
+    }
+    .modal-dialog.off_modal {
+        max-width: 730px !important;
+    }
+    .t_title_s {
+        width: 100%;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        flex-direction: column;
+    }
+    .t_title {
+        width: 100% !important;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    button.btn_1 {
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .hd_icon2 {
+        margin-bottom: 10px;
+    }
+    .d_title_hd {
+        padding: 0px 10px;
+    }
+    .select_hd {
+        margin-bottom: 10px;
+    }
+    .filter_hd {
+        margin-bottom: 10px;
+    }
+    .t_title_s {
+        width: 100%;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+    .t_title {
+        width: 100% !important;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    button.btn_1 {
+        margin: 10px 10px 0px 0px;
+    }
+    .filter_hd:after {
+        display: none;
+    }
+    button.btn_1 {
+        margin: 0px 10px 0px 0px;
+    }
+    .hd_btn {
+        margin: 0px 0px;
+    }
+    button.btn_2 {
+        padding: 9px 40px;
+    }
+    button.btn_1 {
+        padding: 9px 40px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1440px) {
+    .d_title_hd {
+        padding: 0px 0px;
+    }
+    .select_hd label {
+        margin-bottom: 10px !important;
+    }
+    .t_title_s {
+        justify-content: flex-start;
+    }
+    .bg-dv1 {
+        padding-bottom: 10px;
+    }
+    .filter_hd:after {
+        display: none;
+    }
+    button.btn_1 {
+        margin: 0px 10px 0px 0px;
+    }
+    .t_title h4 {
+        font-size: 15px;
+        white-space: nowrap;
+    }
+    .t_title_s.bg_div {
+        width: 100% !important;
+        justify-content: flex-start !important;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width:1920px) {
+    .fil_hd_2 {
+        right: -70px !important;
+    }
+    .d_title_hd {
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width:1341px) {
+    .t_title_s {
+        margin-right: unset!important;
+    }
+    .table {
+        table-layout: auto!important;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1700px) {
+    span.box_icon {
+        padding-right: 25px;
+    }
+    span.box_icon:after {
+        right: 7px;
+    }
+    .select_hd {
+        margin-right: 0px;
+    }
+    span.list_icon {
+        margin-right: 27px;
+    }
+    span.list_icon:after {
+        right: -13px;
+    }
+    .hd_icon2 {
+        margin: 0px 10px 0 20px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1365px) {
+    .d_title_hd {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .t_title_s {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    /* filter popup */
+    .filter_hd.dropdown_active .popup_modal_check {
+        right: unset;
+        left: 0;
+        z-index: 9;
+    }
+    .popup_modal_check::after {
+        right: unset;
+        left: 7%;
+    }
+    /*End filter popup */
+    /* 15Ca_Remote_pilot-plan */
+    .Remote_pilot_oem .oem-list-grid-parent:nth-child(odd) {
+        padding-right: 12px !important;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent:nth-child(even) {
+        padding-right: 0 !important;
+    }
+    .Remote_pilot_oem .oem-list-grid-parent {
+        width: 50%;
+    }
+    .hr_remote-pilot {
+        visibility: hidden;
+    }
+    /* end 15Ca_Remote_pilot-plan */
+}
+
+@media only screen and (min-width:992px) and (max-width:1050px) {
+    /*filter popup */
+    .filter_hd.dropdown_active .popup_modal_check {
+        max-width: 600px !important;
+        min-width: 600px !important;
+    }
+    /*End filter popup */
+}
+
+@media only screen and (min-width:992px) {
+    .filter_Popup_main .modal {
+        top: 18%;
+        right: 17%;
+        left: unset;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1177px) {
+    .manage_operator_button_top .select_hd,
+    .manage_operator_button_top .big_tab,
+    .manage_operator_button_top .hd_icon2 {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Roles permission 04ab 05bb */
+
+@media only screen and (min-width:1601px) {
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 0 13px;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 13px;
+    }
+    .main_wrappar.b-tabs-section .hr_li {
+        margin: 13px;
+    }
+    .miss-date-col {
+        padding: 0 13px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31.9%;
+        margin-right: 26px;
+        margin-bottom: 24px;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(3) {
+        margin-right: 0;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(6) {
+        margin-right: 0;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card:nth-child(9) {
+        margin-right: 0;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+        width: 320px;
+        height: 44px;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+        padding: 6px 20px;
+    }
+    form.main_wrappar.main-role-content select.select_popup {
+        width: 320px;
+        height: 44px;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs select {
+        width: 320px;
+        height: 44px;
+        margin-bottom: 25px;
+    }
+    form.main_wrappar.main-role-content .intl-tel-input.allow-dropdown.separate-dial-code {
+        width: 320px;
+        height: 44px;
+    }
+    .intl-tel-input .flag-container {
+        top: 1;
+    }
+    .intl-tel-input.allow-dropdown.separate-dial-code .flag-container {
+        height: 41px;
+    }
+    .intl-tel-input.allow-dropdown.separate-dial-code input.phone:focus-visible {
+        width: 320px;
+        height: 44px;
+        outline: none;
+    }
+    .file {
+        visibility: hidden;
+        width: 147px;
+    }
+    /* 02-09 */
+    .dymic_input_area .check_Boxx {
+        /*  justify-content: space-evenly; */
+        margin-left: 70px;
+    }
+    .dymic_input_area .dynamic-text {
+        width: 220px;
+        height: 46px;
+    }
+    .dymic_input_area .dymic_input .checkbox {
+        width: 13.6%;
+    }
+    .dymic_input_area .dymic_input .check_Boxx {
+        margin-left: 97px;
+    }
+    .dymic_input_area .dymic_input .plus_btn {
+        margin-left: 14px;
+    }
+    .dymic_input_area .dymic_input .minus-btn-2 {
+        margin-left: 30px;
+    }
+    /* 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    .tab-content.OME-card-section.fa07_Mission .mission_part .mission_text-area {
+        min-height: 62px;
+        height: auto;
+    }
+    .tab-content.OME-card-section.fa07_Mission .mission_part .mission_text-area {
+        margin: 0 13px;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs textarea {
+        width: 320px;
+        margin-bottom: 25px;
+        min-height: 145px;
+        height: auto;
+    }
+    .filter_popup_inputs .RPA_input_label input {
+        width: 103px !important;
+    }
+    /*End 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    /* 09Ba_Remote_pilot_Basic-detail */
+    .OME-card-section .card-deck-2.flight-record .flight-records .card .card-body {
+        padding: 18px 19px;
+    }
+    /*end 09Ba_Remote_pilot_Basic-detail */
+    /* 08-09 */
+    .filter_popup_inputs .pass_section {
+        width: 320px;
+    }
+    .filter_popup_inputs .pass_section input {
+        width: 100% !important;
+    }
+    .filter_popup_inputs .eye img {
+        top: 12px !important;
+    }
+    .Missions_Media input#fourteen {
+        min-width: 212px;
+        height: 40px;
+        width: 212px;
+        max-width: 100%;
+    }
+    /* 17-09 */
+    .date_picker .input-group .input-group-addon {
+        width: 320px;
+    }
+    .date_picker .input-group .input-group-addon::after {
+        top: -56px !important;
+        right: 17px !important;
+    }
+    .date_picker .input-group input {
+        font-size: 16px;
+    }
+    /* 17-09 */
+    .page-wrapper.hide #sidebar .categories li a.prnt-anc {
+        padding: 12px 16px;
+    }
+    /* 05Ba_Add-new_RPA */
+    .customer_upgrade button {
+        min-width: 175px;
+        width: auto;
+        height: auto;
+        min-height: 35px;
+        margin-left: 117px;
+    }
+    /* end 05Ba_Add-new_RPA */
+}
+
+@media (min-width: 951px) and (max-width: 1350px) {
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+        width: 93%;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs select {
+        width: 93%;
+    }
+    form.main_wrappar.main-role-content .intl-tel-input.allow-dropdown.separate-dial-code input.phone {
+        width: 93%;
+    }
+    form.main_wrappar.main-role-content .intl-tel-input.allow-dropdown.separate-dial-code {
+        width: 93%;
+    }
+    /*07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    form.main_wrappar.main-role-content .filter_popup_inputs .RPA_input_label input {
+        width: 30%;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs textarea {
+        width: 93%;
+    }
+    /*End 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    /* 08-09 */
+    /* profile_setting */
+    .filter_popup_inputs .pass_section {
+        width: 93%;
+    }
+    .filter_popup_inputs .pass_section input {
+        width: 100% !important;
+    }
+    /*end profile_setting */
+    /* 11Aa_Global_missions */
+    .main_wrappar.b-tabs-section .filtering_list {
+        justify-content: flex-start;
+    }
+    .main_wrappar.b-tabs-section .Filter_hd_line {
+        margin: 0 16px 0 0;
+    }
+    /* end 11Aa_Global_missions */
+    /* 17-09 */
+    .date_picker .input-group .input-group-addon {
+        width: 93%;
+    }
+    .date_picker .input-group .input-group-addon::after {
+        right: 11px;
+    }
+    /* 17-09 */
+}
+
+@media only screen and (max-width:950px) {
+    form.main_wrappar.main-role-content .filter_popup_inputs .filter_popup_text {
+        width: 100%;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs select {
+        width: 100%;
+    }
+    form.main_wrappar.main-role-content .intl-tel-input.allow-dropdown.separate-dial-code input.phone {
+        width: 100%;
+    }
+    form.main_wrappar.main-role-content .intl-tel-input.allow-dropdown.separate-dial-code {
+        width: 100%;
+    }
+    /*07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    form.main_wrappar.main-role-content .filter_popup_inputs textarea {
+        width: 100%;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs .RPA_input_label input {
+        width: 32%;
+    }
+    /*End 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    /* 17-09 */
+    .date_picker .input-group .input-group-addon {
+        width: 100%;
+    }
+    .date_picker .input-group .input-group-addon::after {
+        right: 11px;
+    }
+    /* 07-09 end */
+}
+
+@media (max-width: 500px) {
+    .intl-tel-input .country-list {
+        white-space: normal;
+    }
+    .notify_main_col {
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .notify_Main_hd .margin_left_100 {
+        margin-left: 0px;
+        white-space: normal;
+    }
+    .notify_Main_hd .margin_left_45 {
+        margin-left: 0px;
+    }
+    .notify_Main_hd .tab_icons {
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .notify_Main_hd .btn_share button {
+        margin: 0px;
+        padding: 4px 20px;
+    }
+    .notify_Main_hd {
+        margin-bottom: 15px;
+    }
+    .notify_width_20 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-role-content .collapse_section {
+        margin: 12px;
+    }
+    .filtering_list {
+        padding: 0;
+        margin-top: 12px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .upcome_input {
+        width: 100%;
+        min-width: unset;
+        margin: 0 0 12px 0 !important;
+    }
+    .main_wrappar.b-tabs-section .filter_hd {
+        margin-bottom: 0px;
+    }
+    .main_wrappar.b-tabs-section .list_of_detail_part .filtering_list select {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .line_f {
+        display: none;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .export .btn {
+        width: 100%;
+    }
+    .main-role-content .Role_select {
+        padding-left: 0;
+        margin: 12px;
+    }
+    .main-role-content .collapse_section {
+        margin: 12px;
+    }
+    .filtering_list {
+        padding: 0;
+        margin-top: 12px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .upcome_input {
+        width: 100%;
+        min-width: unset;
+        margin: 0 0 12px 0 !important;
+    }
+    .main_wrappar.b-tabs-section .filter_hd {
+        margin-bottom: 0px;
+    }
+    .main_wrappar.b-tabs-section .list_of_detail_part .filtering_list select {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .line_f {
+        display: none;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .export .btn {
+        width: 100%;
+    }
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 0 17px !important;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 17px !important;
+    }
+    .miss-date-col {
+        padding: 0 17px !important;
+    }
+    form.main_wrappar.b-tabs-section .filter-of-rpa .list_of_detail_part .filtering_list {
+        justify-content: unset;
+        padding: 12px 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 0 17px !important;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 17px !important;
+    }
+    .miss-date-col {
+        padding: 0 17px !important;
+    }
+    .mapdrone .map-drone .filter_popup_button.Staff-btn {
+        display: block;
+        margin: 0 auto;
+        width: 93%;
+    }
+    /* 31-08 */
+    .OME-card-section .card-deck-2 .card {
+        width: 48.7% !important;
+        min-width: 231px;
+        margin-bottom: 14px;
+    }
+    .OME-card-section .card-deck-2 .card:nth-child(2) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 567px) and (max-width: 568px) {
+    .main_wrappar.b-tabs-section .nano-img {
+        margin: 0 17px !important;
+    }
+    .main_wrappar.b-tabs-section .UID {
+        padding: 0 17px !important;
+    }
+    .miss-date-col {
+        padding: 0 17px !important;
+    }
+}
+
+@media (min-width: 374.8px) and (max-width: 375px) {
+    .main_wrappar.b-tabs-section .dot_circle {
+        bottom: 59px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* 14-10 */
+    .overview-section-carts-parent .overview-section-carts.oem_overview_card {
+        width: 100%;
+    }
+    .overview-section-carts-parent .overview-section-carts.oem_overview_cards_wrap {
+        width: 100% !important;
+    }
+    /* 14-10 */
+    .main_wrappar.b-tabs-section .b-tabs-part ul {
+        display: block;
+        width: 100%;
+    }
+    .mapdrone .map-drone .filter_popup_button.Staff-btn {
+        display: block;
+        margin: 0 auto;
+        width: 86%;
+    }
+    .mapdrone .map-drone .filter_popup_button.Staff-btn button.btn.cancel {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .mapdrone .map-drone .filter_popup_button.Staff-btn button.btn.update {
+        width: 100%;
+    }
+    /* 30-08 */
+    .filter_popup_button.Staff-btn {
+        margin: 14px 12px 3px 12px;
+    }
+    .filter_popup_button.Staff-btn button.btn {
+        width: 100%;
+    }
+    .filter_popup_button.Staff-btn button.btn.cancel {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    /* 31-08 */
+    .OME-card-section .card-deck-2 .card {
+        width: 100% !important;
+        margin-bottom: 12px;
+        margin-right: 0;
+    }
+    form.main_wrappar.main-role-content .OEM-header .OEM-right {
+        width: 91% !important;
+        margin: 17px 15px 0 15px;
+        padding-bottom: 12px;
+    }
+    form.main_wrappar.main-role-content .certificate-file .Preview-btn {
+        margin-left: 0 !important;
+        margin-top: 8px;
+    }
+    form.main_wrappar.main-role-content .certificate-file .Update-File-btn {
+        margin-top: 8px;
+    }
+    /* 01-09 */
+    .main_wrappar.b-tabs-section .filter_hd {
+        width: 100%;
+        margin-bottom: 12px !important;
+    }
+    form.main_wrappar.b-tabs-section .filter-of-rpa .list_of_detail_part .filtering_list .export {
+        width: 69%;
+    }
+    form.main_wrappar.b-tabs-section .filter-of-rpa .list_of_detail_part .filtering_list {
+        flex-wrap: wrap;
+    }
+    /* 02-09 */
+    .dymic_input_area .dymic_input .input-plan {
+        display: none;
+    }
+    /*  .dymic_input_area .dymic_input .check_Boxx {
+        justify-content: space-around;
+    } */
+    .dymic_input_area .dymic_input .checkbox label:before {
+        margin-left: -49px;
+    }
+    /* 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+    form.main_wrappar.main-role-content .generate_uuid_section button {
+        min-width: 69%;
+    }
+    form.main_wrappar.main-role-content .generate_uuid_section {
+        margin-right: 0;
+    }
+    form.main_wrappar.main-role-content .OEM-header .OEM-right .current-active-plan button {
+        min-width: 102px;
+    }
+    form.main_wrappar.main-role-content .hr-ref .hr-line {
+        width: 86%;
+    }
+    /*End 07Ab_Manage-OEM_List-view, 10Aa_Manage-Equipments */
+}
+
+
+/* 5ca remote pilot detail */
+
+@media (min-width: 1285px) and (max-width: 1345px) {
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31.5%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1285px) {
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31%;
+    }
+}
+
+
+/* End 5ca remote pilot detail */
+
+@media (max-width: 500px) {
+    .intl-tel-input .country-list {
+        white-space: normal;
+        width: 313%;
+    }
+}
+
+@media (min-width: 1285px) and (max-width: 1345px) {
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31.5%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1285px) {
+    .main_wrappar.b-tabs-section .b-tabs-part .card-deck-1 .card {
+        width: 31%;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 320px) {
+    .filter-of-rpa .list_of_detail_part .filtering_list .export {
+        width: 66%;
+    }
+}
+
+@media only screen and (max-width:501px) {
+    .hel-sec {
+        padding: 18px 18px;
+    }
+    span.syb-svg {
+        margin-right: 10px;
+    }
+    h3.cn-txt {
+        font-size: 15px;
+    }
+    h3.cn-txt span {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .wel-sec {
+        padding: 18px 18px;
+    }
+    .hel-txt-sec {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    button.up-dt {
+        margin-left: unset;
+    }
+    button.suc-dt,
+    button.dis-dt {
+        margin-left: unset;
+    }
+}
+
+@media only screen and (max-width:1310px) {
+    /* 17Aa_Manage-Notifications Start */
+    .tab_icons {
+        justify-content: flex-start;
+    }
+    .tab_icons {
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    .tab_cnt_hd .tab_date {
+        justify-content: flex-start;
+    }
+    .row.tab_cnt_hd h6 {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .tab_dis h6 {
+        margin-bottom: 5px;
+    }
+    .btn_share button {
+        margin-left: 0px;
+        margin: 7px 0px;
+    }
+    .tab_cnt_hd {
+        padding-bottom: 10px;
+    }
+    .tab_dis p {
+        font-size: 11px;
+    }
+    .tab_cnt {
+        flex-direction: column;
+    }
+    .tab_dis {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .btn_share {
+        justify-content: flex-start;
+    }
+    /* 17Aa_Manage-Notifications End */
+}
+
+@media only screen and (min-width:1311px) and (max-width:1400px) {
+    .btn_share button {
+        margin-left: 20px;
+        margin-right: unset !important;
+    }
+}
+
+
+/* 6BC Satellite */
+
+@media only screen and (min-width:320px) and (max-width:375px) {
+    .sav-butt {
+        margin: 12px 0px 0px 0px;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:425px) {
+    .sav-butt {
+        margin: 12px 40px 0px 40px;
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width:1920px) {
+    .sav-butt {
+        margin: 12px 80px 0px 80px;
+    }
+}
+
+
+/* End 6BC Satellite */
+
+
+/* Frame 2062 start */
+
+@media screen and (max-width:400px) {
+    .Frame_hd {
+        max-width: 320px;
+        margin: auto;
+    }
+    .Frame_hd .f_close_c {
+        right: -29px !important;
+        padding: 2px !important;
+    }
+    .Frame_hd .modal-content {
+        width: 260px;
+    }
+    .Frame_hd .status_cnt p {
+        margin-left: 5px;
+        white-space: nowrap;
+    }
+    .Frame_hd .status_cnt h6 {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .Frame_hd .modal-title {
+        font-size: 16px;
+    }
+    .Frame_hd .lft_icon img {
+        width: 20px;
+    }
+    .Frame_hd .lft_icon {
+        margin: 0px 15px;
+    }
+    .accordion_custom .card-header a {
+        font-size: 12px;
+    }
+    .accordion .card-header.collapsed:after {
+        width: 16px;
+        background-size: contain;
+    }
+}
+
+
+/*End Frame 2062 start */
+
+@media screen and (min-width:501px) and (max-width:625px) {
+    .drone_log_title .dt_btn {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+    .main_drone_log .drone_log_title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .drone_log_title .c_input.form-group label {
+        vertical-align: unset;
+        margin-bottom: 10px;
+    }
+    .drone_log_title .dt_btn {
+        margin-bottom: 10px;
+    }
+    .drone_log_title .check_div3 span {
+        vertical-align: unset;
+    }
+    .drone_cap_main {
+        display: flex;
+        align-items: unset;
+        justify-content: unset;
+        flex-direction: column;
+    }
+    .main_drone_log .drone_cap_main .drone_cap {
+        width: 100%;
+    }
+    .drone_cap button.addbtn img {
+        max-width: 25px;
+        right: 50px;
+    }
+    .drone_cap .dwnbtn img {
+        max-width: 25px;
+    }
+    .drone_icon_2 .dlt_btn img {
+        max-width: 25px;
+    }
+    .drone_icon_2 .drone_cap .addbtn img {
+        right: 75px;
+    }
+    .drone_icon_2 .drone_cap .dwnbtn img {
+        right: 43px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:992px) {
+    .drone_icon_2 .drone_cap .addbtn img {
+        right: 90px;
+    }
+    .drone_icon_2 .drone_cap .dwnbtn img {
+        right: 50px;
+    }
+    .main_drone_log .drone_cap_main .drone_cap {
+        width: 47%;
+    }
+    .drone_cap button.addbtn img {
+        max-width: 30px;
+        right: 55px;
+    }
+    .drone_cap .dwnbtn img {
+        max-width: 30px;
+    }
+    .drone_icon_2 .dlt_btn img {
+        max-width: 30px;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .drone_icon_2 .btn_drone img {
+        max-width: 25px !important;
+    }
+    .drone_icon_2 .drone_cap .addbtn img {
+        right: 70px;
+    }
+    .drone_icon_2 .drone_cap .dwnbtn img {
+        right: 40px;
+    }
+    .main_drone_log .drone_cap_main .drone_cap {
+        width: 23%;
+    }
+    .drone_cap button.addbtn img {
+        max-width: 30px;
+    }
+    .drone_cap .dwnbtn img {
+        max-width: 30px;
+    }
+    .drone_icon_2 .dlt_btn img {
+        max-width: 30px;
+    }
+    .drone_cap .form-group {
+        left: 10px;
+    }
+    .drone_cap button.addbtn img {
+        right: 50px;
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width:1440px) {
+    .drone_cap .dlt_btn img {
+        max-width: 30px;
+    }
+    .drone_cap button.addbtn img {
+        max-width: 30px;
+    }
+    .drone_cap .dwnbtn img {
+        max-width: 30px;
+    }
+    .drone_cap .form-group {
+        left: 10px;
+    }
+    .drone_cap button.addbtn img {
+        right: 50px;
+    }
+    .drone_icon_2 .drone_cap .addbtn img {
+        right: 90px !important;
+    }
+    .drone_icon_2 .drone_cap .dwnbtn img {
+        right: 50px !important;
+    }
+    .drone_cap_hd .drone_cap .addbtn img {
+        right: 60px;
+    }
+    .drone_cap_hd .drone_cap .dwnbtn img {
+        right: 20px;
+    }
+}
+
+@media screen and (min-width:1441px) and (max-width:1920px) {
+    .drone_icon_2 button.addbtn img {
+        right: 110px !important;
+    }
+    .drone_icon_2 button.dwnbtn img {
+        right: 60px !important;
+    }
+    .drone_cap button.addbtn img {
+        max-width: 42px;
+        right: 70px;
+    }
+    .drone_cap .dwnbtn img {
+        max-width: 42px;
+    }
+    .main_drone_log {
+        padding: 30px;
+    }
+}
+
+
+/* 19/09/2021 */
+
+
+/* 17Aa_Manage-Notifications_3 Start */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .mng_noty_main .main_wrappar {
+        padding: 20px;
+    }
+    .mng_notify_hd .mng_notify input {
+        padding: 10px;
+    }
+    .mng_notify_hd .mng_notify {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+    .mng_notify_hd {
+        padding: 0px;
+    }
+    .mng_noty_main .main-role-content .Role_dealis {
+        margin-bottom: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .mng_notify_hd .mng_notify {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1300px) {
+    .mng_notify_hd .mng_notify {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1500px) {
+    .mng_notify_hd .mng_notify input {
+        padding: 10px 20px;
+    }
+    .mng_notify_hd .mng_notify {
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+
+/* 11Bb_Mission-Detail */
+
+@media only screen and (min-width:1601px) and (max-width:1870px) {
+    .drone_web_cntl_main {
+        margin-right: 40px;
+    }
+    .drone_mission_main .wheather_r_main {
+        margin-right: 0px;
+    }
+    .drone_mission_main .drone_msn:first-child {
+        padding: 14px 17px;
+    }
+}
+
+@media only screen and (min-width:1701px) and (max-width:1751px) {
+    .drone_web_cntl_main {
+        margin-right: 0px;
+    }
+    .wheather_r_main .wheather_r {
+        margin-right: 10px;
+    }
+    .wheather_r_main .wheather_r_2 {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width:1601px) and (max-width:1700px) {
+    .drone_web_cntl_main {
+        margin-right: 0px;
+    }
+    .wheather_r_main .wheather_r {
+        margin-right: 10px;
+    }
+    .wheather_r_main .wheather_r_2 {
+        margin-right: 10px;
+    }
+    .drone_mission_main .drone_mission_hd {
+        padding: 20px 0px;
+    }
+    .wheather_r button {
+        padding: 10px 15px;
+    }
+    .wheather_r_2 {
+        padding: 5px 17px;
+    }
+}
+
+@media only screen and (min-width:1441px) and (max-width:1600px) {
+    .drone_web_cntl_main {
+        margin-right: 0px;
+    }
+    .wheather_r_main .wheather_r {
+        margin-right: 10px;
+    }
+    .wheather_r_main .wheather_r_2 {
+        margin-right: 10px;
+    }
+    .drone_mission_main .drone_mission_hd {
+        padding: 20px 0px;
+    }
+    .wheather_r button {
+        padding: 10px 15px;
+    }
+    .wheather_r_2 {
+        padding: 5px 10px;
+    }
+    .drone_mission_main .wheather_r_main {
+        margin-right: 4px;
+    }
+    .drone_web_cntl_main .drone_web {
+        padding-right: 4px;
+    }
+}
+
+@media only screen and (min-width:1361px) and (max-width:1440px) {
+    .drone_msn .check_i {
+        top: 20px;
+    }
+    .drone_web_cntl_main {
+        margin-right: 0px;
+    }
+    .drone_mission_main .drone_mission_hd {
+        padding: 12px 0px;
+    }
+    .drone_mission_main .wheather_r_main {
+        margin-right: 0px;
+    }
+    .wheather_r button {
+        padding: 15px 20px;
+    }
+    .wheather_r_main .wheather_r {
+        margin-right: 10px;
+    }
+    .wheather_r_2 {
+        padding: 5px 9px;
+        margin-right: 10px;
+    }
+    .drone_mission_main .drone_msn:first-child {
+        padding: 6px 10px;
+    }
+    .drone_msn_2 {
+        padding: 10px 15px;
+    }
+    .drone_web .drone_web_c {
+        padding-right: 10px;
+    }
+    .drone_mission_wraper {
+        padding-top: 110px !important;
+    }
+    .drone_zones_main {
+        padding: 11px 5px;
+        bottom: 85px;
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width:1360px) {
+    .drone_zones_main {
+        padding: 11px 5px;
+        bottom: 85px;
+    }
+    .drone_mission_wraper {
+        padding-top: 120px !important;
+    }
+    .drone_web_cntl_main {
+        margin-right: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .drone_web .drone_web_c {
+        padding-right: 8px;
+    }
+    .drone_mission_main .drone_mission_hd {
+        padding: 10px 15px;
+    }
+    .drone_web_c:first-child .switch {
+        margin-left: 30px;
+    }
+    .drone_mission_main .drone_msn:first-child {
+        padding: 8px 10px;
+    }
+    .drone_mission_main .wheather_r_main {
+        margin-right: 0px;
+    }
+    .drone_msn_2 {
+        padding: 10px 14px;
+    }
+    .drone_web .drone_web_c .pad_cnge {
+        margin-left: 45px !important;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    .drone_zones_main {
+        padding: 11px 5px;
+        bottom: 85px;
+    }
+    .drone_mission_wraper {
+        padding-top: 220px !important;
+    }
+    .drone_web_cntl_main {
+        margin-right: 50px;
+    }
+    .drone_web_cntl_main {
+        align-items: flex-start;
+        margin-right: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .drone_web .drone_web_c .pad_cnge {
+        margin-left: 45px !important;
+    }
+    .drone_mission_main .drone_msn:first-child {
+        padding: 10px 20px;
+    }
+    .wheather_r_2 {
+        padding: 7px 14px;
+    }
+    .wheather_r button {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .drone_zones_main {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px !important;
+    }
+    .drone_zones_main {
+        padding: 11px 5px;
+        bottom: 85px;
+    }
+    .drone_web_cntl_main {
+        align-items: flex-start;
+        margin-right: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .drone_web .drone_web_c .pad_cnge {
+        margin-left: 45px !important;
+    }
+    .drone_mission_main .wheather_r_main {
+        margin-right: 0px;
+    }
+    .drone_mission_main .drone_mission_hd {
+        padding: 10px;
+    }
+    .drone_mission_main .drone_msn:first-child {
+        padding: 14px 20px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .drone_zones_main {
+        padding: 11px 5px;
+        bottom: 85px;
+    }
+    .drone_mission_main .wheather_r_main {
+        align-items: center;
+        margin-right: 0px;
+        flex-direction: row;
+    }
+    .wheather_r_main .wheather_r {
+        margin-bottom: 10px;
+    }
+    .wheather_r_main .wheather_r_2 {
+        margin-bottom: 10px;
+        padding: 5px 10px;
+    }
+    .wheather_r button {
+        padding: 8px 18px;
+    }
+    .drone_msn_2 {
+        padding: 15px 12px;
+    }
+    .drone_mission_main .drone_msn:first-child {
+        padding: 10px 10px !important;
+        padding-top: 15px !important;
+    }
+    .drone_msn .check_i {
+        left: 55%;
+        width: 12px;
+    }
+    .drone_msn h6 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .drone_mission_main .drone_msn:first-child h6 {
+        padding-top: 5px;
+    }
+    .drone_mission_wraper {
+        padding-top: unset;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    .drone_web_cntl_main {
+        justify-content: unset !important;
+    }
+    .drone_mission_main .wheather_r_main {
+        align-items: center !important;
+        flex-direction: row !important;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:375px) {
+    .drone_web_cntl_main {
+        margin-bottom: 5px;
+    }
+    .drone_msn #twel {
+        font-size: 7px !important;
+    }
+    .drone_msn_2 #twel {
+        font-size: 7px !important;
+    }
+    .drone_msn span svg {
+        margin-right: 5px;
+    }
+    .drone_msn_2 {
+        padding: 15px 10px !important;
+    }
+    .drone_msn {
+        padding: 15px 10px !important;
+    }
+    .drone_msn h6 {
+        align-items: center !important;
+        padding-right: 5px;
+    }
+    .drone_msn_2 .check_i {
+        left: 64%;
+        top: 24px;
+    }
+    .drone_msn_2 span.check_i img {
+        width: 10px;
+    }
+    .wheather_r_main .wheather_r_2 {
+        width: 100% !important;
+    }
+}
+
+
+/* 03Ab_Department-Create */
+
+@media screen and (max-width:768px) {
+    .logout_pop .modal-content {
+        max-width: 280px;
+    }
+    .logout_pop .b_footer button {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .dept_create_brn {
+        flex-direction: column;
+        align-items: center;
+    }
+    .dept_create_brn .cancel_btn {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        width: 60%;
+    }
+    .dept_create_brn .save_btn {
+        width: 60%;
+    }
+    .dept_create_main .modal-dialog {
+        margin: 40px 10px;
+    }
+    .dept_create_text input {
+        min-width: 100%;
+    }
+    .dept_create_text select {
+        min-width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .dept_create_main .modal-dialog {
+        max-width: 700px;
+    }
+}
+
+
+/* 03Ab_Department-Create End */
+
+
+/* 11Ge_Create-Missions_New */
+
+@media only screen and (min-width:320px) and (max-width:425px) {
+    .create_mission11ge_popup_main .modal-content {
+        max-width: 300px !important;
+    }
+    .create_mission11gg_popup_main .modal-content {
+        max-width: 300px;
+    }
+    .create_mission_popup_main .modal-content {
+        max-width: 300px;
+    }
+    .npnt_1_main .modal-content {
+        max-width: 300px;
+    }
+    .create_mission_inner1 {
+        padding: 10px 0px;
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .create_mission11ge_popup_main .modal-content {
+        max-width: 420px !important;
+    }
+    .create_mission11gg_popup_main .modal-content {
+        max-width: 420px;
+    }
+    .create_mission_popup_main .modal-content {
+        max-width: 300px;
+    }
+    .create_mission_popup_main .modal-content {
+        max-width: 420px;
+    }
+    .npnt_1_main .modal-content {
+        max-width: 420px;
+    }
+    .dept_create_brn .cancel_btn {
+        width: 70%;
+    }
+    .dept_create_brn .save_btn {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .create_mission11gg_popup_main .modal-dialog {
+        max-width: 700px;
+    }
+    .create_mission11gg_popup_main .create_mission_popup11ge_inner {
+        padding: 30px 50px;
+    }
+}
+
+
+/* 11Ge_Create-Missions_New End */
+
+
+/* 11Gi_NPNT-Submission1 End */
+
+@media only screen and (max-width:767px) {
+    .npnt_1_first.border_none {
+        margin-top: 20px;
+    }
+    .hd_icon2.div_border {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .rpa_popup_main .modal-body.dept_create_body {
+        padding: 35px;
+    }
+    div#rpa_popup {
+        padding-left: 0px !important;
+    }
+    .dept_create_brn .clear_btn {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list {
+        justify-content: unset;
+        padding: 12px 12px;
+        flex-direction: column;
+    }
+    .create_mission_inner1 img {
+        max-width: 40px;
+        width: 100%;
+    }
+    .dropdown_custom {
+        margin-bottom: 10px;
+    }
+    .main_wrappar.b-tabs-section .filtering_list .import-mission {
+        margin: 0px;
+        margin: bottom 10px;
+    }
+}
+
+@media only screen and (min-width:991px) and (max-width:1024px) {
+    .rpa_popup_main .modal-body.dept_create_body {
+        padding: 35px 100px;
+    }
+    .rpa_popup_main .modal-dialog {
+        max-width: 900px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .select .selectBtn {
+        padding: 7px 16px;
+    }
+    .dropdown_custom {
+        margin-right: 10px;
+    }
+    .dropdown_custom .select {
+        width: 100%;
+    }
+    .dropdown_custom .select {
+        background-size: 10px;
+        background-position: center right 10px;
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width:440px) {
+    .butt {
+        display: flex;
+        margin-top: 12px;
+    }
+    .apprv_btn {
+        margin-right: 16px !important;
+        margin-left: 8px!important;
+    }
+}
+
+
+/* 17Aa_Manage-Botification Start*/
+
+@media only screen and (min-width:1441px) and (max-width:1730px) {
+    .manage_notify_main .pad_custom_n_1 {
+        margin-left: 60px;
+    }
+    .manage_notify_main .pad_custom_n_2 {
+        margin-left: 37px;
+    }
+    .manage_notify_main .pad_custom_n_3 {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width:1301px) and (max-width:1440px) {
+    .manage_notify_main .pad_custom_n_1 {
+        margin-left: 40px;
+    }
+    .manage_notify_main .pad_custom_n_2 {
+        margin-left: 17px;
+    }
+    .manage_notify_main .pad_custom_n_3 {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .manage_notify_main .pad_custom_n_1 {
+        margin-left: 0px;
+    }
+    .manage_notify_main .pad_custom_n_2 {
+        margin-left: 0px;
+    }
+    .manage_notify_main .pad_custom_n_3 {
+        margin-left: 0px;
+    }
+    .offer_name {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .tab_icons {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .manage_notify_row {
+        padding: 10px 15px;
+    }
+    .manage_notify_row_2 {
+        padding: 10px 15px;
+    }
+    .notify_Main_hd .margin_left_100 {
+        margin-left: 76px;
+    }
+    .notify_Main_hd .margin_left_45 {
+        margin-left: 47px;
+    }
+    .notify_Main_hd .margin_left_77 {
+        margin-left: 0px;
+        white-space: normal;
+    }
+    .notify_main_row_3 {
+        align-items: flex-start;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .notify_Main_hd .btn_share {
+        justify-content: flex-start;
+    }
+    .nofity_main_row {
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tab_icons {
+        justify-content: flex-start;
+    }
+    .notify_main_col_2 {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .manage_notify_row {
+        padding: 10px 15px;
+    }
+    .manage_notify_row_2 {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .offer_name {
+        align-items: flex-start;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .manage_notify_row {
+        flex-direction: column;
+        padding: 10px !important;
+    }
+    .manage_notify_row_2 {
+        flex-direction: column;
+        padding: 10px !important;
+    }
+    .manage_notify_main .tab_icons {
+        justify-content: flex-start;
+    }
+    .offer_name_btn.btn_share {
+        justify-content: center;
+    }
+    .manage_notify_main #sixteen {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:1301px) and (max-width:1700px) {
+    .notify_Main_hd .margin_left_100 {
+        margin-left: 60px;
+    }
+    .notify_Main_hd .margin_left_45 {
+        margin-left: 47px;
+    }
+    .notify_Main_hd .margin_left_77 {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1600px) {
+    .pricing_hd {
+        padding: 30px 20px;
+    }
+    .pricing_table thead tr th {
+        padding: 15px;
+    }
+    .pricing_border_none button {
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+    .pricing_border_none span img {
+        width: 13px;
+    }
+    .pricing_table tbody tr td {
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+    .pricing_table tbody tr td:first-child {
+        font-size: 12px;
+    }
+    .printig_side img {
+        width: 120px;
+    }
+    .pricing_left_text p {
+        margin-bottom: 30px;
+    }
+    .pricing_left_text .btn.pricing_login,
+    .pricing_left_text .btn.pricing_skip {
+        font-size: 12px;
+        width: 170px;
+    }
+    .pricing_left_text .btn.pricing_skip {
+        margin-top: 20px;
+    }
+    .pricing_drone_img img {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:991px) {
+    .ome_dash_right_desk {
+        display: none;
+    }
+    .pricing_top {
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:375px) {
+    .heading_scroll {
+        height: 26vh;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:767px) {
+    .heading_scroll {
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .heading_scroll {
+        height: 47vh;
+    }
+    .pricing_top .admin_profie {
+        height: 70%;
+    }
+    .pricing_table {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    #Firmware-Upgrade .model {
+        padding-left: 0px;
+    }
+    #Request_Admin .model {
+        padding-left: 0px;
+    }
+    .firmware_select_main.fire_top {
+        margin-top: 20px !important;
+    }
+    .firmware_uid_text h2 {
+        margin-bottom: 10px;
+    }
+    .pricing_top .admin_profie {
+        margin: 0px auto;
+    }
+    .pricing_left_text p {
+        margin-bottom: 30px;
+    }
+    .pricing_left_text .btn.pricing_skip {
+        margin-top: 20px;
+    }
+    .printig_side {
+        padding-top: 10px;
+    }
+    .pricing_drone_img img {
+        width: 200px;
+    }
+    .pricing_hd {
+        padding: 20px;
+    }
+    .pricing_table {
+        display: block !important;
+    }
+    .pricing_table tbody tr td {
+        font-size: 10px;
+    }
+    .pricing_table tbody tr td:first-child {
+        font-size: 10px;
+    }
+    .pricing_border_none button {
+        padding: 10px 10px;
+        margin: 0px 20px;
+    }
+    .video_popup_first_head {
+        flex-wrap: wrap;
+    }
+    .video_firsr_img {
+        width: 30%;
+    }
+    .video_button button {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .news_head {
+        display: block;
+    }
+    .news_head h3 {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) and (orientation:landscape) {
+    #Firmware-Upgrade .modal-dialog {
+        margin: auto;
+    }
+    #Request_Admin .modal-dialog {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .ome_right_toggle {
+        display: none;
+    }
+}
+
+
+/* 11Ad_Logs-Listof-RPA */
+
+@media only screen and (min-width:1441px) and (max-width:1920px) {
+    .oem-image .drone_cap .d_img {
+        height: 220px;
+    }
+}
+
+
+/* 07Ab_manage-pilot-list-view */
+
+@media only screen and (min-width:1500px) {
+    .oem-card-parent .oem-list-cont-itm label {
+        min-width: 150px;
+    }
+}
+
+
+/* OEM 01_Login Start */
+
+@media screen and (max-width:1600px) {
+    /* 14-10 */
+    .dept_create_text input {
+        min-height: 35px !important;
+        padding: 6px 20px;
+    }
+    .mints_img {
+        width: 91px !important;
+    }
+    /* 14-10 */
+    #thirty-six {
+        font-size: 26px;
+    }
+    .oem_Login_main .L_password .eye-icon {
+        right: 20px;
+    }
+    .oem_Login_main .eye-icon {
+        top: 37px;
+    }
+    .oem_Login_main .lock {
+        top: 37px;
+    }
+    .oem_Login_main .email_msg {
+        top: 40px;
+    }
+    .oem_Login_main .L_email input#eighteen {
+        padding-right: 20px;
+        padding-left: 60px;
+    }
+    .oem_Login_col.log_pad .form_main {
+        margin-top: 50px;
+    }
+    .oem_Login_main .drone_fly {
+        width: 100%;
+        max-width: 300px;
+        margin-left: 39px;
+    }
+    .oem_Login_main span.drone_frame {
+        position: absolute;
+        left: 10%;
+    }
+    .oem_Login_main button#fourteen {
+        min-height: 34px;
+        padding: 9px 22px;
+    }
+    /* .oem_Login_main .L_form img {
+        vertical-align: top !important;
+    } */
+    .oem_Login_main .form_main h1 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .oem_Login_main.L_email input#eighteen {
+        font-size: 13px;
+    }
+    .oem_Login_main .L_password #eighteen {
+        font-size: 13px;
+    }
+    .oem_Login_main .eye-icon {
+        top: 34px;
+    }
+    .oem_Login_main .L_email input#eighteen {
+        padding-right: 25px
+    }
+    section.oem_Login_main {
+        padding: 20px;
+    }
+    .oem_Login_main .L_form .email_msg {
+        top: 43px
+    }
+    .oem_Login_col.log_pad {
+        padding-left: 50px;
+    }
+    .oem_Login_main .email_msg {
+        left: 12px;
+    }
+    .oem_Login_main .L_form img {
+        width: 17px;
+    }
+    .oem_Login_main .L_email input#eighteen {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width:1360px) {
+    .oem_Login_main .form_main input {
+        padding-left: 40px !important;
+    }
+    .oem_Login_main .L_form {
+        align-items: center;
+        flex-direction: column;
+    }
+    .oem_reg_main .form_main hr {
+        margin: 5px 0px;
+    }
+    .oem_Login_main .form_main {
+        padding: 10px 20px;
+    }
+    .oem_Login_main .L_password {
+        width: 100%;
+    }
+    .oem_Login_main .L_email {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .oem_Login_main .L_password .eye-icon {
+        right: 40px !important;
+        top: 30px !important;
+    }
+    .oem_Login_col.log_pad .form_main {
+        margin-top: 12px;
+    }
+    .oem_Login_main .l_btn {
+        margin-top: 10px;
+    }
+    .oem_Login_main .drone_img_bg {
+        height: 93vh;
+    }
+    .oem_Login_col.log_pad {
+        padding-left: 20px;
+    }
+    .oem_Login_main .drone_fly {
+        max-width: 230px;
+    }
+    .oem_Login_main .L_email input#eighteen {
+        font-size: 13px;
+    }
+    .oem_Login_main .form_main hr {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .oem_Login_main .L_email input#eighteen {
+        padding-left: 60px !important
+    }
+    .oem_Login_main .drone_img_bg {
+        height: 100vh;
+        margin-top: 25px;
+    }
+    section.oem_Login_main {
+        padding: 10px 20px;
+    }
+    .oem_Login_main .L_form .email_msg {
+        top: 38px;
+    }
+    .oem_Login_main .form_main h1 {
+        margin-bottom: 0px;
+    }
+    .oem_Login_main .form_main hr {
+        margin: 10px 0px;
+    }
+    .oem_Login_main #twenty {
+        font-size: 16px;
+    }
+    .oem_Login_main .L_password .eye-icon {
+        right: 40px;
+    }
+    .oem_Login_main .l_btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .oem_Login_main .L_form .email_msg {
+        top: 41px;
+    }
+    .oem_Login_col.log_pad .form_main {
+        margin-top: 10px;
+    }
+    .oem_Login_main .L_password #eighteen {
+        padding: 10px 45px !important;
+        padding-right: 35px !important;
+    }
+    .oem_Login_main .L_email input#eighteen {
+        padding-left: 45px !important;
+        padding-right: 35px !important;
+    }
+    .oem_Login_main .lock {
+        left: 12px;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .oem_Login_main .L_password .eye-icon {
+        right: 40px !important;
+    }
+    section.oem_Login_main {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .oem_Login_main .drone_img_bg {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding: 20px 0px;
+    }
+    .oem_Login_col {
+        width: 100%;
+    }
+    .oem_Login_col.log_pad {
+        padding-left: 0px;
+    }
+    .oem_Login_main .form_main {
+        margin-bottom: 20px;
+    }
+    .oem_Login_main .drone_img_bg {
+        height: 50vh
+    }
+    .oem_Login_main .drone_fly {
+        max-width: 164px;
+    }
+    .oem_Login_main .l_btn {
+        flex-direction: row;
+    }
+    .oem_Login_main .l_btn button {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .oem_Login_main .L_email input#eighteen {
+        padding-left: 20px
+    }
+    .oem_Login_main .L_password .eye-icon {
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .oem_Login_main .eye-icon {
+        top: 40px;
+    }
+    .oem_Login_main .L_form img {
+        vertical-align: middle !important;
+    }
+    .oem_Login_main .L_password .eye-icon {
+        right: 13px !important;
+    }
+    .oem_Login_main .L_email input#eighteen {
+        padding-left: 40px !important;
+    }
+    .oem_Login_main .L_password #eighteen {
+        padding: 10px 40px !important;
+    }
+    .oem_Login_main .form_main .L_text {
+        font-size: 12px !important;
+    }
+    .oem_Login_main .eye-icon svg {
+        top: 5px;
+        left: unset;
+        right: 0px;
+        width: 18px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .oem_Login_main .l_btn {
+        flex-direction: column;
+    }
+}
+
+
+/* 02a_Registration-Basic Detail */
+
+@media only screen and (min-width: 1600px) {
+    .form_main hr {
+        margin: 30px 0px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .oem_log_step_col.oem_input_icon4.find_2 input {
+        padding: 5px 40px;
+    }
+    .oem_log_step_col.oem_input_icon5 #sixteen {
+        padding: 9px 5px;
+    }
+    .oem_Login_main .form_main input {
+        padding: 7px 60px;
+    }
+    .oem_reg_main .log_pad .form_main {
+        margin-top: 20px;
+    }
+    .oem_reg_main .form_main {
+        padding: 10px 20px;
+    }
+    .oem_reg_main .form_main hr {
+        margin: 10px 0px;
+    }
+    .oem_log_step_row {
+        margin-bottom: 20px;
+    }
+    .oem_reg_main .drone_img_bg {
+        height: 100vh;
+        margin-top: 20px;
+    }
+    .oem_log_step_row_2 {
+        margin-bottom: 20px;
+    }
+    .oem_reg_main .l_btn {
+        margin-top: 10px;
+    }
+    .oem_log_step_col.oem_input_icon4 span {
+        top: 32px;
+        height: 34px;
+    }
+    .oem_log_step_col.oem_input_icon4.find_1 span {
+        width: 31px;
+        height: 31px;
+        top: 34px;
+        right: 4px;
+    }
+    .oem_log_step_col.oem_input_icon4.find_1 span img {
+        top: 3px;
+        left: 4px;
+    }
+    .oem_log_step_col.oem_input_icon4.find_2 span {
+        width: 31px;
+        height: 31px;
+        top: 36px;
+        right: 4px;
+    }
+    .oem_log_step_col.oem_input_icon4.find_2 span img {
+        top: 3px;
+        left: 4px;
+    }
+    .oem_log_step_col.oem_input_icon4.find_1 .input {
+        padding-left: 40px !important;
+    }
+    .oem_log_step_col.oem_input_icon4.find_2 .input {
+        padding-left: 40px !important;
+    }
+    .oem_log_step_main input {
+        background-position: 13px center;
+    }
+    .oem_Login_main .form_main input {
+        padding-left: 45px;
+    }
+    .dept_create_brn .register_btn {
+        padding: 8px 35px;
+    }
+    .dept_create_brn .clear_btn {
+        padding: 8px 35px;
+    }
+    .modal-body.dept_create_body .dept_create_text input {
+        padding: 7px 20px;
+    }
+    .modal-body.dept_create_body .dept_create_text select {
+        padding: 7px 20px;
+    }
+    .dept_create_brn .save_btn {
+        padding: 8px 30px;
+    }
+    .dept_create_brn .cancel_btn {
+        padding: 8px 30px;
+    }
+    .oem_promo_main .promo_apply input {
+        padding: 5px 20px;
+    }
+    .promo_apply button {
+        padding: 8px 20px;
+    }
+    .dept_create_text select {
+        padding: 6px 20px;
+    }
+    .dept_create_text .input {
+        padding: 6px 20px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .oem_Login_main .L_form .email_msg {
+        top: 31px;
+    }
+    .oem_Login_main .lock {
+        top: 35px;
+    }
+    .oem_Login_main .L_password .eye-icon {
+        right: 11px;
+        top: 32px;
+    }
+    .oem_Login_main .form_main input {
+        padding-left: 40px;
+    }
+    .oem_Login_main .lock {
+        left: 13px;
+        top: 35px;
+    }
+    .oem_Login_main .L_email #eighteen {
+        font-size: 13px;
+    }
+    .oem_log_step_col.oem_input_icon5 input {
+        padding-left: 0px !important;
+    }
+    .oem_log_step_main input {
+        background-position: 15px center;
+        background-size: 15px;
+        padding-left: 40px !important;
+    }
+    section.oem_Login_main {
+        padding: 20px;
+    }
+    .oem_log_step_row_2 {
+        margin-bottom: 10px;
+    }
+    .oem_log_step_row {
+        margin-bottom: 10px;
+    }
+    .oem_reg_main .log_pad .form_main {
+        margin-top: 10px;
+    }
+    .oem_log_step_col.oem_input_icon4 span img {
+        top: 4px;
+    }
+    .oem_log_step_col.oem_input_icon4 span {
+        top: 33px;
+    }
+    .oem_reg_main #twenty {
+        font-size: 13px;
+    }
+    .oem_log_step_col.oem_input_icon4 span img {
+        left: 5px;
+        top: 4px;
+    }
+    .oem_log_step_col.oem_input_icon4 span {
+        width: 32px;
+        height: 32px;
+    }
+    .oem_reg_main .drone_img_bg {
+        margin-top: 0px;
+    }
+    section.oem_Login_main.oem_reg_main {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .oem_log_step_row_2 #sixteen {
+        background-position: 10px center;
+        background-size: 17px;
+    }
+    .oem_input_icon1 input {
+        background-position: 10px center;
+        background-size: 17px;
+    }
+    .oem_input_icon3 input {
+        background-position: 10px center;
+        background-size: 17px;
+    }
+    .oem_input_icon4 input {
+        background-position: 10px center;
+        background-size: 17px;
+    }
+    .oem_input_icon5 input {
+        background-position: 10px center;
+        background-size: 17px;
+    }
+    .oem_input_icon6 input {
+        background-position: 10px center;
+        background-size: 17px;
+    }
+    .oem_input_icon2 input {
+        background-position: 10px center;
+        background-size: 17px;
+    }
+    .oem_reg_main .form_main input {
+        padding: 8px 40px;
+        padding-left: 35px;
+        font-size: 11px !important;
+    }
+    .oem_details_hd {
+        margin: 75px 10px 0px 10px;
+    }
+    .oem_promo_main .orm_promo_col {
+        padding: 15px 0px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .oem_reg_main .cin_num_row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .oem_log_step_col.oem_input_icon3 {
+        margin-bottom: 10px;
+    }
+    .oem_reg_main .l_btn {
+        margin-top: 15px;
+    }
+    .oem_log_step_row.cin_num_row .oem_log_step_col {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .oem_promo_main .promo_apply input {
+        padding: 5px 10px;
+    }
+    .oem_reg_main .cin_num_row {
+        flex-direction: row;
+    }
+    .oem_log_step_row.cin_num_row .oem_log_step_col {
+        width: 46%;
+    }
+    .oem_reg_main .drone_img_bg {
+        height: 55vh;
+    }
+    .dept_create_brn {
+        margin-top: 20px;
+    }
+    .oem_promo_main .orm_promo_col {
+        padding: 15px 0px;
+        width: 70%;
+    }
+    .oem_pilot_details .btn_oem_pilot .update {
+        margin-right: 20px;
+        margin-bottom: unset;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .oem_reg_main .cin_num_row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .oem_log_step_row.cin_num_row .oem_log_step_col {
+        width: 100%;
+    }
+    section.oem_Login_main {
+        padding: 10px;
+    }
+    .oem_reg_main .form_main .L_text {
+        font-size: 11px !important;
+        white-space: nowrap;
+    }
+    .oem_reg_main .form_main {
+        min-width: 280px !important;
+        width: 100%;
+    }
+    .oem_reg_main #thirty-six {
+        font-size: 18px !important;
+    }
+    .oem_reg_main .pan_div {
+        width: 100%;
+        flex-direction: column;
+    }
+    .oem_Login_main .oem_log_step_col {
+        width: 100%;
+    }
+    .oem_log_step_row {
+        flex-direction: column;
+    }
+    .oem_reg_main .drone_img_bg {
+        height: 40vh;
+    }
+    .rpa_popup_main .modal-body.dept_create_body {
+        padding: 10px;
+        max-width: 280px;
+        margin: auto;
+    }
+    .oem_promo_main .promo_apply {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .promo_apply button {
+        padding: 8px 50px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .dept_create_brn button {
+        width: 50%;
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .oem_pilot_details .filter_popup_button.Staff-btn.btn_oem_pilot button {
+        margin: 0;
+        width: 55%;
+    }
+    .oem_pilot_details .filter_popup_button.Staff-btn.btn_oem_pilot .margin_right_20 {
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+    .oem_pilot_details .filter_popup_button.Staff-btn.btn_oem_pilot .cancel {
+        margin-right: 0px;
+    }
+}
+
+
+/* 10/11/2021 */
+
+@media only screen and (max-width: 600px) {
+    .filter_popup_button.Staff-btn.btn_08_profile .update {
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .select_popup {
+        background-size: 13px !important;
+    }
+    form.main_wrappar.main-role-content .filter_popup_inputs select {
+        background-size: 13px !important;
+    }
+    .dept_create_text input {
+        padding: 7px 20px
+    }
+    .nano_img button {
+        padding: 6px 20px 6px 20px;
+    }
+    .news_sub_head button {
+        padding: 6px 30px;
+    }
+    .firmware_button button {
+        padding: 6px 30px !important;
+    }
+    .filter_popup_inputs .filter_popup_text {
+        padding: 5px 20px 5px 12px !important;
+    }
+    .filter_popup_inputs select {
+        padding: 5px 20px
+    }
+    .add_more_log button {
+        padding: 7px 30px;
+    }
+    .add_more_log {
+        margin: 50px 0px;
+    }
+    .service_log_parent .service_log_main {
+        padding: 10px;
+    }
+    .service_log_parent .back_blue {
+        padding: 10px;
+    }
+    .sub_span {
+        width: 13px;
+    }
+    .doc_info_1 input {
+        padding: 7px 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .preview_btn {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .preview_btn label {
+        margin-bottom: 10px;
+    }
+    .filter_popup_inputs .pass_section {
+        width: 100%;
+    }
+    .rpa_details_parent_hd .Role_dealis {
+        font-size: 10px !important;
+    }
+    .exp_import_cv {
+        align-items: flex-start;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .btn_exp {
+        margin-left: 0px;
+        padding: 6px !important;
+    }
+    .btn_imp {
+        margin-left: 10px;
+        padding: 6px !important;
+    }
+    .imp_exp_btn {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .add_more_log button {
+        padding: 7px 15px;
+    }
+    .rpa_date {
+        width: 100%;
+    }
+    .maint_report {
+        width: 100%;
+    }
+    .btn_exp {
+        padding: 6px 10px;
+    }
+    .btn_imp {
+        padding: 6px 10px;
+    }
+    .filter_popup_button.Staff-btn.btn_08_profile .cancel {
+        margin-right: 0px;
+    }
+    form.main_wrappar.main-role-content.back_none.profile_8a {
+        padding: 0;
+    }
+    .profile_8a .col-xl-6.col-md-6.col-12.mt-2 {
+        padding: 0px;
+    }
+    .profile_8a .basic-details.ml-3.mt-4.back_blue {
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .Role_dealis.margin-top {
+        margin-top: 10px;
+    }
+    .doc_inf_main {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .doc_info_1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .doc_info_2 {
+        width: 100%;
+    }
+    hr {
+        margin: 0px;
+    }
+}
+
+
+/* 07/10/2021 */
+
+@media only screen and (max-width: 450px) {
+    .oem_reg_hd .oem_title_hd {
+        width: 100%;
+    }
+    .oem_reg_main .form_main .L_text {
+        font-size: 10px !important;
+    }
+    .otp_parent .otp_main_hd {
+        margin: 30px auto;
+    }
+    .div.oem_reg_steps_main {
+        width: 60%;
+    }
+    .oem_log_step_main div#image-form input {
+        width: 45% !important;
+    }
+    section.oem_Login_main.oem_reg_main.oem_reg_hd.otp_parent .otp_verify_main .otp {
+        max-width: 40px !important;
+        min-height: 40px;
+        line-height: 14px;
+    }
+}
+
+@media only screen and (max-width:1600px) {
+    section.oem_Login_main.oem_reg_main.oem_reg_hd.reg_base .form_main {
+        margin-top: 50px;
+    }
+    .reg_base .oem_log_step_row_2 {
+        margin: 30px 0px;
+    }
+    .cal_btn_main .btn_c {
+        padding: 7px 20px;
+    }
+    .cal_btn_main .btn_s {
+        padding: 7px 20px;
+    }
+    .oem_log_step_row.margin_70 {
+        margin-top: 40px;
+    }
+    .wnrty_details select {
+        padding: 7px 20px;
+        background-size: 13px;
+    }
+    .wnrty_details input {
+        padding: 7px 20px;
+        background-size: 15px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .l_btn.Oem_login_btn.log_btn_oem_2 h5 {
+        margin-bottom: 10px;
+    }
+    .oem_log_step_row.margin_70 {
+        margin-top: 0px;
+    }
+    .l_btn.Oem_login_btn.log_btn_oem_2 {
+        align-items: center;
+    }
+    .oem_log_step_main .img_upload {
+        align-items: center;
+        display: flex;
+    }
+    .oem_log_step_main div#image-form {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .oem_log_step_main div#image-form {
+        margin-bottom: 40px;
+    }
+    .l_btn.Oem_login_btn.log_btn_oem_2 h5 {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .oem_log_step_main div#image-form input {
+        width: 23%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .l_btn.Oem_login_btn #sixteen {
+        font-size: 11px;
+    }
+    .otp_conf_row h3 {
+        margin-top: 25px;
+    }
+}
+
+
+/* 02c_Registration-OTP Verification */
+
+@media only screen and (max-width: 1400px) {
+    section.oem_Login_main.oem_reg_main.oem_reg_hd.otp_parent .otp_verify_main .otp {
+        padding: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .wnrty_details .Missions_Media input#fourteen {
+        height: 35px;
+        min-width: 100%;
+        width: 100%;
+        max-width: 250px;
+    }
+    .ins_titile_main button {
+        padding: 7px 20px;
+    }
+    .ins_titile_main button img {
+        max-width: 15px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .wrnty_details_main .wnty_hd {
+        flex-direction: column;
+    }
+    .wnrty_details {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .wnrty_details .Missions_Media input {
+        width: 100%;
+        max-width: 70% !important;
+        min-width: unset;
+    }
+    .ins_num {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .ins_titile_main {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .ins_titile_main button {
+        margin-left: 0px;
+    }
+    .wrnty_details_main h5 {
+        margin-bottom: 10px;
+    }
+    .cal_btn_main {
+        flex-direction: column;
+    }
+    .cal_btn_main button {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .ins_titile_main button {
+        padding: 7px 15px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .oem_Login_main .Mob_area input {
+        padding-left: 85px !important;
+    }
+    .oem_log_step_row_2.Indus_bg select {
+        background-size: 16px
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .Mob_area {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .oem_log_step_row_2.Indus_bg select {
+        background-position: left 10px center !important;
+        padding-left: 30px !important;
+    }
+}
+/* 18/10/2021 */
+@media only screen and (max-width: 1600px){    
+    .oem_log_step_row.City .oem_log_step_col .custom_select{padding: 7px 20px;}
+    .oem_log_step_row.City .oem_log_step_col .custom_select{background-size: 13px;}
+    }
+    @media only screen and (max-width: 1440px){
+    .oem_log_step_main.main-role-content {height: 300px;}
+    .oem_log_step_main {height: 300px;}
+    .oem_Login_main .lock {
+    left: 10px;
+    top: 30px;
+    }
+    }
+    @media only screen and (max-width: 1200px){ 
+    .oem_log_step_row.City.pswd {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .oem_log_step_row.City.pswd .oem_log_step_col.oem_input_icon {width: 100%;}        
+    .oem_log_step_col.oem_input_icon.terms {margin-top: 15px;}    
+    }
+    
+    @media only screen and (max-width: 768px){ 
+    .oem_log_step_col.oem_input_icon4.find_2 span{top: 39px;}
+    .l_btn.Oem_login_btn.log_preview h5{margin-bottom: 0px;}
+    .oem_log_step_row.City.pswd .L_password {max-width: 46%;}    
+    }
+    @media only screen and (max-width: 425px){ 
+    .oem_log_step_row.City.pswd .L_password {max-width: 100%;}    
+    }
+    
+/* LOG_CHANGES START */
+@media only screen and (max-width: 1600px){    
+    .city_icon img {max-width: 17px;}
+    .city_icon {top: 5px;left: 15px;}
+    }
+    @media only screen and (max-width: 1440px){    
+        .oem_log_step_col.oem_input_icon .lock{top: 30px !important;}
+    }
+    @media only screen and (max-width: 768px){ 
+        .oem_log_step_col.oem_input_icon .eye-icon{right: 13px !important;}
+        .oem_log_step_main.main-role-content::-webkit-scrollbar{width: 2px;}
+    }
+    @media only screen and (max-width: 500px){ 
+        .oem_log_step_col.oem_input_icon10 {padding-right: 10px;}   
+        .oem_log_step_row.City.pswd .L_password {max-width: 70%;}
+        .oem_log_step_row.City .oem_log_step_col{margin-bottom: 10px;}
+    }
+    /* LOG_CHANGES End */
+
+    @media only screen 
+    and (min-device-width: 480px) and (max-device-width: 750px) {
+        .oem_Login_main .drone_img_bg{height: 70vh;}
+    }
+    @media only screen 
+    and (min-device-width: 768px) and (max-device-width: 1024px) {        
+        .oem_Login_main .L_password .eye-icon{right: 40px !important;}
+        .form_main .L_text{white-space: nowrap;}
+    }
+
+    @media only screen and (max-width: 1024px){
+        #thirty-six{font-size: 22px;}
+        .otp_parent .otp_main_hd {
+        max-width: 400px;
+        margin: 60px auto;
+    }
+    section.oem_Login_main.oem_reg_main.oem_reg_hd.otp_parent .otp_verify_main .otp{min-height: 35px;min-width: 35px;padding: 5px;}
+ }
+
+ @media only screen and (max-width: 1199px){
+    section.login_hd.pricing_top .admin_profie{flex-basis: 100%;height: 100%;max-height: 70%;display: flex;align-items: center;}
+    .godrona_logo.printig_side img {width: 120px;}
+    .pricing_drone_img img {margin-top: 5px;}
+    .pricing_left_text .btn.pricing_skip{margin-top: 20px;}
+    .pricing_left_text p{margin-bottom: 10px;}
+    section.login_hd.pricing_top .pricing_hd {flex-basis: 100% !important;}
+ }
+
+/* vi-29/10 */
+@media only screen and (min-width:1300px) and (max-width:1800px){    
+    .UID-part .UID {margin-bottom: 5px !important;}        
+    .oem-grid-sub .oem-list-grid .oem-rpa-id{
+        flex-direction: column;
+    }
+    .oem-grid-sub .oem-list-grid .oem-rpa-id .oem-rpa-serial{
+        max-width: 100%;
+    }
+    .oem-grid-sub .oem-list-grid{
+        padding: 15px !important;
+    }
+    .op-card-img .mission_part,.op-card-img .nano-img,.op-card-img .UID-part{
+        padding-left:5px !important;
+        padding-right: 5px !important;
+    }
+}
+    
+@media only screen and (min-width: 992px) and (max-width: 1300px){
+    .oem-grid-sub .oem-list-grid-parent {
+        width: 100%;
+    }
+    .pagination .page-link{
+        padding: 2px 5px !important;
+    }
+    .table_footer_hd {
+        justify-content: flex-start;
+        flex-direction: column !important;
+    }
+    .table_footer_hd .t_foot_hd{
+        margin: 10px 0 !important;
+    }
+    .op-card-img .mission_part,.op-card-img .nano-img,.op-card-img .UID-part{
+        padding-left:5px !important;
+        padding-right: 5px !important;
+    }
+    .op-card-img button{
+        height: 25px !important;
+    }
+}
+@media only screen and (max-width:475px){
+    .oem-list-grid-fh{padding-bottom: 5px;}
+    .UID-part .UID {margin-bottom: 5px !important;}        
+    .oem-grid-sub .oem-list-grid .oem-rpa-id{
+        flex-direction: column;
+    }
+    .t_foot_hd .page-link{
+        padding: 2px 5px !important;
+    }
+    .t_foot_hd{
+        font-size: 12px !important;
+    }
+    .op-card-img .UID-part{
+        flex-direction: column;
+    }
+    .op-card-img .UID-part .Date_of_mapped{
+        padding-left: 5px !important;
+    }
+    .op-card-img .mission_part,.op-card-img .nano-img,.op-card-img .UID-part{
+        padding-left:5px !important;
+        padding-right: 5px !important;
+    }
+}
+@media only screen and (max-width:767px){
+    .t_foot_hd{
+        margin: 10px 0 !important;
+    }
+    .page-link {
+    padding: 0.5rem 0.75rem 0.5rem 0.5rem !important;
+}
+ul.pagination.justify-content-end.mb-0 {
+    display: flex !important;
+}
+}
+@media only screen and (max-width:1199px){
+    .OME-card-section .op-card-log .nano-img{
+        margin-top: 5px !important;
+    }
+}
+@media only screen and (min-width:1200px){
+     form.main_wrappar.b-tabs-section .b-tabs-part .OME-card-section .op-card-6 .card{
+        width: 48% !important;
+    }
+}
+/* responsive_changes */
+
+@media only screen and (max-width:1600px){
+.video_button button{padding: 8px 20px;}
+.pricipg_popup_first button{padding: 8px 20px;}
+.b_footer button{padding: 7px 20px;}
+.non-table .header-sec-right-end {padding: 15px 31px!important;}
+.t_title {padding-bottom: 10px !important}
+.login-hd-details .header-sec-right-end {padding: 15px 22px}
+span.box_icon:after{height: 27px;}
+.current_active_button button{padding: 8px 17px;}    
+.l_btn.Oem_login_btn a{margin-left: 3px;}
+span.L_arrow img {max-width: 13px;}
+tr.pricing_border_none button {padding: 6px 20px;}
+.oem_log_step_main .indus_se select {padding:7px 20px 7px 50px !important;background-size: 13px;}
+.l_btn.Oem_login_btn.log_preview h5{margin-right: 20px !important;}
+.induct_icon {top: 2px;}
+.induct_icon img{max-width: 20px;}
+}
+
+@media only screen and (max-width:425px){
+.oem-list-cont-toggle_icon span img {margin: 5px 0px;}
+.UID-part .date_of{width: 100%;}
+.UID-part .date_mention{width: 100%;}
+.UID-part .oem-rpa-serial{width: 100%;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        white-space: nowrap;
+}
+}
+
+/* selvi */
+@media screen and (min-width:320px) and (max-width:375px) {
+    .drone_mission_main {
+            width: 100% !important;
+    }
+    .drone_msn_status_main {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+    }
+    .drone_msn_2 {
+            padding: 15px 7px!important;
+    }
+    .main_1 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+    }
+    .dash-right1 {
+            padding-left: 0 !important; 
+            padding-right: 0 !important; 
+            border-bottom: 1px solid #38464D;   
+    }
+    .wheather_r_2 label#twel {
+            text-align: center;
+    }
+}
+@media screen and (min-width:375px) and (max-width:425px) {
+    .drone_mission_main {
+            width: 100% !important;
+    }
+    .dash-right1 {
+            padding-left: 0 !important; 
+            padding-right: 0 !important; 
+            border-bottom: 1px solid #38464D;
+    }
+    .main_1 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+    }
+}
+@media screen and (min-width:425px) and (max-width:768px) {
+     .drone_right_toggle1 {
+            position: fixed;
+            left: -360px;
+            top: 97px;
+            width: auto;
+            transition: ease-in-out 0.7s;
+            display: flex;
+            height: 100%;
+     }
+}
+@media screen and (min-width:320px) and (max-width:424px) {
+     .drone_right_toggle1 {
+            position: fixed;
+            left: -360px;
+            top: 97px;
+            width: auto;
+            transition: ease-in-out 0.7s;
+            display: flex;
+            height: 100%;
+     }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .drone_right_toggle1 {
+            position: fixed;
+            left: -368px;
+            top: 97px;
+            width: auto;
+            transition: ease-in-out 0.7s;
+            display: flex;
+            height: 100%;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1400px) {
+    .drone_right_toggle1 {
+            position: fixed;
+            left: -360px;
+            top: 97px;
+            width: auto;
+            transition: ease-in-out 0.7s;
+            display: flex;
+            height: 100%;
+        }
+}
+@media screen and (min-width:320px) and (max-width:425px) {
+    .page-wrapper.hide .main_border {
+            width: calc(100% - 0px);
+            transition: ease-in-out 0.5s;
+    }   
+}  
+/* selvi */
+
+
+@media screen and (max-width:767px) {
+.customer-logos .slide {width: 50px!important;}
+span.online{right: 2px;}
+.oem_details_hd{margin-top: 50px;}
+}
+@media screen and (max-width:425px) {
+    .page-wrapper-msg_box{max-width: 280px !important;width: 100%;}
+    .video_first_left {
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .video_button {margin-top: 10px;}
+    .video_firsr_txt {width: 100%;margin-top: 10px;}
+    }

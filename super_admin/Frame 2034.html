@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GoDrona</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Css link -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- responsive link -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+  <!--bootstrap js  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+
+
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#rpa_popup">
+    Open modal
+  </button>
+
+  <!-- The Modal -->
+  <div class="rpa_popup_main">
+    <div class="modal" id="rpa_popup">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body dept_create_body">
+           <div class="dept_create_text">
+            <h2 id="sixteen">Register New RPA to the Customer</h2>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <label id="sixteen">Serial Number</label>
+                <input id="sixteen" type="text" value="0123456 |" placeholder="Enter Serial Number">
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <label id="sixteen">Type</label>
+               <select id="sixteen">
+                 <option>Nano</option>
+                 <option>Nano</option>
+               </select>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <label id="sixteen">Name / Drone’s Model Name</label>
+               <select id="sixteen">
+                 <option>Matrice 300 RTK</option>
+                 <option>Matrice 300 RTK</option>
+               </select>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <label id="sixteen">Generate New UUID (RPA)</label>
+               <select id="sixteen">
+                 <option>UUID123456789</option>
+                 <option>UUID123456789</option>
+               </select>
+              </div>
+            </div>
+
+            <div class="dept_create_brn">
+              <button id="fourteen" class="btn clear_btn">Clear</button>
+              <button id="fourteen" class="btn register_btn">Register Now</button>
+            </div>
+
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+</body>
+</html>

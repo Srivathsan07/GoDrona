@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</head>
+<body>
+
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Request_Admin">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Request_Admin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="close close_custom" data-dismiss="modal" src="images/popup-close.png">
+        </div>
+        <div class="modal-body">
+          <div class="request_main">
+            <div class="firmware_main">
+              <h1 class="sixteen">Request add more RPAS to Admin</h1>
+            </div>
+            
+            <div class="request_input">
+              <h1 class="sixteen">No. of RPAS you want to add?</h1>
+              <input type="text" class="sixteen" value="50 Nos.">
+            </div>
+            <div class="firmware_button">
+              <button class="btn fourteen">Request Now</button>
+            </div>
+          </div>
+          <div class="request_note">
+            <h1 class="twel">Note: You will get the Notification Once Admin has approved the request.</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

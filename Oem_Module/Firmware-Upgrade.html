@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</head>
+<body>
+
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Firmware-Upgrade">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Firmware-Upgrade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="close close_custom" data-dismiss="modal" src="images/popup-close.png">
+        </div>
+        <div class="modal-body">
+          <div class="firmware_main">
+            <h1 class="sixteen">Select to Upgrade Firmware</h1>
+          </div>
+          <div class="firmware_select">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="firmware_select_main">
+                  <div class="firmware_select_img">
+                    <img src="./images/Firmware-1.png">
+                    <div class="c_input form-group mb-0">
+                        <input class="html0 chk" type="checkbox" id="html10">
+                        <label for="html10" id="fourteen">Selected</label>
+                    </div>
+                  </div>
+                  <div class="firmware_select_text">
+                    <h1 class="sixteen">RC Firmware</h1>
+                    <h2 class="thirteen"><span><img src="./images/mission11ge_tick.png"></span> Connected</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="firmware_select_main fire_top">
+                  <div class="firmware_select_img">
+                    <img src="./images/Firmware-2.png">
+                    <div class="c_input form-group mb-0">
+                        <input class="html0 chk" type="checkbox" id="html11">
+                        <label for="html11" id="fourteen">Select</label>
+                    </div>
+                  </div>
+                  <div class="firmware_select_text">
+                    <h1 class="sixteen">RPA Firmware</h1>
+                    <h2 class="thirteen"><span><img src="./images/mission11ge_tick.png"></span> Connected</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="firmware_uid">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="firmware_uid_text">
+                  <h1 class="thirteen">UUID</h1>
+                  <h2 class="fourteen">UUID0123456789012345</h2>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="firmware_uid_text">
+                  <h1 class="thirteen">UIN</h1>
+                  <h2 class="fourteen">UIN0123456789012345</h2>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="firmware_uid_text">
+                  <h1 class="thirteen">Serial No.</h1>
+                  <h2 class="fourteen">Serial132465478545154</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="firmware_button">
+            <button class="btn fourteen">Upgrade Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

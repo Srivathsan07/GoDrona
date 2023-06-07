@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GoDrona</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Css link -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- responsive link -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+  <!--bootstrap js  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+
+
+<div class="container">
+  <h2>Modal Example</h2>
+ <div class='profile-dopdown-section'>
+    <div class='profile_1'>
+      <img src="./images/Frame2031 dot.png">      
+    </div>
+    <div class='profiledropdown_1 fade'>
+       <div class="frame_2031_inner_img">
+         <img src="./images/frame2031_top_arrow.png">
+         <div class="frame_2031_li">
+          <ul>
+            <li>
+              <img src="./images/frame_2031_edit.png">
+            </li>
+            <li>
+              <img src="./images/frame_2031_delete.png">
+            </li>
+          </ul>
+         </div>
+       </div>
+    </div>
+  </div>
+  
+</div>
+<script>
+  $(function() {
+  var profile_1 = $('.profile_1');
+  var profiledropdown_1 = $('.profiledropdown_1');
+  profile_1.on('click', function() {
+    if (profiledropdown_1.hasClass('fade')) {
+      profiledropdown_1.removeClass('fade').addClass('fade_reverse');
+    } else if (profiledropdown_1.hasClass('fade_reverse')) {
+      profiledropdown_1.removeClass('fade_reverse').addClass('fade');
+    } else {
+      profiledropdown_1.addClass('fade');
+    }
+  });
+
+});
+</script>
+</body>
+</html>

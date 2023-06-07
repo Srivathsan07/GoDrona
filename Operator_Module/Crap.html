@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</head>
+<body>
+
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Crap">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Crap" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog logout_pop" role="document">
+          <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header l_header b_none">
+                  <!-- <button type="button" class="close close_custom" data-dismiss="modal">&times;</button> -->
+                  <img class="close close_custom" data-dismiss="modal" src="images/popup-close.png">
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body b_circle b_none">
+                  <div class="logout_circle">
+                      <img src="./images/danger 1.png" alt="Circle">
+
+                  </div>
+              </div>
+              <div class="modal-body b_text b_none">
+                  <h2 class="twenty-four">Oh Crap !</h2>
+                  <div class="request_note crop_red">
+                    <h1 class="eighteen">You have reached max. limit</h1>
+                    <h4 class="sixteen">If you want to add more RPAS?</h4>
+                    <h4 class="sixteen">Please request to Admin.</h4>
+                  </div>
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer b_footer crop_btn b_none">
+                <button class="btn fourteen" data-dismiss="modal">Request to Admin</button>
+              </div>
+
+          </div>
+      </div>
+  </div>
+
+</body>
+</html>
